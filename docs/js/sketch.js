@@ -47,30 +47,6 @@ function draw() {
         flower[i].updateMe();
         flower[i].drawMe();
     }
-    // rotateX(frameCount * random(0, 10));
-    // rotateY(frameCount * random(0, 10));
-    // line(random(200, 600), random(200, 600), 300, 300);
-    // stroke(random(0, 255), random(0, 255), random(0, 255));
-    //strokeWeight(windowHeight * 2.0);
-    // fill(260, 10, 10);
-    // //noFill();
-    // bezier(-width, height / 2, 0, -width / 4, height / 2 + windowHeight / 5, 0, width / 4, height / 2 - windowHeight / 5, 0, width, height / 2);
-    // stroke(260, 10, 10);
-    // noFill();
-    // rect(-width / 4, height / 3, windowHeight / 5, windowHeight / 5);
-    // noStroke();
-    // fill(200, 100, 100, 30);
-    // ellipse(x1 + windowHeight / 20, y1 + windowHeight / 20, windowHeight / 20, windowHeight / 20);
-    // if (x1 <= -width / 4 + windowHeight / 5 + windowHeight / 20 && x1 >= -width / 4 + windowHeight / 20) {
-    //     x1 += 1;
-    // } else {
-    //     x1 -= 1;
-    // }
-    // if (y1 <= height / 3 + windowHeight / 5 + windowHeight / 20 && x1 >= height / 3 + windowHeight / 20) {
-    //     y1 += 1;
-    // } else {
-    //     y1 -= 1;
-    // }
 }
 
 
@@ -134,7 +110,7 @@ class Flower {
             this.xSpeed = this.xSpeed * -1;
         }
         if (this.y + this.r / 2 > height) {
-            this.y = -this.r / 2;
+            this.y = -height / 2 - this.r / 2;
         }
         if (this.y - this.r / 2 < 0) {
             // this.ySpeed = this.ySpeed * -1;
