@@ -5,7 +5,7 @@ var x1;
 var y1;
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight * 5, WEBGL);
+    resizeCanvas(windowWidth, windowHeight, WEBGL);
     background(100);//再描画後に背景を再描画する
 }
 
@@ -14,9 +14,10 @@ function preload() {
 }
 
 function setup() {
-    canvas = createCanvas(windowWidth, windowHeight * 5, WEBGL);
+    canvas = createCanvas(windowWidth, windowHeight, WEBGL);
     canvas.position(0, 0);
     canvas.style('z-index', '-1');//canvasを後ろに移動する
+    canvas.style('position', 'fixed');
     background(0);
     textFont(myFont);
 
