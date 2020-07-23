@@ -1,12 +1,24 @@
-body .item{
-     text-align: left;
-     width: 40vw;
-     padding-left: 5px;
-     padding-right: 5px;
-     left: 50%;
-     transform: translateX(-50%);
-     -webkit-transform:  translateX(-50%);
-     display: inline-block;
+.parent{
+     position: relative;
+     text-align:center;
+}
+
+.child{
+      display: inline-block;
+      width: 25vw;
+      height: 15vw;
+      padding-left: 5px;
+      padding-right: 5px;
+}
+
+.item{
+     /* text-align: left; */
+     width: 25vw;
+     background-color: #a000ff;
+     color: #ffffff;
+     /* left: 50%; */
+     /* transform: translateX(-50%);
+     -webkit-transform:  translateX(-50%); */
 }
 
 /* body h1{
