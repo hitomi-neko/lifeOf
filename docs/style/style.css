@@ -1,3 +1,14 @@
+body .item{
+     text-align: left;
+     width: 40vw;
+     padding-left: 5px;
+     padding-right: 5px;
+     left: 50%;
+     transform: translateX(-50%);
+     -webkit-transform:  translateX(-50%);
+     display: inline-block;
+}
+
 /* body h1{
     padding-top: 10vh;
     margin: 0 auto;
