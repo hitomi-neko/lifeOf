@@ -7,15 +7,19 @@ function init() {
     let rot = 0; // 角度
     let mouseX;
 
-    const camera = new THREE.PerspectiveCamera(45, width / height);
-    const scene = new THREE.Scene();
-
     // レンダラーを作成
     const renderer = new THREE.WebGLRenderer({
         canvas: document.querySelector('#myCanvas')
     });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(width, height);
+
+    const scene = new THREE.Scene();
+
+    const camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
+    camera.position.set(0, 0, 1000);
+
+    const controls = new THREE.OrbitControls(camera);
 
     const directionalLight = new THREE.DirectionalLight(0xFFFFFF);
     directionalLight.position.set(1, 1, 1);
@@ -39,15 +43,6 @@ function init() {
 
     // 毎フレーム時に実行されるループイベントです
     function tick() {
-        const targetRot = (mouseX / window.innerWidth) * 360;
-        rot += (targetRot - rot) * 0.02;
-
-        const radian = rot * Math.PI / 180;
-        // 角度に応じてカメラの位置を設定
-        camera.position.x = 1000 * Math.sin(radian);
-        camera.position.z = 1000 * Math.cos(radian);
-        camera.lookAt(new THREE.Vector3(0, 0, 0));
-
         mesh.rotation.y += 0.01;
         // レンダリング
         renderer.render(scene, camera);
