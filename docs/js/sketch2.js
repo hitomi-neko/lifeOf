@@ -4,46 +4,49 @@ function init() {
     // サイズを指定
     const width = window.innerWidth;
     const height = window.innerHeight;
-    let rot = 0; // 角度
-    let mouseX;
 
     // レンダラーを作成
     const renderer = new THREE.WebGLRenderer({
-        canvas: document.querySelector('#myCanvas')
+        canvas: document.querySelector('#myCanvas'),
+        antialias: true,
+        devicePixelRatio: window.devicePixelRatio
     });
-    renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(width, height);
 
     const scene = new THREE.Scene();
+    scene.fog = new THREE.Fog(0x000000, 50, 2000);
 
-    const camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
-    camera.position.set(0, 0, 1000);
+    // カメラを作成
+    const camera = new THREE.PerspectiveCamera(45, width / height);
+    camera.position.set(0, 0, +1000);
 
-    const controls = new THREE.OrbitControls(camera);
+    const group = new THREE.Group();
+    scene.add(group);
 
-    const directionalLight = new THREE.DirectionalLight(0xFFFFFF);
-    directionalLight.position.set(1, 1, 1);
-    // シーンに追加
-    scene.add(directionalLight);
+    const geometry = new THREE.BoxBufferGeometry(50, 50, 50);
+    const material = new THREE.MeshStandardMaterial();
 
-    const geometry = new THREE.SphereGeometry(300, 30, 30);
-    // 画像を読み込む
-    const material = new THREE.MeshPhongMaterial({ color: 0xFFFFFF });
-    // メッシュを作成
-    const mesh = new THREE.Mesh(geometry, material);
-    // 3D空間にメッシュを追加
-    scene.add(mesh);
+    for (let i = 0; i < 1000; i++) {
+        const mesh = new THREE.Mesh(geometry, material);
+        mesh.position.x = (Math.random() - 0.5) * 2000;
+        mesh.position.y = (Math.random() - 0.5) * 2000;
+        mesh.position.z = (Math.random() - 0.5) * 2000;
+        mesh.rotation.x = Math.random() * 2 * Math.PI;
+        mesh.rotation.y = Math.random() * 2 * Math.PI;
+        mesh.rotation.z = Math.random() * 2 * Math.PI;
 
-    document.addEventListener('mousemove', event => {
-        mouseX = event.pageX;
-    });
+        group.add(mesh);
+    }
 
+    scene.add(new THREE.DirectionalLight(0xff0000, 2)); // 平行光源
+    scene.add(new THREE.AmbientLight(0x00ffff)); // 環境光源
 
     tick();
 
     // 毎フレーム時に実行されるループイベントです
     function tick() {
-        mesh.rotation.y += 0.01;
+        group.rotateY(0.01);
+
         // レンダリング
         renderer.render(scene, camera);
 
