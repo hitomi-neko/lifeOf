@@ -57,36 +57,40 @@
 
 .item{
      /* text-align: left; */
-      width: 17vw;
+      width: 25vw;
       height: 17vw;
       border-radius: 50%;
       color: #ffffff; 
       opacity: 1.0;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
 }
 
 .p100{
      background-color: rgba(0,0,0,0.8);
      color: #ffffff;
      height: 1250px;
+     width: 100vw;
 }
 
 .p10{
      background-color: rgba(0,0,0,0.7);
      color: #ffffff;
      height: 1133px;
+     width: 100vw;
 }
 
 .p1{
      background-color: rgba(0,0,0,0.6);
      color: #ffffff;
      height: 1133px;
+     width: 100vw;
 }
 
 .p01{
      background-color: rgba(0,0,0,0.5);
      color: #ffffff;
      height: 1133px;
+     width: 100vw;
 }
 
 
@@ -94,12 +98,14 @@
      background-color: rgba(0,0,0,0.4);
      color: #ffffff;
      height: 1133px;
+     width: 100vw;
 }
 
 .p0001{
      background-color: rgba(0,0,0,0.3);
      color: #ffffff;
      height: 1133px;
+     width: 100vw;
 }
 
 
@@ -107,6 +113,7 @@
      background-color: rgba(0,0,0,0.2);
      color: #ffffff;
      height: 1133px;
+     width: 100vw;
 }
 
 
@@ -114,4 +121,5 @@
      background-color: rgba(0,0,0,0.1);
      color: #ffffff;
      height: 1133px;
+     width: 100vw;
 }
