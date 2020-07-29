@@ -63,7 +63,13 @@ body{
 
 
 @media screen and (max-width:959px) {
-    
+    .title p{
+         font-size: 0.8rem;
+    }
+
+    .item{
+        font-size: 0.5rem; 
+    }
 }
 
 .child{
