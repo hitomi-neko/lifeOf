@@ -109,7 +109,7 @@ body{
 .p10{
      background-color: rgba(0,0,0,0.7);
      color: #ffffff;
-     height: 1133px;
+     height: 1353px;
      width: 100vw;
      margin-top: 30px;
 }
@@ -117,8 +117,9 @@ body{
 .p1{
      background-color: rgba(0,0,0,0.6);
      color: #ffffff;
-     height: 1133px;
+     height: 1353px;
      width: 100vw;
+     margin-top: 30px;
 }
 
 .p01{
