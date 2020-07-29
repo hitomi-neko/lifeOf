@@ -125,37 +125,41 @@ body{
 .p01{
      background-color: rgba(0,0,0,0.5);
      color: #ffffff;
-     height: 1133px;
+     height: 1353px;
      width: 100vw;
+     margin-top: 30px;
 }
 
 
 .p001{
      background-color: rgba(0,0,0,0.4);
      color: #ffffff;
-     height: 1133px;
+     height: 1353px;
      width: 100vw;
+     margin-top: 30px;
 }
 
 .p0001{
      background-color: rgba(0,0,0,0.3);
      color: #ffffff;
-     height: 1133px;
+     height: 1353px;
      width: 100vw;
+     margin-top: 30px;
 }
 
 
 .p00001{
      background-color: rgba(0,0,0,0.2);
      color: #ffffff;
-     height: 1133px;
+     height: 1353px;
      width: 100vw;
+     margin-top: 30px;
 }
 
 
 .p0{
      background-color: rgba(0,0,0,0.1);
      color: #ffffff;
-     height: 1133px;
+     height: 1353px;
      width: 100vw;
-}
+     margin-top: 30px;
