@@ -3,10 +3,9 @@
 } */
 
 .title{
-    margin: 0 auto;
+    margin: 0px;
     padding: 0px;
     display: flex;
-    flex-wrap:　wrap;
     align-items: center;
     text-align: center;
     height: 50vh;
@@ -18,7 +17,8 @@
      display: block;
      align-items: center;
      margin: 0 auto;
-     font-size: 1rem;
+     padding: 0px;
+     font-size: 10rem;
      line-height: 1.3rem;
 }
 
@@ -62,7 +62,7 @@ body{
 }
 
 
-@media screen and (max-width:959px) {
+/* @media screen and (max-width:959px) {
     .title p{
          font-size: 0.8rem;
     }
@@ -70,7 +70,7 @@ body{
     .item{
         font-size: 0.5rem; 
     }
-}
+} */
 
 .child{
       width: 40vw;
