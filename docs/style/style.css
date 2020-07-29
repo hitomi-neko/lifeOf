@@ -160,6 +160,29 @@ body{
 .p0{
      background-color: rgba(0,0,0,0.1);
      color: #ffffff;
-     height: 1353px;
+     height: 700px;
      width: 100vw;
      margin-top: 30px;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+}
+
+.footer{
+     background-color: rgba(0,0,0);
+     color: #ffffff;
+     height: 100px;
+     width: 100vw;
+     margin-top: -20px;
+     margin-bottom: -20px;
+     padding: -20px;
+     padding-bottom: -100px;
+}
+
+a{
+     color: #ffffff;
+}
+
+body{
+     padding-bottom: 0px;
+     margin-bottom: 0px;
+}
