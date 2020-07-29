@@ -1,5 +1,39 @@
-.title{
+/* .title{
      text-align: center;
+} */
+
+.title{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:　wrap;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    font-family: "ＭＳ 明朝",serif;
+}
+
+.title p{
+     color: #ffffff;
+     display: block;
+     align-items: center;
+     margin: 0 auto;
+}
+
+.title h1{
+    margin: 0 auto;
+    writing-mode: vertical-rl;
+    padding: 15px;
+    color: #000000;
+    background-color: #ffffff;
+    display: flex;
+    writing-mode: vertical-rl;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: "ＭＳ 明朝",serif;
+}
+
+body{
+     font-family: "ＭＳ 明朝",serif;
 }
 
 .parent{
