@@ -88,7 +88,13 @@ body{
     }
 
     .item{
-        font-size: 0.5rem; 
+          width: 40vw;
+          height: 17vw;
+          border-radius: 50%;
+          color: #ffffff; 
+          opacity: 1.0;
+          font-size: 0.5rem; 
+          line-height: 0.75rem;
     }
 }
 
