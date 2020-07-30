@@ -118,6 +118,7 @@ body{
           padding: 0px;
           margin: 0px;
     }
+
     #myCanvas{
           z-index: -1;
           position: fixed;
@@ -152,6 +153,18 @@ body{
       opacity: 1.0;
       font-size: 0.65rem;
       line-height: 0.95rem;
+}
+
+.col1{
+     /* text-align: left; */
+      width: 40vw;
+      height: 17vw;
+      border-radius: 50%;
+      color: #000000; 
+      opacity: 1.0;
+      font-size: 0.65rem;
+      line-height: 0.95rem;
+      font-family: "メイリオ",serif;
 }
 
 .p100{

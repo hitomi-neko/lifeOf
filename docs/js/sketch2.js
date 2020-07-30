@@ -1,5 +1,39 @@
 window.addEventListener('load', init);
 
+document.getElementById("button").onclick = function () {
+    let Button = document.getElementById("button");
+    let ButtonClass = Button.getAttribute("class");
+    let Button1 = document.getElementById("button1");
+    let n1 = document.getElementById("num1");
+    //ボタンで言葉の切り替え（英語）
+    if (ButtonClass == "open") {
+        Button.classList.remove('open');
+        Button.classList.add('close');
+        Button.style.display = "none";
+        Button1.classList.remove('open');
+        Button1.classList.add('close');
+        Button1.style.display = "block";
+        n1.classList.remove('item');
+        n1.classList.add('col1');
+    }
+};
+document.getElementById("button1").onclick = function () {
+    let Button = document.getElementById("button");
+    let Button1 = document.getElementById("button1");
+    let Button1Class = Button1.getAttribute("class");
+    let n1 = document.getElementById("num1");
+    if (Button1Class == "close") {
+        Button.classList.remove('close');
+        Button.classList.add('open');
+        Button.style.display = "block";
+        Button1.classList.remove('close');
+        Button1.classList.add('open');
+        Button1.style.display = "none";
+        n1.classList.add('item');
+        n1.classList.remove('col1');
+    }
+};
+
 function init() {
     // サイズを指定
     const width = window.innerWidth;
