@@ -118,6 +118,15 @@ body{
           padding: 0px;
           margin: 0px;
     }
+
+    .p100{
+          background-color: rgba(0,0,0,0.9);
+          color: #ffffff;
+          height: 1353px;
+          width: 100vw;
+          padding: 0px;
+          margin-top: -150px;
+     }
 }
 
 .child{
@@ -150,7 +159,6 @@ body{
      width: 100vw;
      padding: 0px;
      margin: 0px;
-     top: 100vh;
 }
 
 .p10{
