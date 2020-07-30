@@ -62,7 +62,7 @@ body{
 }
 
 
-@media screen and (max-width:959px) {
+@media screen and (max-width:480px) {
      .title{
           margin: 0px;
           padding: 0px;
@@ -70,7 +70,7 @@ body{
           flex-wrap: nowrap;
           align-items: center;
           text-align: center;
-          height: 50vh;
+          height: 40vh;
           font-family: "ＭＳ 明朝",serif;
      }
 
