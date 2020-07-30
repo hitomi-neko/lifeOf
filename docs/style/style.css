@@ -84,7 +84,7 @@ body{
           flex-wrap: nowrap;
           writing-mode: vertical-rl;
           align-items: center;
-          font-size: 1.7rem;
+          font-size: 1.4rem;
           font-family: "ＭＳ 明朝",serif;
      }
 
@@ -119,14 +119,14 @@ body{
           margin: 0px;
     }
 
-    .p100{
+    /* .p100{
           background-color: rgba(0,0,0,0.9);
           color: #ffffff;
           height: 1353px;
           width: 100vw;
           padding: 0px;
           margin-top: -150px;
-     }
+     } */
 }
 
 .child{
