@@ -118,6 +118,17 @@ body{
           padding: 0px;
           margin: 0px;
     }
+    #myCanvas{
+          z-index: -1;
+          position: fixed;
+          top: 0vh;
+          opacity: 0.9;
+          filter: grayscale(100%);
+          padding: 0px;
+          margin: 0px;
+          height: 100%;
+     /* filter: invert(100%); */
+     }
 }
 
 .child{
