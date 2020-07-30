@@ -63,6 +63,17 @@ body{
 
 
 @media screen and (max-width:959px) {
+     .title{
+          margin: 0px;
+          padding: 0px;
+          display: flex;
+          flex-wrap: nowrap;
+          align-items: center;
+          text-align: center;
+          height: 50vh;
+          font-family: "ＭＳ 明朝",serif;
+     }
+
      .title h1{
           margin: 0 auto;
           writing-mode: vertical-rl;
@@ -70,6 +81,7 @@ body{
           color: #000000;
           background-color: #ffffff;
           display: flex;
+          flex-wrap: nowrap;
           writing-mode: vertical-rl;
           align-items: center;
           font-size: 1.7rem;
@@ -95,15 +107,16 @@ body{
           font-size: 0.5rem; 
           line-height: 0.75rem;
     }
+
     .parent{
-      display: flex;
-      align-items: center;
-      flex-wrap: nowrap;
-      width: 100%;
-      justify-content: space-around;
-      text-align: center;
-      padding: 0px;
-      margin: 0px;
+          display: flex;
+          align-items: center;
+          flex-wrap: nowrap;
+          width: 100%;
+          justify-content: space-around;
+          text-align: center;
+          padding: 0px;
+          margin: 0px;
     }
 }
 
