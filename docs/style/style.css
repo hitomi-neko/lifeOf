@@ -70,7 +70,7 @@ body{
           flex-wrap: nowrap;
           align-items: center;
           text-align: center;
-          height: 30vh;
+          height: 50vh;
           font-family: "ＭＳ 明朝",serif;
      }
 
@@ -84,7 +84,7 @@ body{
           flex-wrap: nowrap;
           writing-mode: vertical-rl;
           align-items: center;
-          font-size: 1.4rem;
+          font-size: 1.5rem;
           font-family: "ＭＳ 明朝",serif;
      }
 
