@@ -150,7 +150,7 @@ body{
       width: 40vw;
       height: 17vw;
       border-radius: 50%;
-      color: #000000; 
+      color: #878787;
       opacity: 1.0;
       font-size: 0.65rem;
       line-height: 0.95rem;
@@ -303,6 +303,8 @@ body{
     font-size: 0.9rem;
 }
 
+
+
 #num11{
     color: #e45a93;
 }
@@ -340,6 +342,88 @@ body{
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
+}
+
+#num19{
+    color: #b90000;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-size: 0.70rem;
+    line-height: 0.90rem;
+}
+
+#num20{
+    color:#ff379b;
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+}
+
+
+#num22{
+    color:#f08a36;
+}
+
+#num23{
+    color: #042e12;
+    font-family: "HGP行書体";
+    font-size: 0.72rem;
+    line-height: 0.92rem;
+}
+
+#num24{
+    color:#935ae4;
+}
+
+
+#num26{
+    color: #042e12;
+    font-family: "HGP行書体";
+    font-size: 0.72rem;
+    line-height: 0.92rem;
+}
+
+#num27,#num30,#num21,#num25{
+    color: #491a5c;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-size: 0.70rem;
+    line-height: 0.90rem;
+}
+
+#num28{
+    color: #b90000;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-size: 0.70rem;
+    line-height: 0.90rem;
+}
+
+#num29{
+    color: #0000b9;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-size: 0.70rem;
+    line-height: 0.90rem;
+}
+
+#num33{
+    color: #000;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-size: 0.70rem;
+    line-height: 0.90rem;
+}
+
+#num32{
+    color: #042e12;
+    font-family: "HGP行書体";
+    font-size: 0.72rem;
+    line-height: 0.92rem;
+}
+
+#num34{
+    color: #000;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-size: 0.70rem;
+    line-height: 0.90rem;
+}
+
+#num35,#num31{
+    color:#000;
 }
 
 * {
