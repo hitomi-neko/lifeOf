@@ -9,7 +9,6 @@
     align-items: center;
     text-align: center;
     height: 50vh;
-    font-family: "メイリオ",serif;
 }
 
 .title p{
@@ -20,6 +19,8 @@
      padding: 0px;
      font-size: 1rem;
      line-height: 1.3rem;
+     font-family: "メイリオ",serif;
+     font-weight: 540;
 }
 
 .title h1{
@@ -32,7 +33,7 @@
     writing-mode: vertical-rl;
     align-items: center;
     font-size: 2.3rem;
-    font-family: "メイリオ",serif;
+    font-family: "ＭＳ 明朝",serif;
 }
 
 body{
@@ -300,6 +301,26 @@ body{
 .p000005{
     background-color: rgba(255,255,255,0.2);
     font-size: 0.9rem;
+}
+
+#num11{
+    color: #e45a93;
+}
+
+#num12{
+    color: #935ae4;
+}
+
+#num15{
+    color:#f08a36;
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+}
+
+#num13,#num14{
+    color: #4b3829;
+    font-family: "HGP行書体";
+    font-size: 0.82rem;
+    line-height: 0.92rem;
 }
 
 * {
