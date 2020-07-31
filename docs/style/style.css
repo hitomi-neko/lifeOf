@@ -61,7 +61,7 @@ body{
     /* filter: invert(100%); */
 }
 
-
+/* 
 @media screen and (max-width:480px) {
      .title{
           margin: 0px;
@@ -129,8 +129,8 @@ body{
           margin: 0px;
           height: 100%;
      /* filter: invert(100%); */
-     }
-}
+     /* }
+} */ 
 
 .child{
       width: 40vw;
