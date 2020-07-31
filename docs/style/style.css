@@ -273,6 +273,36 @@ body{
      padding-right: 0px;
 }
 
+.p7050{
+    background-color: rgba(0,0,0,0.8);
+    font-size: 1.0rem;
+}
+
+.p5{
+    background-color: rgba(0,0,0,0.7);
+    font-size: 1.0rem;
+}
+.p05{
+    background-color: rgba(0,0,0,0.6);
+    font-size: 1.0rem;
+}
+.p005{
+    background-color: rgba(0,0,0,0.5);
+    font-size: 1.0rem;
+}
+.p0005{
+    background-color: rgba(0,0,0,0.4);
+    font-size: 1.0rem;
+}
+.p00005{
+    background-color: rgba(0,0,0,0.3);
+    font-size: 1.0rem;
+}
+.p000005{
+    background-color: rgba(0,0,0,0.2);
+    font-size: 1.0rem;
+}
+
 * {
     margin: 0px;
     padding: 0px;
