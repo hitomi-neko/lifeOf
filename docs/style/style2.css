@@ -36,9 +36,9 @@
     font-family: "ＭＳ 明朝",serif;
 }
 
-body{
+/* body{
      font-family: "メイリオ",serif;
-}
+} */
 
 .parent{
       display: flex;
@@ -86,7 +86,7 @@ body{
           writing-mode: vertical-rl;
           align-items: center;
           font-size: 1.5rem;
-         font-family: "メイリオ",serif;
+          font-family: "メイリオ",serif;
      }
 
     .title p{
@@ -154,18 +154,8 @@ body{
       opacity: 1.0;
       font-size: 0.65rem;
       line-height: 0.95rem;
-}
-
-/* .col1{
-      width: 40vw;
-      height: 17vw;
-      border-radius: 50%;
-      color: #000000; 
-      opacity: 1.0;
-      font-size: 0.65rem;
-      line-height: 0.95rem;
       font-family: "メイリオ",serif;
-} */
+}
 
 .p100{
      background-color: rgba(255,255,255,0.9);
@@ -374,7 +364,6 @@ body{
 #num24{
     color:#935ae4;
 }
-
 
 #num26{
     color: #042e12;
