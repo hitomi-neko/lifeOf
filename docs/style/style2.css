@@ -9,11 +9,11 @@
     align-items: center;
     text-align: center;
     height: 50vh;
-    font-family: "ＭＳ 明朝",serif;
+    font-family: "メイリオ",serif;
 }
 
 .title p{
-     color: #ffffff;
+     color: #000000;
      display: block;
      align-items: center;
      margin: 0 auto;
@@ -26,17 +26,17 @@
     margin: 0 auto;
     writing-mode: vertical-rl;
     padding: 15px;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #ff0257;
     display: flex;
     writing-mode: vertical-rl;
     align-items: center;
     font-size: 2.3rem;
-    font-family: "ＭＳ 明朝",serif;
+    font-family: "メイリオ",serif;
 }
 
 body{
-     font-family: "ＭＳ 明朝",serif;
+     font-family: "メイリオ",serif;
 }
 
 .parent{
@@ -54,11 +54,11 @@ body{
      z-index: -1;
      position: fixed;
      top: 0vh;
-     opacity: 0.9;
-     filter: grayscale(100%);
+     opacity: 0.6;
+     /* filter: grayscale(100%); */
      padding: 0px;
      margin: 0px;
-    /* filter: invert(100%); */
+    filter: invert(100%);
 }
 
 
@@ -85,7 +85,7 @@ body{
           writing-mode: vertical-rl;
           align-items: center;
           font-size: 1.5rem;
-          font-family: "ＭＳ 明朝",serif;
+         font-family: "メイリオ",serif;
      }
 
     .title p{
@@ -149,14 +149,13 @@ body{
       width: 40vw;
       height: 17vw;
       border-radius: 50%;
-      color: #ffffff; 
+      color: #000000; 
       opacity: 1.0;
       font-size: 0.65rem;
       line-height: 0.95rem;
 }
 
-.col1{
-     /* text-align: left; */
+/* .col1{
       width: 40vw;
       height: 17vw;
       border-radius: 50%;
@@ -165,11 +164,11 @@ body{
       font-size: 0.65rem;
       line-height: 0.95rem;
       font-family: "メイリオ",serif;
-}
+} */
 
 .p100{
-     background-color: rgba(0,0,0,0.9);
-     color: #ffffff;
+     background-color: rgba(255,255,255,0.9);
+     color: #000000;
      height: 1353px;
      width: 100vw;
      padding: 0px;
@@ -177,8 +176,8 @@ body{
 }
 
 .p10{
-     background-color: rgba(0,0,0,0.8);
-     color: #ffffff;
+     background-color: rgba(255,255,255,0.8);
+     color: #000000;
      height: 1353px;
      width: 100vw;
      margin-top: 30px;
@@ -186,8 +185,8 @@ body{
 }
 
 .p1{
-     background-color: rgba(0,0,0,0.7);
-     color: #ffffff;
+     background-color: rgba(255,255,255,0.7);
+     color: #000000;
      height: 1353px;
      width: 100vw;
      margin-top: 30px;
@@ -195,8 +194,8 @@ body{
 }
 
 .p01{
-     background-color: rgba(0,0,0,0.6);
-     color: #ffffff;
+     background-color: rgba(255,255,255,0.6);
+     color: #000;
      height: 1353px;
      width: 100vw;
      margin-top: 30px;
@@ -205,8 +204,8 @@ body{
 
 
 .p001{
-     background-color: rgba(0,0,0,0.5);
-     color: #ffffff;
+     background-color: rgba(255, 255, 255, 0.5);
+     color: #000;
      height: 1353px;
      width: 100vw;
      margin-top: 30px;
@@ -214,8 +213,8 @@ body{
 }
 
 .p0001{
-     background-color: rgba(0,0,0,0.4);
-     color: #ffffff;
+     background-color: rgba(255,255,255,0.4);
+     color: #000;
      height: 1353px;
      width: 100vw;
      margin-top: 30px;
@@ -225,8 +224,8 @@ body{
 
 
 .p00001{
-     background-color: rgba(0,0,0,0.3);
-     color: #ffffff;
+     background-color: rgba(255,255,255,0.3);
+     color: #000;
      height: 1453px;
      width: 100vw;
      margin-top: 30px;
@@ -235,8 +234,8 @@ body{
 
 
 .p0{
-     background-color: rgba(0,0,0,0.2);
-     color: #ffffff;
+     background-color: rgba(255,255,255,0.2);
+     color: #000;
      height: 700px;
      width: 100vw;
      margin-top: 30px;
@@ -246,7 +245,7 @@ body{
 }
 
 .footer{
-     background-color: rgba(0,0,0);
+     background-color: #ff0257;
      color: #ffffff;
      height: 120px;
      width: 100vw;
@@ -271,6 +270,29 @@ body{
      margin-bottom: 0px;
      padding-left: 0px;
      padding-right: 0px;
+}
+
+.p7050{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.p5{
+    background-color: rgba(255,255,255,0.7);
+}
+.p05{
+    background-color: rgba(255,255,255,0.6);
+}
+.p005{
+    background-color: rgba(255,255,255,0.5);
+}
+.p0005{
+    background-color: rgba(255,255,255,0.4);
+}
+.p00005{
+    background-color: rgba(255,255,255,0.3);
+}
+.p000005{
+    background-color: rgba(255,255,255,0.2);
 }
 
 * {
