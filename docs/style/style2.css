@@ -357,22 +357,15 @@ hr{
     color:#f08a36;
 }
 
-#num23{
-    color: #042e12;
+#num23,#num26,#num32{
+    color: #144624;
     font-family: "HGP行書体";
-    font-size: 0.72rem;
-    line-height: 0.92rem;
+    font-size: 0.75rem;
+    line-height: 0.95rem;
 }
 
 #num24{
     color:#935ae4;
-}
-
-#num26{
-    color: #042e12;
-    font-family: "HGP行書体";
-    font-size: 0.72rem;
-    line-height: 0.92rem;
 }
 
 #num27,#num30,#num21,#num25{
@@ -403,13 +396,6 @@ hr{
     line-height: 0.90rem;
 }
 
-#num32{
-    color: #042e12;
-    font-family: "HGP行書体";
-    font-size: 0.72rem;
-    line-height: 0.92rem;
-}
-
 #num34{
     color: #000;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
@@ -419,6 +405,10 @@ hr{
 
 #num31,#num35{
     color: #000;
+}
+
+#num40,#num3,#num2,#num41{
+    color: #628a60;
 }
 
 .area,.area1{
