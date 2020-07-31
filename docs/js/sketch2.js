@@ -9,7 +9,6 @@ document.getElementById("button").onclick = function () {
     let Button = document.getElementById("button");
     let ButtonClass = Button.getAttribute("class");
     let Button1 = document.getElementById("button1");
-    //ボタンで言葉の切り替え（英語）
     if (ButtonClass == "open") {
         Button.classList.remove('open');
         Button.classList.add('close');
@@ -18,6 +17,10 @@ document.getElementById("button").onclick = function () {
         Button1.classList.add('close');
         Button1.style.display = "block";
         styleSheet.href = 'style/style2.css';
+        for (let i = 0; i < 2; i++) {
+            document.getElementById('mono' + (i + 1).toString()).style.display = "none";
+            document.getElementById('col' + (i + 1).toString()).style.display = "flex";
+        }
     }
 };
 document.getElementById("button1").onclick = function () {
@@ -32,6 +35,10 @@ document.getElementById("button1").onclick = function () {
         Button1.classList.add('open');
         Button1.style.display = "none";
         styleSheet.href = 'style/style.css';
+        for (let i = 0; i < 2; i++) {
+            document.getElementById('mono' + (i + 1).toString()).style.display = "flex";
+            document.getElementById('col' + (i + 1).toString()).style.display = "none";
+        }
     }
 };
 
