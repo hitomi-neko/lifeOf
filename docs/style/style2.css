@@ -325,7 +325,21 @@ body{
 
 #num17{
     color: #ff1cff;
-    font-family: "ＭＳ 明朝";
+    font-family: "ＭＳ 明朝",serif;
+}
+
+#num18{
+    color: #5a0606;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-size: 0.70rem;
+    line-height: 0.90rem;
+}
+
+#num4{
+    color: #06065a;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-size: 0.70rem;
+    line-height: 0.90rem;
 }
 
 * {
