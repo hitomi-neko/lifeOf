@@ -19,8 +19,8 @@
      padding: 0px;
      font-size: 1rem;
      line-height: 1.3rem;
-     font-family: "メイリオ",serif;
-     font-weight: 540;
+     font-family: "ＭＳ 明朝",serif;
+     font-weight: bold;
 }
 
 .title h1{
@@ -49,6 +49,7 @@
       text-align: center;
       padding: 0px;
       margin: 0px;
+      font-family: "ＭＳ 明朝",serif;
 }
 
 #myCanvas{
@@ -273,30 +274,32 @@ body{
 
 .p5{
     background-color: rgba(255,255,255,0.7);
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 }
 .p05{
     background-color: rgba(255,255,255,0.6);
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 }
 .p005{
     background-color: rgba(255,255,255,0.5);
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 }
 .p0005{
     background-color: rgba(255,255,255,0.4);
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 }
 .p00005{
     background-color: rgba(255,255,255,0.3);
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 }
 .p000005{
     background-color: rgba(255,255,255,0.2);
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 }
 
-
+hr{
+    opacity: 0.4;
+}
 
 #num11{
     color: #e45a93;
@@ -412,6 +415,10 @@ body{
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
+}
+
+#num31,#num35{
+    color: #000;
 }
 
 .area,.area1{
