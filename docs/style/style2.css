@@ -319,8 +319,13 @@ body{
 #num13,#num14{
     color: #4b3829;
     font-family: "HGP行書体";
-    font-size: 0.82rem;
+    font-size: 0.72rem;
     line-height: 0.92rem;
+}
+
+#num17{
+    color: #ff1cff;
+    font-family: "ＭＳ 明朝";
 }
 
 * {
