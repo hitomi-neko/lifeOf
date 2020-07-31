@@ -414,8 +414,8 @@ body{
     line-height: 0.90rem;
 }
 
-#num35,#num31{
-    color:#000;
+.area,.area1{
+    font-family: "ＭＳ 明朝",serif;
 }
 
 * {
