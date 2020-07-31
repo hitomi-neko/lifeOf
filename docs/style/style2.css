@@ -254,16 +254,19 @@ body{
      margin-bottom: -20px;
      padding: -20px;
      padding-bottom: -100px;
+     font-family: "ＭＳ 明朝",serif;
 }
 
 .footer p{
      margin-top: 20px;
+     font-family: "ＭＳ 明朝",serif;
 }
 
 a{
      color: #ffffff;
      font-size: 0.8rem;
      line-height: 0.9rem;
+     font-family: "ＭＳ 明朝",serif;
 }
 
 body{
