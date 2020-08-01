@@ -155,6 +155,10 @@ body{
       line-height: 0.95rem;
 }
 
+.item :hover{
+     opacity: 0.5;
+}
+
 .col1{
      /* text-align: left; */
       width: 40vw;

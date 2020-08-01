@@ -158,6 +158,10 @@
       font-family: "メイリオ",serif;
 }
 
+.item :hover{
+     opacity: 0.5;
+}
+
 .p100{
      background-color: rgba(255,255,255,0.9);
      color: #000000;
