@@ -37,6 +37,8 @@
             <br> みんなかけてるおしゃれな眼鏡。</p>
     </div>
 
+    <input type="checkbox" id="modal01" class="modalCheck">
+
     <div class="p100">
         <div class="parent">
             <h2 class="area" style="position: absolute; top: calc(100vh + 10px);">外気圏<br></h2>
@@ -59,16 +61,35 @@
         <hr style="border:dashed 1px; margin-top: 150px; margin-bottom: 0px;">
 
         <div class="parent">
-
             <div id='num1' class="item" style="position: absolute; top: calc(150px + 100vh);">
-                <h3>日本人<br>
-                    約125,960,000人
-                </h3>
+                <label for="modal01">
+                    <h3>日本人<br>
+                        約125,960,000人
+                    </h3>
+                </label>
                 <!-- <p>
                     これが、いま日本にあるいのちの数です。(2020年7月1日現在)
                 </p> -->
             </div>
+        </div>
 
+        <div id="modal01Con" class="modalWrap">
+            <div class="modalBg"><label for="modal01" class="closeModal"></label></div>
+            <div class="modalCon">
+                <div class="modalInner">
+                    <div class="modalCloseBtn"><label for="modal01" class="closeModal">×</label></div>
+                    <h1 class="ttl modalTtl">日本人<br>約125,960,000人</h1>
+                    <div class="modalText">
+                        <div class="modalCover"><img src="./image/photo/noimage.png"></div>
+                        <p>2020年7月1日現在</p>
+                        <div class="btn small"><label for="modal01">× Modal Close</label></div>
+                        <!-- /.modalText -->
+                    </div>
+                    <!-- /.modalInner -->
+                </div>
+                <!-- /.modalCon -->
+            </div>
+            <!-- /.modalWrap -->
         </div>
 
         <div class="parent">
@@ -228,7 +249,8 @@
         </div>
 
         <div class="parent">
-            <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 40px);">1%　--> 0.1%</h3>
+            <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 40px);">1%　--> 0.1%
+            </h3>
         </div>
 
         <div class="parent">
@@ -324,11 +346,13 @@
 
     <div class="p01">
         <div class="parent">
-            <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 10px);">成層圏</h2>
+            <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 10px);">成層圏
+            </h2>
         </div>
 
         <div class="parent">
-            <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 40px);">0.1%　-->
+            <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 40px);">
+                0.1%　-->
                 0.01%</h3>
         </div>
 

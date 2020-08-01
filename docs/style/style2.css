@@ -264,6 +264,10 @@ a{
      font-family: "ＭＳ 明朝",serif;
 }
 
+/* a :hover{
+    opacity: 0.5;
+} */
+
 body{
      padding-bottom: 0px;
      margin-bottom: 0px;

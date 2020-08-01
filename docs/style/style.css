@@ -274,6 +274,10 @@ a{
      line-height: 0.9rem;
 }
 
+/* a :hover{
+    opacity: 0.5;
+} */
+
 body{
      padding-bottom: 0px;
      margin-bottom: 0px;
@@ -314,4 +318,133 @@ body{
 * {
     margin: 0px;
     padding: 0px;
+}
+
+
+
+.modalCheck {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+.modalWrap, .modalBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  z-index: 10;
+}
+
+.modalWrap {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s cubic-bezier(1, 0, 0, 1);
+  transition: 0.3s cubic-bezier(1, 0, 0, 1);
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  will-change: opacity;
+}
+
+.modalBg {
+  cursor: pointer;
+  opacity: 0.7;
+  background-color: #000;
+  z-index: 2;
+}
+.modalBg label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+.modalCon {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+  width: 92%;
+  max-width: 640px;
+  height: 86%;
+  margin: auto;
+  z-index: 3;
+}
+
+.modalInner {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  height: 100%;
+  padding: 0 1.5em 1.5em;
+  cursor: default;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+}
+
+.modalCloseBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.modalCloseBtn label {
+  display: inline-block;
+  padding: 0.5em;
+  color: #333;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.modalCheck:not(:checked) ~ .wrapper > *:not(.modalWrap) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+}
+.modalCheck:not(:checked) ~ .wrapper .modalWrap {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modalCheck:checked ~ .wrapper > *:not(.modalWrap) {
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+
+#modal00:checked ~ .wrapper #modal00Con {
+  opacity: 1;
+  visibility: visible;
+}
+
+#modal01:checked ~ .wrapper #modal01Con {
+  opacity: 1;
+  visibility: visible;
+}
+
+#modal02:checked ~ .wrapper #modal02Con {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modalTtl {
+  padding: 2em 0.5em 1.5em;
+  font-size: 2em;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.modalText .modalCover {
+  margin: 0 -1.5em 1em;
+}
+.modalText p {
+  margin-bottom: 1em;
+  line-height: 1.7;
 }

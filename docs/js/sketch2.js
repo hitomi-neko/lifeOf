@@ -59,6 +59,18 @@ document.getElementById("button").onmouseout = function () {
     Button1.style.opacity = "1.0";
 };
 
+var body = document.body;
+var checkbox = document.getElementsByClassName('modalCheck');
+for (var i = 0; i < checkbox.length; i++) {
+    checkbox[i].addEventListener('click', function () {
+        if (this.checked) {
+            body.style.overflow = 'hidden';
+        } else {
+            body.style.overflow = 'visible';
+        }
+    });
+}
+
 function init() {
     // サイズを指定
     const width = window.innerWidth;
