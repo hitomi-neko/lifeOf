@@ -42,6 +42,23 @@ document.getElementById("button1").onclick = function () {
     }
 };
 
+document.getElementById("button1").onmouseover = function () {
+    let Button1 = document.getElementById("button1");
+    Button1.style.opacity = "0.5";
+};
+document.getElementById("button1").onmouseout = function () {
+    let Button1 = document.getElementById("button1");
+    Button1.style.opacity = "1.0";
+};
+document.getElementById("button").onmouseover = function () {
+    let Button1 = document.getElementById("button");
+    Button1.style.opacity = "0.5";
+};
+document.getElementById("button").onmouseout = function () {
+    let Button1 = document.getElementById("button");
+    Button1.style.opacity = "1.0";
+};
+
 function init() {
     // サイズを指定
     const width = window.innerWidth;
