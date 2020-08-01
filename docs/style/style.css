@@ -247,7 +247,9 @@ body{
 
 .footer{
      background-color: rgba(0,0,0);
+     /* background-color: #ffffff; */
      color: #ffffff;
+     /* color: #000; */
      height: 120px;
      width: 100vw;
      margin-top: -20px;
@@ -261,7 +263,9 @@ body{
 }
 
 a{
-     color: #ffffff;
+      color: #ffffff;
+     /* color: #000; */
+     height: 120px;
      font-size: 0.8rem;
      line-height: 0.9rem;
 }
