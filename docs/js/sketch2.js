@@ -174,7 +174,25 @@ function init() {
 
     // 毎フレーム時に実行されるループイベントです
     function tick() {
-        group.rotateY(0.005);
+        if (y >= 14000) {
+            group.rotateY(0.01);
+        }
+        if (y < 14000 && y >= 13000) {
+            group.rotateY(0.007);
+        }
+        if (y < 13000 && y >= 11000) {
+            group.rotateY(0.005);
+        }
+        if (y < 11000 && y >= 8000) {
+            group.rotateY(0.003);
+        }
+        if (y < 8000 && y >= 4000) {
+            group.rotateY(0.002);
+        }
+        if (y < 4000) {
+            group.rotateY(0.001);
+        }
+
         y = 15000 - window.scrollY;
         a -= y * 0.00015;
         camera.position.set(0, 0, +a);
