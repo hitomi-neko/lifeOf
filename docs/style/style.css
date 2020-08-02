@@ -330,19 +330,41 @@ body{
      color: #ffffff;
      z-index: 10;
      margin: 0 auto;
-     width: 80vw;
+     width: 70vw;
      text-align: center;
+     align-items: center;
 }
 
 .modalCloseBtn{
      color: #ffffff;
-     width: 75vw;
-     text-align: right;
-     padding-top: 20px;
-}
-
-.modalText{
      width: 65vw;
      text-align: right;
      padding-top: 20px;
+     margin: 0 auto;
+}
+
+.modalText{
+     width: 40vw;
+     text-align: right;
+     padding-top: 20px;
+     display: block;
+     margin: 0 auto;
+      font-size: 0.8rem;
+}
+
+.modalTtl{
+     width: 40vw;
+     text-align: left;
+     padding-top: 20px;
+     display: block;
+     margin: 0 auto;
+     font-size: 1.5rem;
+}
+
+.modalCover{
+     width: 40vw; 
+     height: auto; 
+     padding-top: 20px;
+     display: block;
+     margin: 0 auto;
 }
