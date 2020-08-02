@@ -309,15 +309,16 @@ hr{
     opacity: 0.4;
 }
 
-#num4{
+#num4,#text4,#ctext4,#title4{
     color: #e45a93;
 }
 
-#num5{
+
+#num5,#text5,#ctext5,#title5{
     color: #935ae4;
 }
 
-#num9{
+#num9,#text9,#ctext9,#title9{
     color:#f08a36;
     font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
 }
@@ -327,6 +328,10 @@ hr{
     font-family: "HGP行書体";
     font-size: 0.72rem;
     line-height: 0.92rem;
+}
+#text7,#ctext7,#title7,#text8,#ctext8,#title8{
+    color: #4b3829;
+    font-family: "HGP行書体";
 }
 
 #num11{
@@ -408,7 +413,7 @@ hr{
     color: #000;
 }
 
-#num14,#num3,#num6,#num25{
+#num14,#num3,#num6,#num25,#text3,#ctext3,#title3,#text6,#ctitle6,#title6{
     color: #628a60;
 }
 
@@ -455,7 +460,8 @@ hr{
      color:#878787;
      width: 65vw;
      text-align: right;
-     padding-top: 20px;
+     padding-top: 15px;
+     padding-bottom: 0px;
      margin: 0 auto;
      z-index: 100;
 }
@@ -474,7 +480,7 @@ hr{
 .modalTtl{
      width: 40vw;
      text-align: left;
-     padding-top: 20px;
+     padding-top: 0px;
      display: block;
      margin: 0 auto;
      font-size: 1.5rem;
