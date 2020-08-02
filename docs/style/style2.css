@@ -309,115 +309,109 @@ hr{
     opacity: 0.4;
 }
 
-#num11{
+#num4{
     color: #e45a93;
 }
 
-#num12{
+#num5{
     color: #935ae4;
 }
 
-#num15{
+#num9{
     color:#f08a36;
     font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
 }
 
-#num13,#num14{
+#num7,#num8{
     color: #4b3829;
     font-family: "HGP行書体";
     font-size: 0.72rem;
     line-height: 0.92rem;
 }
 
-#num17{
+#num11{
     color: #ff1cff;
     font-family: "ＭＳ 明朝",serif;
 }
 
-#num18{
+#num15{
     color: #5a0606;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#num4{
+#num16{
     color: #06065a;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#num19{
+#num17{
     color: #b90000;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#num20{
+#num18{
     color:#ff379b;
     font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
 }
 
 
-#num22{
+#num20{
     color:#f08a36;
 }
 
-#num23,#num26,#num32{
+#num22,#num28,#num33{
     color: #144624;
     font-family: "HGP行書体";
     font-size: 0.75rem;
     line-height: 0.95rem;
 }
 
-#num24{
+#num26{
     color:#935ae4;
 }
 
-#num27,#num30,#num21,#num25{
+#num27,#num35,#num19,#num29{
     color: #491a5c;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#num28{
+#num30{
     color: #b90000;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#num29{
+#num31{
     color: #0000b9;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#num33{
+#num32,#num34{
     color: #000;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#num34{
-    color: #000;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
-    font-size: 0.70rem;
-    line-height: 0.90rem;
-}
-
-#num31,#num35{
+#num36,#num37{
     color: #000;
 }
 
-#num40,#num3,#num2,#num41{
+#num14,#num3,#num6,#num25{
     color: #628a60;
 }
+
 
 .area,.area1{
     font-family: "ＭＳ 明朝",serif;
