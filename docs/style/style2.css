@@ -427,3 +427,82 @@ hr{
     margin: 0px;
     padding: 0px;
 }
+
+.modalWrap{
+     display: none;
+}
+
+.modalOpen{
+     position: fixed;
+     top: 0;
+     left: 0;
+     padding:0;
+     margin: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 100;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.modalCon{
+     display: block;
+     background-color: #ffffff;
+     color: #878787;
+     margin: 0 auto;
+     width: 70vw;
+     z-index: 100;
+     text-align: center;
+     align-items: center;
+}
+
+.modalCloseBtn{
+     color:#878787;
+     width: 65vw;
+     text-align: right;
+     padding-top: 20px;
+     margin: 0 auto;
+     z-index: 100;
+}
+
+.modalText{
+     width: 40vw;
+     text-align: left;
+     padding-top: 3px;
+     padding-bottom: 0px;
+     display: block;
+     margin: 0 auto;
+     font-size: 0.9rem;
+     z-index: 100;
+}
+
+.modalTtl{
+     width: 40vw;
+     text-align: left;
+     padding-top: 20px;
+     display: block;
+     margin: 0 auto;
+     font-size: 1.5rem;
+     z-index: 100;
+}
+
+.modalCover{
+     display: none;
+}
+
+.modalCoverCol{
+     width: 40vw; 
+     height: auto; 
+     padding-top: 20px;
+     padding-bottom: 10px;
+     display: block;
+     margin: 0 auto;
+     z-index: 100;
+}
+
+.modalTextCol{
+     font-size: 1.0rem;
+     z-index: 100;
+     padding-bottom: 20px;
+}

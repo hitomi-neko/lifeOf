@@ -362,9 +362,9 @@ body{
 
 .modalText{
      width: 40vw;
-     text-align: right;
-     padding-top: 20px;
-     padding-bottom: 40px;
+     text-align: left;
+     padding-top: 3px;
+     padding-bottom: 0px;
      display: block;
      margin: 0 auto;
      font-size: 0.9rem;
@@ -385,7 +385,19 @@ body{
      width: 40vw; 
      height: auto; 
      padding-top: 20px;
+     padding-bottom: 40px;
      display: block;
      margin: 0 auto;
      z-index: 100;
+}
+
+.modalCoverCol{
+     display: none;
+}
+
+.modalTextCol{
+     display: none;
+     font-size: 1.0rem;
+     z-index: 100;
+     padding-bottom: 20px;
 }

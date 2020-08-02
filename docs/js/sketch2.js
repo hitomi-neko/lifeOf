@@ -60,12 +60,14 @@ document.getElementById("button").onmouseout = function () {
 };
 
 document.getElementById('num1').onclick = function () {
-    let modal = document.getElementById('modal01');
-    let mcon = document.getElementById('mcon01');
-    let mtitle = document.getElementById('title01');
-    let mimage = document.getElementById('image01');
-    let mtext = document.getElementById('text01');
-    let closeBtn = document.getElementById('closeBtn01');
+    let modal = document.getElementById('modal1');
+    let mcon = document.getElementById('mcon1');
+    let mtitle = document.getElementById('title1');
+    let mimage = document.getElementById('image1');
+    let mimagec = document.getElementById('cimage1');
+    let mtext = document.getElementById('text1');
+    let mtextc = document.getElementById('ctext1');
+    let closeBtn = document.getElementById('closeBtn1');
     let body = document.body;
     let main = document.getElementById('main');
     let button = document.getElementById('button');
@@ -78,8 +80,12 @@ document.getElementById('num1').onclick = function () {
     mtitle.classList.remove('modalWrap');
     mimage.classList.add('modalCover');
     mimage.classList.remove('modalWrap');
+    mimagec.classList.add('modalCoverCol');
+    mimage.classList.remove('modalWrap');
     mtext.classList.add('modalText');
     mtext.classList.remove('modalWrap');
+    mtextc.classList.add('modalTextCol');
+    mtextc.classList.remove('modalWrap');
     closeBtn.classList.add('modalCloseBtn');
     closeBtn.classList.remove('modalWrap');
     body.style.overflow = 'hidden';
@@ -101,8 +107,12 @@ document.getElementById('num1').onclick = function () {
             mtitle.classList.add('modalWrap');
             mimage.classList.remove('modalCover');
             mimage.classList.add('modalWrap');
+            mimagec.classList.remove('modalCoverCol');
+            mimagec.classList.add('modalWrap');
             mtext.classList.remove('modalText');
             mtext.classList.add('modalWrap');
+            mtextc.classList.remove('modalTextCol');
+            mtextc.classList.add('modalWrap');
             closeBtn.classList.remove('modalCloseBtn');
             closeBtn.classList.add('modalWrap');
             body.style.overflow = 'visible';
