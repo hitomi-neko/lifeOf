@@ -443,13 +443,14 @@ hr{
     line-height: 0.90rem;
 }
 
-#text32,#ctext32,#title32,#closeBtn32,#text34,#ctext32,#title32,#closeBtn32{
+#text32,#ctext32,#title32,#closeBtn32,#text34,#ctext34,#title34,#closeBtn34{
     color: #000;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
 }
 
 #num36,#num37,#text36,#ctext36,#title36,#closeBtn36,#text37,#ctext37,#title37,#closeBtn37{
     color: #000;
+    font-family: "ＭＳ 明朝",serif;
 }
 
 #num14,#num3,#num6,#num25,#text3,#ctext3,#title3,#closeBtn3,#text6,#ctitle6,#title6,#closeBtn6,#text14,#ctext14,#title14,#closeBtn14{
