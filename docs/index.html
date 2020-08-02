@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <input type="checkbox" id="modal01" class="modalCheck">
+    <!-- <input type="checkbox" id="modal01" class="modalCheck"> -->
     <div id="wrapper">
         <img src="image/iromegane_color2.png" id="button" class="open"
             style="position: fixed; top:20px; right:20px; width: 60px; height:60px; z-index: 5;">
@@ -37,6 +37,21 @@
         <div class="title" id="col2" style="display: none;">
             <p> 眼鏡をかければ見え方は変わる。
                 <br> みんなかけてるおしゃれな眼鏡。</p>
+        </div>
+
+        <div id="modal01" class="modalWrap">
+            <div class="modalCon">
+                <div class="modalInner">
+                    <div class="modalCloseBtn" id="closeBtn01">
+                        <p>×</p>
+                    </div>
+                    <h1 class="modalTtl">日本人<br>約125,960,000人</h1>
+                    <div class="modalCover"><img src="./image/photo/noimage.png"></div>
+                    <div class="modalText">
+                        <p>2020年7月1日現在</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="p100">
@@ -62,34 +77,13 @@
 
             <div class="parent">
                 <div id='num1' class="item" style="position: absolute; top: calc(150px + 100vh);">
-                    <label for="modal01">
-                        <h3>日本人<br>
-                            約125,960,000人
-                        </h3>
-                    </label>
+                    <h3>日本人<br>
+                        約125,960,000人
+                    </h3>
                     <!-- <p>
                     これが、いま日本にあるいのちの数です。(2020年7月1日現在)
                 </p> -->
                 </div>
-            </div>
-
-            <div id="modal01Con" class="modalWrap">
-                <div class="modalBg"><label for="modal01" class="closeModal"></label></div>
-                <div class="modalCon">
-                    <div class="modalInner">
-                        <div class="modalCloseBtn"><label for="modal01" class="closeModal">×</label></div>
-                        <h1 class="ttl modalTtl">日本人<br>約125,960,000人</h1>
-                        <div class="modalText">
-                            <div class="modalCover"><img src="./image/photo/noimage.png"></div>
-                            <p>2020年7月1日現在</p>
-                            <div class="btn small"><label for="modal01">Close</label></div>
-                            <!-- /.modalText -->
-                        </div>
-                        <!-- /.modalInner -->
-                    </div>
-                    <!-- /.modalCon -->
-                </div>
-                <!-- /.modalWrap -->
             </div>
 
             <div class="parent">

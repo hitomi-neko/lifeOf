@@ -59,6 +59,21 @@ document.getElementById("button").onmouseout = function () {
     Button1.style.opacity = "1.0";
 };
 
+document.getElementById('num1').onclick = function () {
+    let modal = document.getElementById('modal01');
+    modal.classList.remove('modalWrap');
+    modal.classList.add('modalOpen');
+    let closeBtn = document.getElementById('closeBtn01');
+    closePopUp(closeBtn);
+    function closePopUp(elem) {
+        if (!elem) return;
+        elem.addEventListener('click', function () {
+            modal.classList.remove('modalOpen');
+            modal.classList.add('modalWarp');
+        })
+    }
+};
+
 var body = document.body;
 var checkbox = document.getElementsByClassName('modalCheck');
 for (var i = 0; i < checkbox.length; i++) {
