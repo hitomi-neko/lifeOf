@@ -131,6 +131,8 @@ function init() {
     // サイズを指定
     const width = window.innerWidth;
     const height = window.innerHeight;
+    var y = 0;
+    var a = 5900;
 
     // レンダラーを作成
     const renderer = new THREE.WebGLRenderer({
@@ -145,7 +147,7 @@ function init() {
 
     // カメラを作成
     const camera = new THREE.PerspectiveCamera(45, width / height);
-    camera.position.set(0, 0, +1000);
+    camera.position.set(0, 0, +a);
 
     const group = new THREE.Group();
     scene.add(group);
@@ -153,11 +155,11 @@ function init() {
     const geometry = new THREE.BoxBufferGeometry(50, 50, 50);
     const material = new THREE.MeshStandardMaterial();
 
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 4000; i++) {
         const mesh = new THREE.Mesh(geometry, material);
-        mesh.position.x = (Math.random() - 0.5) * 2000;
-        mesh.position.y = (Math.random() - 0.5) * 2000;
-        mesh.position.z = (Math.random() - 0.5) * 2000;
+        mesh.position.x = (Math.random() - 0.5) * 6000;
+        mesh.position.y = (Math.random() - 0.5) * 6000;
+        mesh.position.z = (Math.random() - 0.5) * 6000;
         mesh.rotation.x = Math.random() * 2 * Math.PI;
         mesh.rotation.y = Math.random() * 2 * Math.PI;
         mesh.rotation.z = Math.random() * 2 * Math.PI;
@@ -172,11 +174,15 @@ function init() {
 
     // 毎フレーム時に実行されるループイベントです
     function tick() {
-        group.rotateY(0.01);
+        group.rotateY(0.005);
+        y = 15000 - window.scrollY;
+        a -= y * 0.00015;
+        camera.position.set(0, 0, +a);
 
         // レンダリング
         renderer.render(scene, camera);
 
         requestAnimationFrame(tick);
+        console.log(y);
     }
 }
