@@ -17,12 +17,12 @@
 
 <body>
     <!-- <input type="checkbox" id="modal01" class="modalCheck"> -->
-    <div id="wrapper">
-        <img src="image/iromegane_color2.png" id="button" class="open"
-            style="position: fixed; top:20px; right:20px; width: 60px; height:60px; z-index: 5;">
-        <img src="image/ragan.png" id="button1" class="open"
-            style="position: fixed; top:20px; right:20px; width: 60px; height:60px; display: none; z-index: 5;">
-        <canvas id="myCanvas"></canvas>
+    <img src="image/iromegane_color2.png" id="button" class="open"
+        style="position: fixed; top:20px; right:20px; width: 60px; height:60px; z-index: 5;">
+    <img src="image/ragan.png" id="button1" class="open"
+        style="position: fixed; top:20px; right:20px; width: 60px; height:60px; display: none; z-index: 5;">
+    <canvas id="myCanvas"></canvas>
+    <div id="main">
         <div class="title" id="mono1" style="display: flex;">
             <h1>社会の素描</h1>
         </div>
@@ -37,19 +37,6 @@
         <div class="title" id="col2" style="display: none;">
             <p> 眼鏡をかければ見え方は変わる。
                 <br> みんなかけてるおしゃれな眼鏡。</p>
-        </div>
-
-        <div id="modal01" class="modalWrap">
-            <div class="modalCon">
-                <div class="modalCloseBtn" id="closeBtn01">
-                    <p>×</p>
-                </div>
-                <h1 class="modalTtl">日本人<br>約125,960,000人</h1>
-                <img class="modalCover" src="./image/photo/noimage.png">
-                <div class="modalText">
-                    <p>2020年7月1日現在</p>
-                </div>
-            </div>
         </div>
 
         <div class="p100">
@@ -738,8 +725,21 @@
                 </p>
             </div>
         </div>
-
     </div>
+
+    <div id="modal01" class="modalWrap">
+        <div class="modalCon" id="mcon01">
+            <div class="modalCloseBtn" id="closeBtn01">
+                <p>×</p>
+            </div>
+            <h1 class="modalTtl" id="title01">日本人<br>約125,960,000人</h1>
+            <img class="modalCover" id="image01" src="./image/photo/noimage.png">
+            <div class="modalText" id="text01">
+                <p>2020年7月1日現在</p>
+            </div>
+        </div>
+    </div>
+
     <script src="js/sketch2.js"></script>
 </body>
 

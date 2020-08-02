@@ -350,6 +350,7 @@ body{
      text-align: center;
      align-items: center;
 }
+
 .modalCloseBtn{
      color: #ffffff;
      width: 65vw;
@@ -363,10 +364,10 @@ body{
      width: 40vw;
      text-align: right;
      padding-top: 20px;
-     padding-bottom: 20px;
+     padding-bottom: 40px;
      display: block;
      margin: 0 auto;
-     font-size: 0.8rem;
+     font-size: 0.9rem;
      z-index: 100;
 }
 

@@ -61,30 +61,60 @@ document.getElementById("button").onmouseout = function () {
 
 document.getElementById('num1').onclick = function () {
     let modal = document.getElementById('modal01');
+    let mcon = document.getElementById('mcon01');
+    let mtitle = document.getElementById('title01');
+    let mimage = document.getElementById('image01');
+    let mtext = document.getElementById('text01');
+    let closeBtn = document.getElementById('closeBtn01');
+    let body = document.body;
+    let main = document.getElementById('main');
+    let button = document.getElementById('button');
+    let button1 = document.getElementById('button1');
     modal.classList.remove('modalWrap');
     modal.classList.add('modalOpen');
-    let closeBtn = document.getElementById('closeBtn01');
+    mcon.classList.add('modalCon');
+    mcon.classList.remove('modalWrap');
+    mtitle.classList.add('modalTtl');
+    mtitle.classList.remove('modalWrap');
+    mimage.classList.add('modalCover');
+    mimage.classList.remove('modalWrap');
+    mtext.classList.add('modalText');
+    mtext.classList.remove('modalWrap');
+    closeBtn.classList.add('modalCloseBtn');
+    closeBtn.classList.remove('modalWrap');
+    body.style.overflow = 'hidden';
+    main.style.opacity = '0.5';
+    main.style.filter = 'blur(3px)';
+    button.style.opacity = '0.5';
+    button.style.filter = 'blur(3px)';
+    button1.style.opacity = '0.5';
+    button1.style.filter = 'blur(3px)';
     closePopUp(closeBtn);
     function closePopUp(elem) {
         if (!elem) return;
         elem.addEventListener('click', function () {
             modal.classList.remove('modalOpen');
             modal.classList.add('modalWarp');
+            mcon.classList.remove('modalCon');
+            mcon.classList.add('modalWrap');
+            mtitle.classList.remove('modalTtl');
+            mtitle.classList.add('modalWrap');
+            mimage.classList.remove('modalCover');
+            mimage.classList.add('modalWrap');
+            mtext.classList.remove('modalText');
+            mtext.classList.add('modalWrap');
+            closeBtn.classList.remove('modalCloseBtn');
+            closeBtn.classList.add('modalWrap');
+            body.style.overflow = 'visible';
+            main.style.opacity = '1.0';
+            main.style.filter = 'blur(0px)';
+            button.style.opacity = '1.0';
+            button.style.filter = 'blur(0px)';
+            button1.style.opacity = '1.0';
+            button1.style.filter = 'blur(0px)';
         })
     }
 };
-
-var body = document.body;
-var checkbox = document.getElementsByClassName('modalCheck');
-for (var i = 0; i < checkbox.length; i++) {
-    checkbox[i].addEventListener('click', function () {
-        if (this.checked) {
-            body.style.overflow = 'hidden';
-        } else {
-            body.style.overflow = 'visible';
-        }
-    });
-}
 
 function init() {
     // サイズを指定
