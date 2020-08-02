@@ -8,6 +8,9 @@
     display: flex;
     align-items: center;
     text-align: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
     height: 50vh;
     font-family: "ＭＳ 明朝",serif;
 }
@@ -15,22 +18,19 @@
 .title p{
      color: #ffffff;
      display: block;
-     align-items: center;
-     margin: 0 auto;
+     margin: 0px;
      padding: 0px;
      font-size: 1rem;
      line-height: 1.3rem;
 }
 
 .title h1{
-    margin: 0 auto;
+    margin: 0px;
     writing-mode: vertical-rl;
     padding: 15px;
     color: #000000;
     background-color: #ffffff;
-    display: flex;
-    writing-mode: vertical-rl;
-    align-items: center;
+    display: block;
     font-size: 2.3rem;
     font-family: "ＭＳ 明朝",serif;
 }

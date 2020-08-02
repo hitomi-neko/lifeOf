@@ -16,732 +16,737 @@
 </head>
 
 <body>
-    <img src="image/iromegane_color2.png" id="button" class="open"
-        style="position: fixed; top:20px; right:20px; width: 60px; height:60px; z-index: 5;">
-    <img src="image/ragan.png" id="button1" class="open"
-        style="position: fixed; top:20px; right:20px; width: 60px; height:60px; display: none; z-index: 5;">
-    <canvas id="myCanvas"></canvas>
-    <div class="title" id="mono1" style="display: flex;">
-        <h1>社会の素描</h1>
-    </div>
-    <div class="title" id="mono2" style="display: flex;">
-        <p> これは、日本における「いのちの数」を描写しています。
-            <br> ここにあるデータは、その描写の羅列でしかありません。</p>
-    </div>
-
-    <div class="title" id="col1" style="display: none;">
-        <h1>イロメガネ</h1>
-    </div>
-    <div class="title" id="col2" style="display: none;">
-        <p> 眼鏡をかければ見え方は変わる。
-            <br> みんなかけてるおしゃれな眼鏡。</p>
-    </div>
-
     <input type="checkbox" id="modal01" class="modalCheck">
-
-    <div class="p100">
-        <div class="parent">
-            <h2 class="area" style="position: absolute; top: calc(100vh + 10px);">外気圏<br></h2>
+    <div id="wrapper">
+        <img src="image/iromegane_color2.png" id="button" class="open"
+            style="position: fixed; top:20px; right:20px; width: 60px; height:60px; z-index: 5;">
+        <img src="image/ragan.png" id="button1" class="open"
+            style="position: fixed; top:20px; right:20px; width: 60px; height:60px; display: none; z-index: 5;">
+        <canvas id="myCanvas"></canvas>
+        <div class="title" id="mono1" style="display: flex;">
+            <h1>社会の素描</h1>
         </div>
-        <div class="parent">
-            <h3 class="area1" style="position: absolute; top: calc(100vh + 40px);">100%　--> 10%</h3>
-        </div>
-
-        <div class="parent">
-            <p style="position: absolute; top: calc(100vh + 90px);">ここから先、暫く高速運転</p>
-        </div>
-
-        <div class="parent">
-            <p style="position: absolute; top: calc(100vh + 60px); font-size: 0.65rem;">※日本人口比</p>
+        <div class="title" id="mono2" style="display: flex;">
+            <p> これは、日本における「いのちの数」を描写しています。
+                <br> ここにあるデータは、その描写の羅列でしかありません。</p>
         </div>
 
-        <hr style="margin-top: 140px; margin-bottom: 0px;">
-        <!-- <hr style="position: absolute; top: calc(140px + 100vh);"> -->
-        <hr style="border:dashed 1px; margin-top: 495px; margin-bottom: 0px;">
-        <hr style="border:dashed 1px; margin-top: 150px; margin-bottom: 0px;">
+        <div class="title" id="col1" style="display: none;">
+            <h1>イロメガネ</h1>
+        </div>
+        <div class="title" id="col2" style="display: none;">
+            <p> 眼鏡をかければ見え方は変わる。
+                <br> みんなかけてるおしゃれな眼鏡。</p>
+        </div>
 
-        <div class="parent">
-            <div id='num1' class="item" style="position: absolute; top: calc(150px + 100vh);">
-                <label for="modal01">
-                    <h3>日本人<br>
-                        約125,960,000人
-                    </h3>
-                </label>
-                <!-- <p>
+        <div class="p100">
+            <div class="parent">
+                <h2 class="area" style="position: absolute; top: calc(100vh + 10px);">外気圏<br></h2>
+            </div>
+            <div class="parent">
+                <h3 class="area1" style="position: absolute; top: calc(100vh + 40px);">100%　--> 10%</h3>
+            </div>
+
+            <div class="parent">
+                <p style="position: absolute; top: calc(100vh + 90px);">ここから先、暫く高速運転</p>
+            </div>
+
+            <div class="parent">
+                <p style="position: absolute; top: calc(100vh + 60px); font-size: 0.65rem;">※日本人口比</p>
+            </div>
+
+            <hr style="margin-top: 140px; margin-bottom: 0px;">
+            <!-- <hr style="position: absolute; top: calc(140px + 100vh);"> -->
+            <hr style="border:dashed 1px; margin-top: 495px; margin-bottom: 0px;">
+            <hr style="border:dashed 1px; margin-top: 150px; margin-bottom: 0px;">
+
+            <div class="parent">
+                <div id='num1' class="item" style="position: absolute; top: calc(150px + 100vh);">
+                    <label for="modal01">
+                        <h3>日本人<br>
+                            約125,960,000人
+                        </h3>
+                    </label>
+                    <!-- <p>
                     これが、いま日本にあるいのちの数です。(2020年7月1日現在)
                 </p> -->
-            </div>
-        </div>
-
-        <div id="modal01Con" class="modalWrap">
-            <div class="modalBg"><label for="modal01" class="closeModal"></label></div>
-            <div class="modalCon">
-                <div class="modalInner">
-                    <div class="modalCloseBtn"><label for="modal01" class="closeModal">×</label></div>
-                    <h1 class="ttl modalTtl">日本人<br>約125,960,000人</h1>
-                    <div class="modalText">
-                        <div class="modalCover"><img src="./image/photo/noimage.png"></div>
-                        <p>2020年7月1日現在</p>
-                        <div class="btn small"><label for="modal01">× Modal Close</label></div>
-                        <!-- /.modalText -->
-                    </div>
-                    <!-- /.modalInner -->
                 </div>
-                <!-- /.modalCon -->
             </div>
-            <!-- /.modalWrap -->
-        </div>
 
-        <div class="parent">
-            <h3 class="p7050" style="position: absolute; top: calc(630px + 100vh);">70%</h3>
-        </div>
-        <!-- <hr style=" border:dashed 1px; top: calc(628px + 100vh);"> -->
+            <div id="modal01Con" class="modalWrap">
+                <div class="modalBg"><label for="modal01" class="closeModal"></label></div>
+                <div class="modalCon">
+                    <div class="modalInner">
+                        <div class="modalCloseBtn"><label for="modal01" class="closeModal">×</label></div>
+                        <h1 class="ttl modalTtl">日本人<br>約125,960,000人</h1>
+                        <div class="modalText">
+                            <div class="modalCover"><img src="./image/photo/noimage.png"></div>
+                            <p>2020年7月1日現在</p>
+                            <div class="btn small"><label for="modal01">Close</label></div>
+                            <!-- /.modalText -->
+                        </div>
+                        <!-- /.modalInner -->
+                    </div>
+                    <!-- /.modalCon -->
+                </div>
+                <!-- /.modalWrap -->
+            </div>
 
-        <div class="parent">
+            <div class="parent">
+                <h3 class="p7050" style="position: absolute; top: calc(630px + 100vh);">70%</h3>
+            </div>
+            <!-- <hr style=" border:dashed 1px; top: calc(628px + 100vh);"> -->
 
-            <div id='num10' class="item" style="position: absolute; top: calc(659px + 100vh);">
-                <h3>生産年齢人口<br>
-                    約75,050,000人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+
+                <div id='num10' class="item" style="position: absolute; top: calc(659px + 100vh);">
+                    <h3>生産年齢人口<br>
+                        約75,050,000人
+                    </h3>
+                    <!-- <p>
                     日本の生産年齢人口です。(2019年9月15日、15~64歳の人口)
                 </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div class="child">
-                <div id='num2' class="item" style="position: absolute; top: calc(100vh + 744px);">
-                    <h3>就業者数<br>
-                        約66,560,000人
-                    </h3>
-                    <!-- <p>
+            <div class="parent">
+                <div class="child">
+                    <div id='num2' class="item" style="position: absolute; top: calc(100vh + 744px);">
+                        <h3>就業者数<br>
+                            約66,560,000人
+                        </h3>
+                        <!-- <p>
                     2020年4月現在
                         </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="child">
-                <div id='num11' class="item" style="position: absolute; top: calc(100vh + 761px);">
-                    <h3>日本の女性人口<br>
-                        約64,860,000人
-                    </h3>
-                    <!-- <p>
+                <div class="child">
+                    <div id='num11' class="item" style="position: absolute; top: calc(100vh + 761px);">
+                        <h3>日本の女性人口<br>
+                            約64,860,000人
+                        </h3>
+                        <!-- <p>
                     日本の女性人口です。(2019年1月報)
                 </p> -->
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <h3 class="p7050" style="position: absolute; top: calc(100vh + 782px);">50%
-            </h3>
-        </div>
+            <div class="parent">
+                <h3 class="p7050" style="position: absolute; top: calc(100vh + 782px);">50%
+                </h3>
+            </div>
 
-        <div class="parent">
-            <div class="child">
-                <div id='num12' class="item" style="position: absolute; top: calc(100vh + 795px);">
-                    <h3>日本の男性人口<br>
-                        約61,460,000人
-                    </h3>
-                    <!-- <p>
+            <div class="parent">
+                <div class="child">
+                    <div id='num12' class="item" style="position: absolute; top: calc(100vh + 795px);">
+                        <h3>日本の男性人口<br>
+                            約61,460,000人
+                        </h3>
+                        <!-- <p>
                     日本の男性人口です。(2019年1月報)
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="child">
-                <div id='num3' class="item" style="position: absolute; top: calc(100vh + 818px);">
-                    <h3>雇用者数<br>
-                        約59,200,000人
-                    </h3>
-                    <!-- <p>
+                <div class="child">
+                    <div id='num3' class="item" style="position: absolute; top: calc(100vh + 818px);">
+                        <h3>雇用者数<br>
+                            約59,200,000人
+                        </h3>
+                        <!-- <p>
                     2020年4月現在
                 </p> -->
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num13' class="item" style="position: absolute; top: calc(100vh + 1051px);">
-                <h3>高齢者<br>
-                    約35,880,000人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+                <div id='num13' class="item" style="position: absolute; top: calc(100vh + 1051px);">
+                    <h3>高齢者<br>
+                        約35,880,000人
+                    </h3>
+                    <!-- <p>
                     日本で暮らす高齢者の数です。(2019年9月15日、65歳以上の人口)
                 </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num14' class="item" style="position: absolute; top: calc(100vh + 1225px);">
-                <h3>後期高齢者<br>
-                    約18,480,000人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+                <div id='num14' class="item" style="position: absolute; top: calc(100vh + 1225px);">
+                    <h3>後期高齢者<br>
+                        約18,480,000人
+                    </h3>
+                    <!-- <p>
                     日本で暮らす後期高齢者の数です。(2019年9月15日、75歳以上の人口)
                 </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div class="child">
-                <div id='num15' class="item" style="position: absolute; top: calc(100vh + 1257px);">
-                    <h3>子ども<br>
-                        約15,240,000人
-                    </h3>
-                    <!-- <p>
+            <div class="parent">
+                <div class="child">
+                    <div id='num15' class="item" style="position: absolute; top: calc(100vh + 1257px);">
+                        <h3>子ども<br>
+                            約15,240,000人
+                        </h3>
+                        <!-- <p>
                     日本で暮らす子どもの数です。(2019年9月15日、14歳以下の人口)
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="child">
-                <div id='num16' class="item" style="position: absolute; top: calc(100vh + 1282px);">
-                    <h3>東京都民<br>
-                        約12,758,000人
-                    </h3>
-                    <!-- <p>
+                <div class="child">
+                    <div id='num16' class="item" style="position: absolute; top: calc(100vh + 1282px);">
+                        <h3>東京都民<br>
+                            約12,758,000人
+                        </h3>
+                        <!-- <p>
                     2019年10月
                 </p> -->
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="p10">
-        <div class="parent">
-            <h2 class="area" style="position: absolute; top: calc(100vh + 1283px + 100px + 10px);">熱圏</h2>
-        </div>
+        <div class="p10">
+            <div class="parent">
+                <h2 class="area" style="position: absolute; top: calc(100vh + 1283px + 100px + 10px);">熱圏</h2>
+            </div>
 
-        <div class="parent">
-            <h3 class="area1" style="position: absolute; top: calc(100vh + 1283px + 100px + 40px);">10%　--> 1%</h3>
-        </div>
+            <div class="parent">
+                <h3 class="area1" style="position: absolute; top: calc(100vh + 1283px + 100px + 40px);">10%　--> 1%</h3>
+            </div>
 
-        <div class="parent">
-            <p style="position: absolute; top: calc(100vh + 1283px + 100px + 90px);">速度、緩めます</p>
-        </div>
+            <div class="parent">
+                <p style="position: absolute; top: calc(100vh + 1283px + 100px + 90px);">速度、緩めます</p>
+            </div>
 
-        <hr style="margin-top: 140px; margin-bottom: 0px;">
-        <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-        <div class="parent">
-            <h3 class="p5" style="position: absolute; top: calc(100vh + 779px + 1383px);">5%
-            </h3>
-        </div>
-
-
-        <div class="parent">
-            <div id='num17' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 59px);">
-                <h3>性的マイノリティ<br>
-                    約12,000,000人
+            <hr style="margin-top: 140px; margin-bottom: 0px;">
+            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+            <div class="parent">
+                <h3 class="p5" style="position: absolute; top: calc(100vh + 779px + 1383px);">5%
                 </h3>
-                <!-- <p>
+            </div>
+
+
+            <div class="parent">
+                <div id='num17' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 59px);">
+                    <h3>性的マイノリティ<br>
+                        約12,000,000人
+                    </h3>
+                    <!-- <p>
                     性的マイノリティは人口の10%ほどと言われています。<br>
                     「性的マイノリティ」自体の定義が難しく、色々な人がいます。そのため、正確な人数は誰にもわかりません。
                 </p> -->
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="p1">
-        <div class="parent">
-            <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 10px);">中間圏</h2>
-        </div>
+        <div class="p1">
+            <div class="parent">
+                <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 10px);">中間圏</h2>
+            </div>
 
-        <div class="parent">
-            <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 40px);">1%　--> 0.1%
-            </h3>
-        </div>
+            <div class="parent">
+                <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 40px);">1%　--> 0.1%
+                </h3>
+            </div>
 
-        <div class="parent">
-            <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 90px);">速度、低下中。乗り物酔い注意</p>
-        </div>
+            <div class="parent">
+                <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 90px);">速度、低下中。乗り物酔い注意</p>
+            </div>
 
-        <hr style="margin-top: 140px; margin-bottom: 0px;">
-        <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-        <div class="parent">
-            <h3 class="p05" style="position: absolute; top: calc(100vh + 779px + 1383px + 1383px);">
-                0.5%
-            </h3>
-        </div>
+            <hr style="margin-top: 140px; margin-bottom: 0px;">
+            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+            <div class="parent">
+                <h3 class="p05" style="position: absolute; top: calc(100vh + 779px + 1383px + 1383px);">
+                    0.5%
+                </h3>
+            </div>
 
 
-        <div class="parent">
-            <div class="child">
-                <div id='num36' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 371px);">
-                    <h3>神奈川県民<br>
-                        約8,880,000人
-                    </h3>
-                    <!-- <p>
+            <div class="parent">
+                <div class="child">
+                    <div id='num36' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 371px);">
+                        <h3>神奈川県民<br>
+                            約8,880,000人
+                        </h3>
+                        <!-- <p>
                     2019年10月
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="child">
-                <div id='num36' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 378px);">
-                    <h3>大阪府民<br>
-                        約8,812,000人
-                    </h3>
-                    <!-- <p>
+                <div class="child">
+                    <div id='num36' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 378px);">
+                        <h3>大阪府民<br>
+                            約8,812,000人
+                        </h3>
+                        <!-- <p>
                     2019年10月
                     </p> -->
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num40' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 985px);">
-                <h3>地方公務員<br>
-                    約2,740,000人
-                </h3>
-                <!-- <p>
-                        2018年1月
-                    </p> -->
-            </div>
-        </div>
-
-        <div class="parent">
-            <div class="child">
-                <div id='num18' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1049px);">
-                    <h3>子どもの貧困<br>
-                        約2,100,000人
+            <div class="parent">
+                <div id='num40' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 985px);">
+                    <h3>地方公務員<br>
+                        約2,740,000人
                     </h3>
                     <!-- <p>
+                        2018年1月
+                    </p> -->
+                </div>
+            </div>
+
+            <div class="parent">
+                <div class="child">
+                    <div id='num18' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1049px);">
+                        <h3>子どもの貧困<br>
+                            約2,100,000人
+                        </h3>
+                        <!-- <p>
                     日本の子どもの貧困率は13.9％（2015年）で、子どもの約7人に1人と言われています。<br>
                     ※子どもの貧困率を基に、14歳以下で計算しています。
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="child">
-                <div id='num4' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1061px);">
-                    <h3>完全失業者<br>
-                        約1,980,000人
-                    </h3>
-                    <!-- <p>
+                <div class="child">
+                    <div id='num4' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1061px);">
+                        <h3>完全失業者<br>
+                            約1,980,000人
+                        </h3>
+                        <!-- <p>
                             2020年4月現在
                         </p> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="parent">
+                <div id='num19' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1121px);">
+                    <h3>死亡者<br>
+                        約1,376,000人
+                    </h3>
+                    <!-- <p>
+                    令和元年度の死亡者数です。
+                </p> -->
                 </div>
             </div>
         </div>
 
-        <div class="parent">
-            <div id='num19' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1121px);">
-                <h3>死亡者<br>
-                    約1,376,000人
-                </h3>
-                <!-- <p>
-                    令和元年度の死亡者数です。
-                </p> -->
+        <div class="p01">
+            <div class="parent">
+                <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 10px);">成層圏
+                </h2>
             </div>
-        </div>
-    </div>
 
-    <div class="p01">
-        <div class="parent">
-            <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 10px);">成層圏
-            </h2>
-        </div>
+            <div class="parent">
+                <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 40px);">
+                    0.1%　-->
+                    0.01%</h3>
+            </div>
 
-        <div class="parent">
-            <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 40px);">
-                0.1%　-->
-                0.01%</h3>
-        </div>
+            <div class="parent">
+                <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 90px);">　緩やかに下降中…</p>
+            </div>
 
-        <div class="parent">
-            <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 90px);">　緩やかに下降中…</p>
-        </div>
-
-        <hr style="margin-top: 140px; margin-bottom: 0px;">
-        <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-        <div class="parent">
-            <h3 class="p005" style="position: absolute; top: calc(100vh + 779px + 1383px + 1383px + 1383px);">
-                0.05%
-            </h3>
-        </div>
-
-        <div class="parent">
-
-            <div id='num20' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 93px);">
-                <h3>結婚者<br>
-                    約1,166,000人
+            <hr style="margin-top: 140px; margin-bottom: 0px;">
+            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+            <div class="parent">
+                <h3 class="p005" style="position: absolute; top: calc(100vh + 779px + 1383px + 1383px + 1383px);">
+                    0.05%
                 </h3>
-                <!-- <p>
+            </div>
+
+            <div class="parent">
+
+                <div id='num20' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 93px);">
+                    <h3>結婚者<br>
+                        約1,166,000人
+                    </h3>
+                    <!-- <p>
                     令和元年度、約58万3000組が結婚しました。
                     ※人数は(組数)×2で算出
                 </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num21' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 282px);">
-                <h3>癌新規登録者<br>
-                    977,393人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+                <div id='num21' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 282px);">
+                    <h3>癌新規登録者<br>
+                        977,393人
+                    </h3>
+                    <!-- <p>
                     2017年度新しく癌になった方の人数です。
                 </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num22' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 395px);">
-                <h3>出生者<br>
-                    約864,000人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+                <div id='num22' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 395px);">
+                    <h3>出生者<br>
+                        約864,000人
+                    </h3>
+                    <!-- <p>
                     令和元年度の出生者数です。
                 </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num39' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 477px);">
-                <h3>高知県民<br>
-                    約782,000人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+                <div id='num39' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 477px);">
+                    <h3>高知県民<br>
+                        約782,000人
+                    </h3>
+                    <!-- <p>
                          2019年10月
                     </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div class="child">
-                <div id='num23' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 519px);">
-                    <h3>ニート<br>
-                        約740,000人
-                    </h3>
-                    <!-- <p>
+            <div class="parent">
+                <div class="child">
+                    <div id='num23' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 519px);">
+                        <h3>ニート<br>
+                            約740,000人
+                        </h3>
+                        <!-- <p>
                     「定職に就かず、働く気がない」、いわゆるニートの人数です。
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="child">
-                <div id='num38' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 528px);">
-                    <h3>島根県民<br>
-                        約731,000人
-                    </h3>
-                    <!-- <p>
+                <div class="child">
+                    <div id='num38' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 528px);">
+                        <h3>島根県民<br>
+                            約731,000人
+                        </h3>
+                        <!-- <p>
                         2019年10月
                      </p> -->
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div class="child">
-                <div id='num37' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 659px);">
-                    <h3>鳥取県民<br>
-                        約600,000人
-                    </h3>
-                    <!-- <p>
+            <div class="parent">
+                <div class="child">
+                    <div id='num37' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 659px);">
+                        <h3>鳥取県民<br>
+                            約600,000人
+                        </h3>
+                        <!-- <p>
                                            2019年10月
                                         </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="child">
-                <div id='num41' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 679px);">
-                    <h3>国家公務員<br>
-                        約580,000人
-                    </h3>
-                    <!-- <p>
+                <div class="child">
+                    <div id='num41' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 679px);">
+                        <h3>国家公務員<br>
+                            約580,000人
+                        </h3>
+                        <!-- <p>
                         2018年1月
                     </p> -->
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num24' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 839px);">
-                <h3>離婚者<br>
-                    約420,000人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+                <div id='num24' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 839px);">
+                    <h3>離婚者<br>
+                        約420,000人
+                    </h3>
+                    <!-- <p>
                     令和元年度、約21万組が離婚しました。
                     ※人数は(組数)×2で算出
                 </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num25' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 885px);">
-                <h3>癌死亡者<br>
-                    373,584人
-                </h3>
-                <!-- <p>
-                    2018年度、癌で亡くなった方の人数です。
-                </p> -->
-            </div>
-        </div>
-
-        <div class="parent">
-            <div class="child">
-                <div id='num26' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1094px);">
-                    <h3>不登校<br>
-                        164,528人
+            <div class="parent">
+                <div id='num25' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 885px);">
+                    <h3>癌死亡者<br>
+                        373,584人
                     </h3>
                     <!-- <p>
+                    2018年度、癌で亡くなった方の人数です。
+                </p> -->
+                </div>
+            </div>
+
+            <div class="parent">
+                <div class="child">
+                    <div id='num26' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1094px);">
+                        <h3>不登校<br>
+                            164,528人
+                        </h3>
+                        <!-- <p>
                     2019年度、小中学校の不登校者数です。<br>
                     年間90日以上欠席している子どものことを不登校と定義しています。
                 </p> -->
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="p001">
-        <div class="parent">
-            <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 10px);">
-                対流圏</h2>
-        </div>
+        <div class="p001">
+            <div class="parent">
+                <h2 class="area"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 10px);">
+                    対流圏</h2>
+            </div>
 
-        <div class="parent">
-            <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 40px);">
-                0.01%　-->
-                0.001%
-            </h3>
-        </div>
-
-        <div class="parent">
-            <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 90px);">　下降スピード低下…
-            </p>
-        </div>
-
-        <hr style="margin-top: 140px; margin-bottom: 0px;">
-        <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-        <div class="parent">
-            <h3 class="p0005" style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px);">
-                0.005%
-            </h3>
-        </div>
-
-        <div class="parent">
-            <div id='num27' class="item"
-                style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 987px);">
-                <h3>COVID-19感染者数<br>
-                    27,216人
+            <div class="parent">
+                <h3 class="area1"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 40px);">
+                    0.01%　-->
+                    0.001%
                 </h3>
-                <!-- <p>
+            </div>
+
+            <div class="parent">
+                <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 90px);">　下降スピード低下…
+                </p>
+            </div>
+
+            <hr style="margin-top: 140px; margin-bottom: 0px;">
+            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+            <div class="parent">
+                <h3 class="p0005"
+                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px);">
+                    0.005%
+                </h3>
+            </div>
+
+            <div class="parent">
+                <div id='num27' class="item"
+                    style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 987px);">
+                    <h3>COVID-19感染者数<br>
+                        27,216人
+                    </h3>
+                    <!-- <p>
                     7月22日現在の国内感染者数の合計値です。<br>
                     ※ダイヤモンド・プリンセス号乗員・乗客は除きます。
                 </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div class="child">
-                <div id='num28' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1057px);">
-                    <h3>自殺者<br>
-                        20,169人
-                    </h3>
-                    <!-- <p>
+            <div class="parent">
+                <div class="child">
+                    <div id='num28' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1057px);">
+                        <h3>自殺者<br>
+                            20,169人
+                        </h3>
+                        <!-- <p>
                     2019年度の自殺者数です。
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="child">
-                <div id='num29' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1069px);">
-                    <h3>死産数<br>
-                        19,000人
-                    </h3>
-                    <!-- <p>
+                <div class="child">
+                    <div id='num29' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1069px);">
+                        <h3>死産数<br>
+                            19,000人
+                        </h3>
+                        <!-- <p>
                     2019年度の死産の数です。
                 </p> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="parent">
+                <div id='num33' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1100px);">
+                    <h3>東日本大震災死者<br>
+                        15,899人
+                    </h3>
+                    <!-- <p>
+                            2019年度の死産の数です。
+                        </p> -->
                 </div>
             </div>
         </div>
 
-        <div class="parent">
-            <div id='num33' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1100px);">
-                <h3>東日本大震災死者<br>
-                    15,899人
-                </h3>
-                <!-- <p>
-                            2019年度の死産の数です。
-                        </p> -->
+        <div class="p0001">
+            <div class="parent">
+                <h2 class="area"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 10px);">
+                    地表付近
+                </h2>
             </div>
-        </div>
-    </div>
 
-    <div class="p0001">
-        <div class="parent">
-            <h2 class="area"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 10px);">
-                地表付近
-            </h2>
-        </div>
+            <div class="parent">
+                <h3 class="area1"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 40px);">
+                    0.001%　-->
+                    0.0001%</h3>
+            </div>
 
-        <div class="parent">
-            <h3 class="area1"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 40px);">
-                0.001%　-->
-                0.0001%</h3>
-        </div>
+            <div class="parent">
+                <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 90px);">
+                    　間もなく地表到達…</p>
+            </div>
 
-        <div class="parent">
-            <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 90px);">
-                　間もなく地表到達…</p>
-        </div>
-
-        <hr style="margin-top: 140px; margin-bottom: 0px;">
-        <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-        <div class="parent">
-            <h3 class="p00005"
-                style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px + 1383px);">
-                0.0005%
-            </h3>
-        </div>
-
-        <div class="parent">
-            <div id='num32' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 803px);">
-                <h3>ホームレス<br>
-                    4,555人
+            <hr style="margin-top: 140px; margin-bottom: 0px;">
+            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+            <div class="parent">
+                <h3 class="p00005"
+                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px + 1383px);">
+                    0.0005%
                 </h3>
-                <!-- <p>
+            </div>
+
+            <div class="parent">
+                <div id='num32' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 803px);">
+                    <h3>ホームレス<br>
+                        4,555人
+                    </h3>
+                    <!-- <p>
                            2020年度警察庁発表
                         </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num34' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 1006px);">
-                <h3>東日本大震災行方不明者<br>
-                    2,529人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+                <div id='num34' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 1006px);">
+                    <h3>東日本大震災行方不明者<br>
+                        2,529人
+                    </h3>
+                    <!-- <p>
                                    2020年度警察庁発表
                                 </p> -->
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="p00001">
-        <div class="parent">
-            <h2 class="area"
-                style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 10px)">
-                地表
-            </h2>
-        </div>
+        <div class="p00001">
+            <div class="parent">
+                <h2 class="area"
+                    style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 10px)">
+                    地表
+                </h2>
+            </div>
 
-        <div class="parent">
-            <h3 class="area1"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 40px);">
-                0.0001%　-->
-                0.000…%</h3>
-        </div>
+            <div class="parent">
+                <h3 class="area1"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 40px);">
+                    0.0001%　-->
+                    0.000…%</h3>
+            </div>
 
-        <div class="parent">
-            <p
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 90px);">
-                　地表到達、お忘れ物の無いよう気を付けて…</p>
-        </div>
+            <div class="parent">
+                <p
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 90px);">
+                    　地表到達、お忘れ物の無いよう気を付けて…</p>
+            </div>
 
-        <hr style="margin-top: 140px; margin-bottom: 0px;">
-        <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-        <div class="parent">
-            <h3 class="p000005"
-                style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px);">
-                0.00005%
-            </h3>
-        </div>
-
-        <div class="parent">
-            <div id='num30' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 270px);">
-                <h3>COVID-19死亡者<br>
-                    989人
+            <hr style="margin-top: 140px; margin-bottom: 0px;">
+            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+            <div class="parent">
+                <h3 class="p000005"
+                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px);">
+                    0.00005%
                 </h3>
-                <!-- <p>
+            </div>
+
+            <div class="parent">
+                <div id='num30' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 270px);">
+                    <h3>COVID-19死亡者<br>
+                        989人
+                    </h3>
+                    <!-- <p>
                     7月22日現在の国内死亡者数の合計値です。<br>
                     ※ダイヤモンド・プリンセス号乗員・乗客は除きます。
                 </p> -->
+                </div>
             </div>
-        </div>
 
-        <div class="parent">
-            <div id='num31' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 1258px);">
-                <h3>私/あなた<br>
-                    1人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+                <div id='num31' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 1258px);">
+                    <h3>私/あなた<br>
+                        1人
+                    </h3>
+                    <!-- <p>
                     あなたは一人であり、私も一人である。
                 </p> -->
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="p0">
-        <div class="parent">
-            <h2 class="area"
-                style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 10px)">
-                ???
-            </h2>
-        </div>
+        <div class="p0">
+            <div class="parent">
+                <h2 class="area"
+                    style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 10px)">
+                    ???
+                </h2>
+            </div>
 
-        <div class="parent">
-            <h3 class="area1"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 40px);">
-                0.0000…%　-->
-                0.000%</h3>
-        </div>
+            <div class="parent">
+                <h3 class="area1"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 40px);">
+                    0.0000…%　-->
+                    0.000%</h3>
+            </div>
 
-        <div class="parent">
-            <p
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 90px);">
-                これより下……通信…不…</p>
-        </div>
+            <div class="parent">
+                <p
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 90px);">
+                    これより下……通信…不…</p>
+            </div>
 
-        <hr style="margin-top: 140px; margin-bottom: 0px;">
+            <hr style="margin-top: 140px; margin-bottom: 0px;">
 
-        <div class="parent">
-            <div id='num35' class="item"
-                style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 150px + 200px);">
-                <h3>誰か/みんな<br>
-                    0人
-                </h3>
-                <!-- <p>
+            <div class="parent">
+                <div id='num35' class="item"
+                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 150px + 200px);">
+                    <h3>誰か/みんな<br>
+                        0人
+                    </h3>
+                    <!-- <p>
                     誰かはみんなであり誰でもない。誰でもないものは0に限りなく等しく、無限でもある。
                 </p> -->
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="footer">
-        <div class="parent">
-            <p>presented by hitomi-neko<br><br><a
-                    href="https://github.com/hitomi-neko">https://github.com/hitomi-neko</a><br>
-                <a href="https://www.openprocessing.org/user/226706">https://www.openprocessing.org/user/226706</a>
-            </p>
+        <div class="footer">
+            <div class="parent">
+                <p>presented by hitomi-neko<br><br><a
+                        href="https://github.com/hitomi-neko">https://github.com/hitomi-neko</a><br>
+                    <a href="https://www.openprocessing.org/user/226706">https://www.openprocessing.org/user/226706</a>
+                </p>
+            </div>
         </div>
+
     </div>
     <script src="js/sketch2.js"></script>
 </body>
