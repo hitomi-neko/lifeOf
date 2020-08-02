@@ -309,16 +309,16 @@ hr{
     opacity: 0.4;
 }
 
-#num4,#text4,#ctext4,#title4{
+#num4,#text4,#ctext4,#title4,#closeBtn4{
     color: #e45a93;
 }
 
 
-#num5,#text5,#ctext5,#title5{
+#num5,#text5,#ctext5,#title5,#closeBtn5{
     color: #935ae4;
 }
 
-#num9,#text9,#ctext9,#title9{
+#num9,#text9,#ctext9,#title9,#closeBtn9{
     color:#f08a36;
     font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
 }
@@ -329,12 +329,12 @@ hr{
     font-size: 0.72rem;
     line-height: 0.92rem;
 }
-#text7,#ctext7,#title7,#text8,#ctext8,#title8{
+#text7,#ctext7,#title7,#closeBtn7,#text8,#ctext8,#title8,#closeBtn8{
     color: #4b3829;
     font-family: "HGP行書体";
 }
 
-#num11{
+#num11,#text11,#ctext11,#title11,#closeBtn11{
     color: #ff1cff;
     font-family: "ＭＳ 明朝",serif;
 }
@@ -346,11 +346,21 @@ hr{
     line-height: 0.90rem;
 }
 
+#text15,#ctect15,#title15,#closeBtn15{
+    color: #5a0606;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+}
+
 #num16{
     color: #06065a;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
+}
+
+#text16,#ctext16,#title16,#closeBtn16{
+    color: #06065a;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
 }
 
 #num17{
@@ -360,13 +370,17 @@ hr{
     line-height: 0.90rem;
 }
 
-#num18{
+#title17,#ctext17,#title17,#closeBtn17{
+    color: #b90000;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+}
+
+#num18,#text18,#ctext18,#title18,#closeBtn18{
     color:#ff379b;
     font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
 }
 
-
-#num20{
+#num20,#text20,#ctext20,#title20,#closeBtn20{
     color:#f08a36;
 }
 
@@ -386,6 +400,11 @@ hr{
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
+}
+
+#text19,#ctext19,#title19,#closeBtn19{
+    color: #491a5c;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
 }
 
 #num30{
@@ -413,7 +432,7 @@ hr{
     color: #000;
 }
 
-#num14,#num3,#num6,#num25,#text3,#ctext3,#title3,#text6,#ctitle6,#title6{
+#num14,#num3,#num6,#num25,#text3,#ctext3,#title3,#closeBtn3,#text6,#ctitle6,#title6,#closeBtn6,#text14,#ctext14,#title14,#closeBtn14{
     color: #628a60;
 }
 
@@ -502,7 +521,11 @@ hr{
 }
 
 .modalTextCol{
-     font-size: 1.0rem;
+     font-size: 0.9rem;
      z-index: 100;
      padding-bottom: 20px;
+     width: 40vw;
+     text-align: center;
+     display: block;
+     margin: 0 auto;
 }
