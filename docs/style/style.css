@@ -320,36 +320,54 @@ body{
     padding: 0px;
 }
 
+
+
 .modalWrap{
      display: none;
 }
 
 .modalOpen{
-     display: block;
-     background-color: #000000;
-     color: #ffffff;
-     z-index: 10;
-     margin: 0 auto;
-     width: 70vw;
-     text-align: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     padding:0;
+     margin: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 100;
+     display: flex;
+     justify-content: center;
      align-items: center;
 }
 
+.modalCon{
+     display: block;
+     background-color: #000000;
+     color: #ffffff;
+     margin: 0 auto;
+     width: 70vw;
+     z-index: 100;
+     text-align: center;
+     align-items: center;
+}
 .modalCloseBtn{
      color: #ffffff;
      width: 65vw;
      text-align: right;
      padding-top: 20px;
      margin: 0 auto;
+     z-index: 100;
 }
 
 .modalText{
      width: 40vw;
      text-align: right;
      padding-top: 20px;
+     padding-bottom: 20px;
      display: block;
      margin: 0 auto;
-      font-size: 0.8rem;
+     font-size: 0.8rem;
+     z-index: 100;
 }
 
 .modalTtl{
@@ -359,6 +377,7 @@ body{
      display: block;
      margin: 0 auto;
      font-size: 1.5rem;
+     z-index: 100;
 }
 
 .modalCover{
@@ -367,4 +386,5 @@ body{
      padding-top: 20px;
      display: block;
      margin: 0 auto;
+     z-index: 100;
 }
