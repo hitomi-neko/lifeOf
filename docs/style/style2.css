@@ -391,7 +391,12 @@ hr{
     line-height: 0.95rem;
 }
 
-#num26{
+#text22,#ctext22,#title22,#closeBtn22,#text28,#ctext28,#title28,#closeBtn28,#text33,#ctext33,#title33,#closeBtn33{
+    color: #144624;
+    font-family: "HGP行書体";
+}
+
+#num26,#text26,#ctext26,#title26,#closeBtn26{
     color:#935ae4;
 }
 
@@ -402,7 +407,7 @@ hr{
     line-height: 0.90rem;
 }
 
-#text19,#ctext19,#title19,#closeBtn19{
+#text19,#ctext19,#title19,#closeBtn19,#text27,#ctext27,#title27,#closeBtn27,#text29,#ctext29,#title29,#closeBtn29,#text35,#ctext35,#title35,#closeBtn35{
     color: #491a5c;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
 }
@@ -414,11 +419,21 @@ hr{
     line-height: 0.90rem;
 }
 
+#text30,#ctext30,#title30,#closeBtn30{
+    color: #b90000;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+}
+
 #num31{
     color: #0000b9;
     font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
+}
+
+#text31,#ctext31,#title31,#close31{
+    color: #0000b9;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
 }
 
 #num32,#num34{
@@ -428,7 +443,12 @@ hr{
     line-height: 0.90rem;
 }
 
-#num36,#num37{
+#text32,#ctext32,#title32,#closeBtn32,#text34,#ctext32,#title32,#closeBtn32{
+    color: #000;
+    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+}
+
+#num36,#num37,#text36,#ctext36,#title36,#closeBtn36,#text37,#ctext37,#title37,#closeBtn37{
     color: #000;
 }
 
