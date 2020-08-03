@@ -157,7 +157,7 @@ function init() {
 
     var lines = new THREE.Group();
     const line_material = new THREE.LineBasicMaterial({ color: 0xff379b });
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 500; i++) {
         var line_geometry = new THREE.Geometry();
         line_geometry.vertices.push(
             new THREE.Vector3(0, 0, 0),
@@ -223,10 +223,10 @@ function init() {
         }
 
         y = 15000 - window.scrollY;
-        if (a > 100) {
+        if (a > 1000) {
             a -= y * 0.00015;
         } else {
-            a = 100;
+            a = 1000;
         }
         camera.position.set(0, 0, +a);
         camera.lookAt(new THREE.Vector3(0, 0, 0));
@@ -235,6 +235,5 @@ function init() {
         renderer.render(scene, camera);
 
         requestAnimationFrame(tick);
-        console.log(y);
     }
 }
