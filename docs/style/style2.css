@@ -1,6 +1,35 @@
 /* .title{
      text-align: center;
 } */
+#showloading {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  position: fixed;
+  z-index: 20;
+}
+#showloading img {
+  position: fixed;
+  filter: invert();
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  z-index: 20;
+}
+.fadeout-bg {
+  transition-property: opacity;
+  transition-delay: .9s;
+  transition-duration: .6s;
+  opacity: 0;
+  pointer-events: none;
+}
+.hidden {
+  display: none;
+}
 
 .title{
     /* margin: 0px; */

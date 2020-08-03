@@ -1,3 +1,10 @@
+var showloading = document.getElementById('showloading');
+var contents = document.getElementById('main');
+window.addEventListener('load', stopload);
+function stopload() {
+    showloading.classList.add('fadeout-bg');
+    contents.classList.remove('hidden');
+}
 window.addEventListener('load', init);
 
 var styleSheet = document.getElementById("style");
