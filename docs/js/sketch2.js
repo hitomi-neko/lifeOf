@@ -164,18 +164,18 @@ function init() {
     // var newline = new THREE.Line(geometry, material);
 
     var lines = new THREE.Group();
-    const line_material = new THREE.LineBasicMaterial({ color: 0xffffff });
+    const line_material = new THREE.LineBasicMaterial({ color: 0xff379b });
     // for文でランダムな線（newline）を複数作る
     for (let i = 0; i < 2000; i++) {
         var line_geometry = new THREE.Geometry();
         line_geometry.vertices.push(
             new THREE.Vector3(0, 0, 0),
-            new THREE.Vector3(Math.random() * 3000 - 1500, Math.random() * 3000 - 1500, Math.random() * 3000 - 1500),
-            new THREE.Vector3(Math.random() * 3000 - 1500, Math.random() * 3000 - 1500, Math.random() * 3000 - 1500),
-            new THREE.Vector3(Math.random() * 3000 - 1500, Math.random() * 3000 - 1500, Math.random() * 3000 - 1500),
-            new THREE.Vector3(Math.random() * 6000 - 3000, Math.random() * 3000 - 1500, Math.random() * 6000 - 1500),
-            new THREE.Vector3(Math.random() * 6000 - 3000, Math.random() * 3000 - 1500, Math.random() * 6000 - 1500),
-            new THREE.Vector3(Math.random() * 6000 - 1500, Math.random() * 3000 - 1500, Math.random() * 3000 - 1500)
+            new THREE.Vector3((Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000),
+            new THREE.Vector3((Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000),
+            new THREE.Vector3((Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000),
+            new THREE.Vector3((Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000),
+            new THREE.Vector3((Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000),
+            new THREE.Vector3((Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000, (Math.random() - 0.5) * 8000)
         );
         var newline = new THREE.Line(line_geometry, line_material);
         lines.add(newline);
