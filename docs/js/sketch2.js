@@ -132,7 +132,7 @@ function init() {
     const width = window.innerWidth;
     const height = window.innerHeight;
     var y = 0;
-    var a = 5900;
+    var a = 5700;
 
     // レンダラーを作成
     const renderer = new THREE.WebGLRenderer({
@@ -196,6 +196,7 @@ function init() {
         y = 15000 - window.scrollY;
         a -= y * 0.00015;
         camera.position.set(0, 0, +a);
+        camera.lookAt(new THREE.Vector3(0, 0, 0));
 
         // レンダリング
         renderer.render(scene, camera);
