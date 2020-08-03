@@ -178,7 +178,7 @@ function init() {
             group.rotateY(0.01);
         }
         if (y < 14000 && y >= 13000) {
-            group.rotateY(0.007);
+            group.rotateY(0.006);
         }
         if (y < 13000 && y >= 12000) {
             group.rotateY(0.005);
