@@ -153,19 +153,10 @@ function init() {
     scene.add(group);
 
     const geometry = new THREE.BoxBufferGeometry(50, 50, 50);
-    // const geometry = new THREE.Geometry();
-    // geometry.vertices.push(
-    //     new THREE.Vector3(-Math.random() * 100, 0, 0),
-    //     new THREE.Vector3(0, Math.random() * 100, 0),
-    //     new THREE.Vector3(Math.random() * 100, 0, 0),
-    // );
     const material = new THREE.MeshStandardMaterial();
-    // const material = new THREE.LineBasicMaterial({ color: 0xffffff });
-    // var newline = new THREE.Line(geometry, material);
 
     var lines = new THREE.Group();
     const line_material = new THREE.LineBasicMaterial({ color: 0xff379b });
-    // for文でランダムな線（newline）を複数作る
     for (let i = 0; i < 1000; i++) {
         var line_geometry = new THREE.Geometry();
         line_geometry.vertices.push(
@@ -181,6 +172,7 @@ function init() {
         lines.add(newline);
     }
     scene.add(lines);
+
 
     for (let i = 0; i < 4000; i++) {
         const mesh = new THREE.Mesh(geometry, material);
@@ -203,31 +195,31 @@ function init() {
     function tick() {
         if (y >= 14000) {
             group.rotateY(0.007);
-            lines.rotateY(0.007);
+            // lines.rotateY(0.007);
         }
         if (y < 14000 && y >= 13000) {
             group.rotateY(0.006);
-            lines.rotateY(0.006);
+            // lines.rotateY(0.006);
         }
         if (y < 13000 && y >= 12000) {
             group.rotateY(0.005);
-            lines.rotateY(0.005);
+            // lines.rotateY(0.005);
         }
         if (y < 12000 && y >= 11000) {
             group.rotateY(0.004);
-            lines.rotateY(0.004);
+            // lines.rotateY(0.004);
         }
         if (y < 11000 && y >= 8000) {
             group.rotateY(0.003);
-            lines.rotateY(0.003);
+            // lines.rotateY(0.003);
         }
         if (y < 8000 && y >= 4000) {
             group.rotateY(0.002);
-            lines.rotateY(0.002);
+            // lines.rotateY(0.002);
         }
         if (y < 4000) {
             group.rotateY(0.001);
-            lines.rotateY(0.001);
+            // lines.rotateY(0.001);
         }
 
         y = 15000 - window.scrollY;
