@@ -3,7 +3,7 @@
 } */
 
 .title{
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
     display: flex;
     align-items: center;
@@ -18,14 +18,14 @@
 .title p{
      color: #ffffff;
      display: block;
-     margin: 0px;
+     margin: 0 auto;
      padding: 0px;
      font-size: 1rem;
      line-height: 1.3rem;
 }
 
 .title h1{
-    margin: 0px;
+    margin: 0 auto;
     writing-mode: vertical-rl;
     padding: 15px;
     color: #000000;
