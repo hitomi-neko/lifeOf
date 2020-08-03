@@ -3,6 +3,17 @@
 
 <head>
     <meta charset="utf-8">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'cgi2fcs',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
@@ -44,7 +55,7 @@
                 <h2 class="area" style="position: absolute; top: calc(100vh + 10px);">外気圏<br></h2>
             </div>
             <div class="parent">
-                <h3 class="area1" style="position: absolute; top: calc(100vh + 40px);">100%　--> 10%</h3>
+                <h3 class="area1" style="position: absolute; top: calc(100vh + 40px);">100%　――> 10%</h3>
             </div>
 
             <div class="parent">
@@ -72,7 +83,7 @@
             </div>
 
             <div class="parent">
-                <h3 class="p7050" style="position: absolute; top: calc(630px + 100vh);">70%</h3>
+                <h3 class="p7050" style="position: absolute; top: calc(628px + 100vh);">70%</h3>
             </div>
             <!-- <hr style=" border:dashed 1px; top: calc(628px + 100vh);"> -->
 
@@ -113,7 +124,7 @@
             </div>
 
             <div class="parent">
-                <h3 class="p7050" style="position: absolute; top: calc(100vh + 782px);">50%
+                <h3 class="p7050" style="position: absolute; top: calc(100vh + 780px);">50%
                 </h3>
             </div>
 
@@ -194,7 +205,7 @@
             </div>
 
             <div class="parent">
-                <h3 class="area1" style="position: absolute; top: calc(100vh + 1283px + 100px + 40px);">10%　--> 1%</h3>
+                <h3 class="area1" style="position: absolute; top: calc(100vh + 1283px + 100px + 40px);">10%　――> 1%</h3>
             </div>
 
             <div class="parent">
@@ -204,7 +215,7 @@
             <hr style="margin-top: 140px; margin-bottom: 0px;">
             <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
             <div class="parent">
-                <h3 class="p5" style="position: absolute; top: calc(100vh + 779px + 1383px);">5%
+                <h3 class="p5" style="position: absolute; top: calc(100vh + 779px + 1381px);">5%
                 </h3>
             </div>
 
@@ -228,7 +239,7 @@
             </div>
 
             <div class="parent">
-                <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 40px);">1%　--> 0.1%
+                <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 40px);">1%　――> 0.1%
                 </h3>
             </div>
 
@@ -239,7 +250,7 @@
             <hr style="margin-top: 140px; margin-bottom: 0px;">
             <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
             <div class="parent">
-                <h3 class="p05" style="position: absolute; top: calc(100vh + 779px + 1383px + 1383px);">
+                <h3 class="p05" style="position: absolute; top: calc(100vh + 779px + 1383px + 1381px);">
                     0.5%
                 </h3>
             </div>
@@ -331,7 +342,7 @@
 
             <div class="parent">
                 <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 40px);">
-                    0.1%　-->
+                    0.1%　――>
                     0.01%</h3>
             </div>
 
@@ -342,7 +353,7 @@
             <hr style="margin-top: 140px; margin-bottom: 0px;">
             <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
             <div class="parent">
-                <h3 class="p005" style="position: absolute; top: calc(100vh + 779px + 1383px + 1383px + 1383px);">
+                <h3 class="p005" style="position: absolute; top: calc(100vh + 779px + 1383px + 1383px + 1381px);">
                     0.05%
                 </h3>
             </div>
@@ -500,7 +511,7 @@
             <div class="parent">
                 <h3 class="area1"
                     style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 40px);">
-                    0.01%　-->
+                    0.01%　――>
                     0.001%
                 </h3>
             </div>
@@ -514,7 +525,7 @@
             <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
             <div class="parent">
                 <h3 class="p0005"
-                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px);">
+                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1382px);">
                     0.005%
                 </h3>
             </div>
@@ -582,7 +593,7 @@
             <div class="parent">
                 <h3 class="area1"
                     style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 40px);">
-                    0.001%　-->
+                    0.001%　――>
                     0.0001%</h3>
             </div>
 
@@ -595,7 +606,7 @@
             <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
             <div class="parent">
                 <h3 class="p00005"
-                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px + 1383px);">
+                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px + 1382px);">
                     0.0005%
                 </h3>
             </div>
@@ -636,7 +647,7 @@
             <div class="parent">
                 <h3 class="area1"
                     style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 40px);">
-                    0.0001%　-->
+                    0.0001%　――>
                     0.000…%</h3>
             </div>
 
@@ -650,7 +661,7 @@
             <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
             <div class="parent">
                 <h3 class="p000005"
-                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px);">
+                    style="position: absolute; top: calc(100vh + 777px + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px);">
                     0.00005%
                 </h3>
             </div>
@@ -692,7 +703,7 @@
             <div class="parent">
                 <h3 class="area1"
                     style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 40px);">
-                    0.0000…%　-->
+                    0.0000…%　――>
                     0.000%</h3>
             </div>
 
@@ -719,9 +730,10 @@
 
         <div class="footer">
             <div class="parent">
-                <p>presented by hitomi-neko<br><br><a
-                        href="https://github.com/hitomi-neko">https://github.com/hitomi-neko</a><br>
-                    <a href="https://www.openprocessing.org/user/226706">https://www.openprocessing.org/user/226706</a>
+                <p>presented by hitomi-neko<br><br><a href="https://github.com/hitomi-neko"
+                        target="_blank">https://github.com/hitomi-neko</a><br>
+                    <a href="https://www.openprocessing.org/user/226706"
+                        target="_blank">https://www.openprocessing.org/user/226706</a>
                 </p>
             </div>
         </div>
@@ -1245,7 +1257,7 @@
                 <p>×</p>
             </div>
             <h1 class="modalTtl" id="title30">
-                約864,000自殺者<br>
+                自殺者<br>
                 20,169人</h1>
             <div class="modalText" id="text30">
                 <p>2019年度</p>

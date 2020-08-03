@@ -197,7 +197,11 @@ function init() {
         }
 
         y = 15000 - window.scrollY;
-        a -= y * 0.00015;
+        if (a > 100) {
+            a -= y * 0.00015;
+        } else {
+            a = 100;
+        }
         camera.position.set(0, 0, +a);
         camera.lookAt(new THREE.Vector3(0, 0, 0));
 

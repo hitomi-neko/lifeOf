@@ -19,7 +19,7 @@
      padding: 0px;
      font-size: 1rem;
      line-height: 1.3rem;
-     font-family: "ＭＳ 明朝",serif;
+     font-family: a-otf-futo-min-a101-pr6n, serif;
      font-weight: bold;
 }
 
@@ -33,7 +33,7 @@
     writing-mode: vertical-rl;
     align-items: center;
     font-size: 2.3rem;
-    font-family: "ＭＳ 明朝",serif;
+    font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 /* body{
@@ -49,7 +49,7 @@
       text-align: center;
       padding: 0px;
       margin: 0px;
-      font-family: "ＭＳ 明朝",serif;
+      font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 #myCanvas{
@@ -155,7 +155,7 @@
       opacity: 1.0;
       font-size: 0.65rem;
       line-height: 0.95rem;
-      font-family: "メイリオ",serif;
+      font-family: kozuka-gothic-pr6n, sans-serif;
 }
 
 .item :hover{
@@ -249,21 +249,22 @@
      margin-bottom: -20px;
      padding: -20px;
      padding-bottom: -100px;
-     font-family: "ＭＳ 明朝",serif;
+     font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 .footer p{
-     margin-top: 20px;
-     font-family: "ＭＳ 明朝",serif;
+     margin-top: 10px;
+     font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 a{
-     color: #ffffff;
+      color: #ffffff;
+     /* color: #000; */
+     height: 120px;
      font-size: 0.8rem;
-     line-height: 0.9rem;
-     font-family: "ＭＳ 明朝",serif;
+     line-height: 0.3rem;
+     font-family: a-otf-futo-min-a101-pr6n, serif;
 }
-
 /* a :hover{
     opacity: 0.5;
 } */
@@ -320,64 +321,64 @@ hr{
 
 #num9,#text9,#ctext9,#title9,#closeBtn9{
     color:#f08a36;
-    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    font-family: tbcinergothic-std, sans-serif;
 }
 
 #num7,#num8{
     color: #4b3829;
-    font-family: "HGP行書体";
+    font-family: ro-shino-std, serif;
     font-size: 0.72rem;
     line-height: 0.92rem;
 }
 #text7,#ctext7,#title7,#closeBtn7,#text8,#ctext8,#title8,#closeBtn8{
     color: #4b3829;
-    font-family: "HGP行書体";
+    font-family: ro-shino-std, serif;
 }
 
 #num11,#text11,#ctext11,#title11,#closeBtn11{
     color: #ff1cff;
-    font-family: "ＭＳ 明朝",serif;
+    font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 #num15{
     color: #5a0606;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
 #text15,#ctect15,#title15,#closeBtn15{
     color: #5a0606;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
 }
 
 #num16{
     color: #06065a;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
 #text16,#ctext16,#title16,#closeBtn16{
     color: #06065a;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
 }
 
 #num17{
     color: #b90000;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
 #text17,#ctext17,#title17,#closeBtn17{
     color: #b90000;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
 }
 
 #num18,#text18,#ctext18,#title18,#closeBtn18{
     color:#ff379b;
-    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    font-family: tbcinergothic-std, sans-serif;
 }
 
 #num20,#text20,#ctext20,#title20,#closeBtn20{
@@ -386,14 +387,14 @@ hr{
 
 #num22,#num28,#num33{
     color: #144624;
-    font-family: "HGP行書体";
+    font-family: ro-shino-std, serif;
     font-size: 0.75rem;
     line-height: 0.95rem;
 }
 
 #text22,#ctext22,#title22,#closeBtn22,#text28,#ctext28,#title28,#closeBtn28,#text33,#ctext33,#title33,#closeBtn33{
     color: #144624;
-    font-family: "HGP行書体";
+    font-family: ro-shino-std, serif;
 }
 
 #num26,#text26,#ctext26,#title26,#closeBtn26{
@@ -402,55 +403,55 @@ hr{
 
 #num27,#num35,#num19,#num29{
     color: #491a5c;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
 #text19,#ctext19,#title19,#closeBtn19,#text27,#ctext27,#title27,#closeBtn27,#text29,#ctext29,#title29,#closeBtn29,#text35,#ctext35,#title35,#closeBtn35{
     color: #491a5c;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
 }
 
 #num30{
     color: #b90000;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
 #text30,#ctext30,#title30,#closeBtn30{
     color: #b90000;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
 }
 
 #num31{
     color: #0000b9;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
 #text31,#ctext31,#title31,#close31{
     color: #0000b9;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
 }
 
 #num32,#num34{
     color: #000;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
 #text32,#ctext32,#title32,#closeBtn32,#text34,#ctext34,#title34,#closeBtn34{
     color: #000;
-    font-family: "HGP創英ﾌﾟﾚｾﾞﾝｽEB",serif;
+    font-family: yu-mincho-pr6n, sans-serif;
 }
 
 #num36,#num37,#text36,#ctext36,#title36,#closeBtn36,#text37,#ctext37,#title37,#closeBtn37{
     color: #000;
-    font-family: "ＭＳ 明朝",serif;
+    font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 #num14,#num3,#num6,#num25,#text3,#ctext3,#title3,#closeBtn3,#text6,#ctitle6,#title6,#closeBtn6,#text14,#ctext14,#title14,#closeBtn14,#text25,#ctext25,#title25,#closeBtn25{
@@ -459,7 +460,7 @@ hr{
 
 
 .area,.area1{
-    font-family: "ＭＳ 明朝",serif;
+    font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 * {
@@ -494,6 +495,7 @@ hr{
      z-index: 100;
      text-align: center;
      align-items: center;
+     font-family: kozuka-gothic-pr6n, sans-serif;
 }
 
 .modalCloseBtn{
@@ -504,6 +506,7 @@ hr{
      padding-bottom: 0px;
      margin: 0 auto;
      z-index: 100;
+     font-family: kozuka-gothic-pr6n, sans-serif;
 }
 
 .modalText{
@@ -515,6 +518,7 @@ hr{
      margin: 0 auto;
      font-size: 0.9rem;
      z-index: 100;
+     font-family: kozuka-gothic-pr6n, sans-serif;
 }
 
 .modalTtl{
@@ -525,6 +529,7 @@ hr{
      margin: 0 auto;
      font-size: 1.5rem;
      z-index: 100;
+     font-family: kozuka-gothic-pr6n, sans-serif;
 }
 
 .modalCover{
@@ -549,4 +554,5 @@ hr{
      text-align: center;
      display: block;
      margin: 0 auto;
+     font-family: kozuka-gothic-pr6n, sans-serif;
 }

@@ -12,7 +12,7 @@
     width: 100%;
     justify-content: space-around;
     height: 50vh;
-    font-family: "ＭＳ 明朝",serif;
+    font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 .title p{
@@ -32,11 +32,11 @@
     background-color: #ffffff;
     display: block;
     font-size: 2.3rem;
-    font-family: "ＭＳ 明朝",serif;
+    font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 body{
-     font-family: "ＭＳ 明朝",serif;
+     font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
 .parent{
@@ -263,7 +263,7 @@ body{
 }
 
 .footer p{
-     margin-top: 20px;
+     margin-top: 10px;
 }
 
 a{
@@ -271,12 +271,9 @@ a{
      /* color: #000; */
      height: 120px;
      font-size: 0.8rem;
-     line-height: 0.9rem;
+     line-height: 0.3rem;
 }
 
-/* a :hover{
-    opacity: 0.5;
-} */
 
 body{
      padding-bottom: 0px;
