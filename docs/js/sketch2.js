@@ -139,7 +139,7 @@ function init() {
     const width = window.innerWidth;
     const height = window.innerHeight;
     var y = 0;
-    var a = 5700;
+    var a = 5400;
 
     // レンダラーを作成
     const renderer = new THREE.WebGLRenderer({
@@ -231,7 +231,7 @@ function init() {
 
         y = 15000 - window.scrollY;
         if (a > 1000) {
-            a -= y * 0.00015;
+            a -= y * 0.00007;
         } else {
             a = 1000;
         }
