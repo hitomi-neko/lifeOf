@@ -135,13 +135,11 @@ for (let i = 1; i < 38; i++) {
 }
 
 function init() {
-    // サイズを指定
     const width = window.innerWidth;
     const height = window.innerHeight;
     var y = 0;
     var a = 5400;
 
-    // レンダラーを作成
     const renderer = new THREE.WebGLRenderer({
         canvas: document.querySelector('#myCanvas'),
         antialias: true,
@@ -193,12 +191,12 @@ function init() {
         group.add(mesh);
     }
 
-    scene.add(new THREE.DirectionalLight(0xff0000, 2)); // 平行光源
-    scene.add(new THREE.AmbientLight(0x00ffff)); // 環境光源
+    scene.add(new THREE.DirectionalLight(0xff0000, 2));
+    scene.add(new THREE.AmbientLight(0x00ffff));
 
+    window.addEventListener('resize', resize);
     tick();
 
-    // 毎フレーム時に実行されるループイベントです
     function tick() {
         if (y >= 14000) {
             group.rotateY(0.007);
@@ -242,5 +240,16 @@ function init() {
         renderer.render(scene, camera);
 
         requestAnimationFrame(tick);
+    }
+
+    function resize() {
+        const widthR = window.innerWidth;
+        const heightR = window.innerHeight;
+
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(widthR, heightR);
+
+        camera.aspect = widthR / heightR;
+        camera.updateProjectionMatrix();
     }
 }
