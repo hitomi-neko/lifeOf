@@ -91,76 +91,17 @@ body{
     /* filter: invert(100%); */
 }
 
-/* 
 @media screen and (max-width:480px) {
-     .title{
-          margin: 0px;
-          padding: 0px;
-          display: flex;
-          flex-wrap: nowrap;
-          align-items: center;
-          text-align: center;
-          height: 50vh;
-          font-family: "ＭＳ 明朝",serif;
+     .title p{
+     color: #ffffff;
+     display: block;
+     margin: 0 auto;
+     padding: 0px;
+     font-size: 0.7rem;
+     line-height: 0.9rem;
+     overflow: hidden;
      }
-
-     .title h1{
-          margin: 0 auto;
-          writing-mode: vertical-rl;
-          padding: 10px;
-          color: #000000;
-          background-color: #ffffff;
-          display: flex;
-          flex-wrap: nowrap;
-          writing-mode: vertical-rl;
-          align-items: center;
-          font-size: 1.5rem;
-          font-family: "ＭＳ 明朝",serif;
-     }
-
-    .title p{
-          color: #ffffff;
-          display: block;
-          align-items: center;
-          margin: 0 auto;
-          padding: 0px;
-          font-size: 0.7rem;
-          line-height: 1.0rem;
-    }
-
-    .item{
-          width: 40vw;
-          height: 27vw;
-          border-radius: 50%;
-          color: #ffffff; 
-          opacity: 1.0;
-          font-size: 0.5rem; 
-          line-height: 0.75rem;
-    }
-
-    .parent{
-          display: flex;
-          align-items: center;
-          flex-wrap: nowrap;
-          width: 100%;
-          justify-content: space-around;
-          text-align: center;
-          padding: 0px;
-          margin: 0px;
-    }
-
-    #myCanvas{
-          z-index: -1;
-          position: fixed;
-          top: 0vh;
-          opacity: 0.9;
-          filter: grayscale(100%);
-          padding: 0px;
-          margin: 0px;
-          height: 100%;
-     /* filter: invert(100%); */
-     /* }
-} */ 
+}
 
 .child{
       width: 40vw;
@@ -178,7 +119,6 @@ body{
      /* text-align: left; */
       width: 40vw;
       height: 17vw;
-      border-radius: 50%;
       color: #ffffff; 
       opacity: 1.0;
       font-size: 0.65rem;
