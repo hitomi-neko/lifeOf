@@ -338,14 +338,14 @@ hr{
     font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
-#num15{
+#num15,#num42{
     color: #5a0606;
     font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#text15,#ctect15,#title15,#closeBtn15{
+#text15,#ctect15,#title15,#closeBtn15,#text42,#ctext42,#title42,#closeBtn42{
     color: #5a0606;
     font-family: yu-mincho-pr6n, sans-serif;
 }
