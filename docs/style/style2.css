@@ -189,17 +189,6 @@
 .p0001{
      background-color: rgba(255,255,255,0.4);
      color: #000;
-     height: 1353px;
-     width: 100vw;
-     margin-top: 30px;
-     padding: 0px;
-}
-
-
-
-.p00001{
-     background-color: rgba(255,255,255,0.3);
-     color: #000;
      height: 1453px;
      width: 100vw;
      margin-top: 30px;
@@ -207,8 +196,9 @@
 }
 
 
+
 .p0{
-     background-color: rgba(255,255,255,0.2);
+     background-color: rgba(255,255,255,0.3);
      color: #000;
      height: 700px;
      width: 100vw;
@@ -279,10 +269,7 @@ body{
     background-color: rgba(255,255,255,0.3);
     font-size: 1.0rem;
 }
-.p000005{
-    background-color: rgba(255,255,255,0.2);
-    font-size: 1.0rem;
-}
+
 
 hr{
     opacity: 0.4;
@@ -379,14 +366,16 @@ hr{
     color:#935ae4;
 }
 
-#num27,#num35,#num19,#num29{
+#num27,#num35,#num19,#num29,#num38{
     color: #491a5c;
     font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#text19,#ctext19,#title19,#closeBtn19,#text27,#ctext27,#title27,#closeBtn27,#text29,#ctext29,#title29,#closeBtn29,#text35,#ctext35,#title35,#closeBtn35{
+#text19,#ctext19,#title19,#closeBtn19,#text27,#ctext27,#title27,
+#closeBtn27,#text29,#ctext29,#title29,#closeBtn29,#text35,#ctext35,
+#title35,#closeBtn35,#text38,#ctext38,#title38,#closeBtn38{
     color: #491a5c;
     font-family: yu-mincho-pr6n, sans-serif;
 }

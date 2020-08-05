@@ -190,17 +190,6 @@ body{
 .p0001{
      background-color: rgba(0,0,0,0.4);
      color: #ffffff;
-     height: 1353px;
-     width: 100vw;
-     margin-top: 30px;
-     padding: 0px;
-}
-
-
-
-.p00001{
-     background-color: rgba(0,0,0,0.3);
-     color: #ffffff;
      height: 1453px;
      width: 100vw;
      margin-top: 30px;
@@ -208,8 +197,9 @@ body{
 }
 
 
+
 .p0{
-     background-color: rgba(0,0,0,0.2);
+     background-color: rgba(0,0,0,0.3);
      color: #ffffff;
      height: 700px;
      width: 100vw;
@@ -277,10 +267,7 @@ body{
     background-color: rgba(0,0,0,0.3);
     font-size: 1.0rem;
 }
-.p000005{
-    background-color: rgba(0,0,0,0.2);
-    font-size: 1.0rem;
-}
+
 
 * {
     margin: 0px;
