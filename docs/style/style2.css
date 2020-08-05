@@ -54,7 +54,7 @@
      line-height: 1.3rem;
      font-family: a-otf-futo-min-a101-pr6n, serif;
      font-weight: bold;
-     overflow: hidden;   
+     /* overflow: hidden;    */
 }
 
 .title h1{
@@ -108,7 +108,7 @@
      line-height: 0.9rem;
      font-family: a-otf-futo-min-a101-pr6n, serif;
      font-weight: bold;
-     overflow: hidden;   
+     /* overflow: hidden;    */
     }
 }
 
