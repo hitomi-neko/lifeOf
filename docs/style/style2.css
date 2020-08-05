@@ -316,14 +316,14 @@ hr{
     font-family: yu-mincho-pr6n, sans-serif;
 }
 
-#num16{
+#num16,#num39{
     color: #06065a;
     font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
     line-height: 0.90rem;
 }
 
-#text16,#ctext16,#title16,#closeBtn16{
+#text16,#ctext16,#title16,#closeBtn16,#text39,#title39,#ctext39,#closeBtn39{
     color: #06065a;
     font-family: yu-mincho-pr6n, sans-serif;
 }
