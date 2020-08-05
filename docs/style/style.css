@@ -92,19 +92,6 @@ body{
 }
 
 @media screen and (max-width:480px) {
-     .title{
-    margin: 0 auto;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: space-around;
-    height: 40vh;
-    font-family: a-otf-futo-min-a101-pr6n, serif;
-    }
-    
      .title p{
      color: #ffffff;
      display: block;
