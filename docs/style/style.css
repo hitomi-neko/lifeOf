@@ -101,6 +101,27 @@ body{
      line-height: 0.9rem;
      /* overflow: hidden; */
      }
+     
+     .modalText{
+          width: 40vw;
+          text-align: left;
+          padding-top: 3px;
+          padding-bottom: 0px;
+          display: block;
+          margin: 0 auto;
+          font-size: 0.7rem;
+          z-index: 100;
+     }
+
+     .modalTtl{
+          width: 40vw;
+          text-align: left;
+          padding-top: 20px;
+          display: block;
+          margin: 0 auto;
+          font-size: 1.1rem;
+          z-index: 100;
+     }
 }
 
 .child{

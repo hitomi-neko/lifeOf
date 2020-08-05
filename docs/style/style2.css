@@ -110,6 +110,40 @@
      font-weight: bold;
      /* overflow: hidden;    */
     }
+    
+    .modalText{
+        width: 40vw;
+        text-align: left;
+        padding-top: 3px;
+        padding-bottom: 0px;
+        display: block;
+        margin: 0 auto;
+        font-size: 0.7rem;
+        z-index: 100;
+        font-family: kozuka-gothic-pr6n, sans-serif;
+    }
+
+    .modalTtl{
+        width: 40vw;
+        text-align: left;
+        padding-top: 0px;
+        display: block;
+        margin: 0 auto;
+        font-size: 1.1rem;
+        z-index: 100;
+        font-family: kozuka-gothic-pr6n, sans-serif;
+    }
+
+    .modalTextCol{
+        font-size: 0.8rem;
+        z-index: 100;
+        padding-bottom: 20px;
+        width: 40vw;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        font-family: kozuka-gothic-pr6n, sans-serif;
+    }
 }
 
 
