@@ -198,23 +198,23 @@ function init() {
     tick();
 
     function tick() {
-        if (y >= 14000) {
+        if (y >= 13000) {
             group.rotateY(0.007);
             // lines.rotateY(0.007);
         }
-        if (y < 14000 && y >= 13000) {
+        if (y < 13000 && y >= 12000) {
             group.rotateY(0.006);
             // lines.rotateY(0.006);
         }
-        if (y < 13000 && y >= 12000) {
+        if (y < 12000 && y >= 11000) {
             group.rotateY(0.005);
             // lines.rotateY(0.005);
         }
-        if (y < 12000 && y >= 11000) {
+        if (y < 11000 && y >= 10000) {
             group.rotateY(0.004);
             // lines.rotateY(0.004);
         }
-        if (y < 11000 && y >= 8000) {
+        if (y < 10000 && y >= 8000) {
             group.rotateY(0.003);
             // lines.rotateY(0.003);
         }
@@ -227,7 +227,7 @@ function init() {
             // lines.rotateY(0.001);
         }
 
-        y = 15000 - window.scrollY;
+        y = 14000 - window.scrollY;
         if (a > 1000) {
             a -= y * 0.00007;
         } else {
