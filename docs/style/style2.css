@@ -383,14 +383,15 @@ hr{
     color:#f08a36;
 }
 
-#num22,#num28,#num33{
+#num22,#num28,#num33,#num52{
     color: #144624;
     font-family: ro-shino-std, serif;
     font-size: 0.75rem;
     line-height: 0.95rem;
 }
 
-#text22,#ctext22,#title22,#closeBtn22,#text28,#ctext28,#title28,#closeBtn28,#text33,#ctext33,#title33,#closeBtn33{
+#text22,#ctext22,#title22,#closeBtn22,#text28,#ctext28,#title28,#closeBtn28,
+#text33,#ctext33,#title33,#closeBtn33,#text52,#ctext52,#title52,#closeBtn52{
     color: #144624;
     font-family: ro-shino-std, serif;
 }
