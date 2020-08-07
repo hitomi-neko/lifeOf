@@ -400,7 +400,7 @@ hr{
     color:#935ae4;
 }
 
-#num27,#num35,#num19,#num29,#num38,#num46,#num47{
+#num27,#num35,#num19,#num29,#num38,#num46,#num47,#num53{
     color: #491a5c;
     font-family: yu-mincho-pr6n, sans-serif;
     font-size: 0.70rem;
@@ -410,7 +410,7 @@ hr{
 #text19,#ctext19,#title19,#closeBtn19,#text27,#ctext27,#title27,
 #closeBtn27,#text29,#ctext29,#title29,#closeBtn29,#text35,#ctext35,
 #title35,#closeBtn35,#text38,#ctext38,#title38,#closeBtn38,#text46,#ctext46,#title46,#closeBtn46,
-#text47,#ctext47,#title47,#closeBtn47{
+#text47,#ctext47,#title47,#closeBtn47,#text53,#ctext53,#title53,#closeBtn53{
     color: #491a5c;
     font-family: yu-mincho-pr6n, sans-serif;
 }
