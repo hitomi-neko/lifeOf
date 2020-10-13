@@ -247,9 +247,9 @@
      height: 120px;
      width: 100vw;
      margin-top: -20px;
-     margin-bottom: -20px;
+     /* margin-bottom: -20px; */
      padding: -20px;
-     padding-bottom: -100px;
+     /* padding-bottom: -100px; */
      font-family: a-otf-futo-min-a101-pr6n, serif;
 }
 
@@ -271,10 +271,15 @@ a{
 } */
 
 body{
-     padding-bottom: 0px;
-     margin-bottom: 0px;
-     padding-left: 0px;
-     padding-right: 0px;
+     font-family: a-otf-futo-min-a101-pr6n, serif;
+     padding: 0px;
+     margin: 0px;
+     width: 100%;
+     min-width: 480px;
+}
+
+.wrap {
+	overflow: hidden;
 }
 
 .p7050{

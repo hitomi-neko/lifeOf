@@ -28,1741 +28,1753 @@
 </head>
 
 <body>
-    <div id="showloading">
-        <img src="./image/mark.gif" alt="loading">
-    </div>
-    <!-- <input type="checkbox" id="modal01" class="modalCheck"> -->
-    <img src="image/iromegane_color2.png" id="button" class="open"
-        style="position: fixed; top:20px; right:20px; width: 60px; height:60px; z-index: 5;">
-    <img src="image/ragan.png" id="button1" class="open"
-        style="position: fixed; top:20px; right:20px; width: 60px; height:60px; display: none; z-index: 5;">
-    <canvas id="myCanvas"></canvas>
-    <div id="main">
-        <div class="title" id="mono1" style="display: flex;">
-            <h1>社会の素描</h1>
+    <div class="wrap">
+        <div id="showloading">
+            <img src="./image/mark.gif" alt="loading">
         </div>
-        <div class="title" id="mono2" style="display: flex;">
-            <p> 　これは、日本における「いのちの数」を描写しています
-                <br> 　ここにあるデータは、その描写の羅列でしかありません<br>　<br> 搭乗はこちらから<br>　↓</p>
-        </div>
-
-        <div class="title" id="col1" style="display: none;">
-            <h1>イロメガネ</h1>
-        </div>
-        <div class="title" id="col2" style="display: none;">
-            <p> 　眼鏡をかければ見え方は変わる
-                <br> 　みんなかけてるおしゃれな眼鏡<br>　<br> ここから先、偏見注意<br>　↓
-            </p>
-        </div>
-
-        <div class="p100">
-            <div class="parent">
-                <h2 class="area" style="position: absolute; top: calc(100vh + 10px);">外気圏<br></h2>
+        <!-- <input type="checkbox" id="modal01" class="modalCheck"> -->
+        <img src="image/iromegane_color2.png" id="button" class="open"
+            style="position: fixed; top:20px; right:20px; width: 60px; height:60px; z-index: 5;">
+        <img src="image/ragan.png" id="button1" class="open"
+            style="position: fixed; top:20px; right:20px; width: 60px; height:60px; display: none; z-index: 5;">
+        <canvas id="myCanvas"></canvas>
+        <div id="main">
+            <div class="title" id="mono1" style="display: flex;">
+                <h1>社会の素描</h1>
             </div>
-            <div class="parent">
-                <h3 class="area1" style="position: absolute; top: calc(100vh + 40px);">100%　――> 10%</h3>
+            <div class="title" id="mono2" style="display: flex;">
+                <p> 　これは、日本における「いのちの数」を描写しています
+                    <br> 　ここにあるデータは、その描写の羅列でしかありません<br>　<br> 搭乗はこちらから<br>　↓</p>
             </div>
 
-            <div class="parent">
-                <p style="position: absolute; top: calc(100vh + 90px);">ここから先、暫く高速運転</p>
+            <div class="title" id="col1" style="display: none;">
+                <h1>イロメガネ</h1>
+            </div>
+            <div class="title" id="col2" style="display: none;">
+                <p> 　眼鏡をかければ見え方は変わる
+                    <br> 　みんなかけてるおしゃれな眼鏡<br>　<br> ここから先、偏見注意<br>　↓
+                </p>
             </div>
 
-            <div class="parent">
-                <p style="position: absolute; top: calc(100vh + 60px); font-size: 0.65rem;">※日本人口比</p>
-            </div>
+            <div class="p100">
+                <div class="parent">
+                    <h2 class="area" style="position: absolute; top: calc(100vh + 10px);">外気圏<br></h2>
+                </div>
+                <div class="parent">
+                    <h3 class="area1" style="position: absolute; top: calc(100vh + 40px);">100%　――> 10%</h3>
+                </div>
 
-            <hr style="margin-top: 140px; margin-bottom: 0px;">
-            <!-- <hr style="position: absolute; top: calc(140px + 100vh);"> -->
-            <hr style="border:dashed 1px; margin-top: 495px; margin-bottom: 0px;">
-            <hr style="border:dashed 1px; margin-top: 150px; margin-bottom: 0px;">
+                <div class="parent">
+                    <p style="position: absolute; top: calc(100vh + 90px);">ここから先、暫く高速運転</p>
+                </div>
 
-            <div class="parent">
-                <div id='num1' class="item" style="position: absolute; top: calc(150px + 100vh);">
-                    <h3>日本人<br>
-                        約125,960,000人
-                    </h3>
-                    <!-- <p>
+                <div class="parent">
+                    <p style="position: absolute; top: calc(100vh + 60px); font-size: 0.65rem;">※日本人口比</p>
+                </div>
+
+                <hr style="margin-top: 140px; margin-bottom: 0px;">
+                <!-- <hr style="position: absolute; top: calc(140px + 100vh);"> -->
+                <hr style="border:dashed 1px; margin-top: 495px; margin-bottom: 0px;">
+                <hr style="border:dashed 1px; margin-top: 150px; margin-bottom: 0px;">
+
+                <div class="parent">
+                    <div id='num1' class="item" style="position: absolute; top: calc(150px + 100vh);">
+                        <h3>日本人<br>
+                            約125,960,000人
+                        </h3>
+                        <!-- <p>
                     これが、いま日本にあるいのちの数です。(2020年7月1日現在)
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <h3 class="p7050" style="position: absolute; top: calc(628px + 100vh);">70%</h3>
-            </div>
-            <!-- <hr style=" border:dashed 1px; top: calc(628px + 100vh);"> -->
+                <div class="parent">
+                    <h3 class="p7050" style="position: absolute; top: calc(628px + 100vh);">70%</h3>
+                </div>
+                <!-- <hr style=" border:dashed 1px; top: calc(628px + 100vh);"> -->
 
-            <div class="parent">
+                <div class="parent">
 
-                <div id='num2' class="item" style="position: absolute; top: calc(659px + 100vh);">
-                    <h3>生産年齢人口<br>
-                        約75,050,000人
-                    </h3>
-                    <!-- <p>
+                    <div id='num2' class="item" style="position: absolute; top: calc(659px + 100vh);">
+                        <h3>生産年齢人口<br>
+                            約75,050,000人
+                        </h3>
+                        <!-- <p>
                     日本の生産年齢人口です。(2019年9月15日、15~64歳の人口)
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <div class="child">
-                    <div id='num3' class="item" style="position: absolute; top: calc(100vh + 744px);">
-                        <h3>就業者<br>
-                            約66,560,000人
-                        </h3>
-                        <!-- <p>
+                <div class="parent">
+                    <div class="child">
+                        <div id='num3' class="item" style="position: absolute; top: calc(100vh + 744px);">
+                            <h3>就業者<br>
+                                約66,560,000人
+                            </h3>
+                            <!-- <p>
                     2020年4月現在
                         </p> -->
+                        </div>
                     </div>
-                </div>
 
-                <div class="child">
-                    <div id='num4' class="item" style="position: absolute; top: calc(100vh + 761px);">
-                        <h3>女性<br>
-                            約64,860,000人
-                        </h3>
-                        <!-- <p>
+                    <div class="child">
+                        <div id='num4' class="item" style="position: absolute; top: calc(100vh + 761px);">
+                            <h3>女性<br>
+                                約64,860,000人
+                            </h3>
+                            <!-- <p>
                     日本の女性人口です。(2019年1月報)
                 </p> -->
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <h3 class="p7050" style="position: absolute; top: calc(100vh + 780px);">50%
-                </h3>
-            </div>
+                <div class="parent">
+                    <h3 class="p7050" style="position: absolute; top: calc(100vh + 780px);">50%
+                    </h3>
+                </div>
 
-            <div class="parent">
-                <div class="child">
-                    <div id='num5' class="item" style="position: absolute; top: calc(100vh + 795px);">
-                        <h3>男性<br>
-                            約61,460,000人
-                        </h3>
-                        <!-- <p>
+                <div class="parent">
+                    <div class="child">
+                        <div id='num5' class="item" style="position: absolute; top: calc(100vh + 795px);">
+                            <h3>男性<br>
+                                約61,460,000人
+                            </h3>
+                            <!-- <p>
                     日本の男性人口です。(2019年1月報)
                 </p> -->
+                        </div>
                     </div>
-                </div>
 
-                <div class="child">
-                    <div id='num6' class="item" style="position: absolute; top: calc(100vh + 818px);">
-                        <h3>雇用者<br>
-                            約59,200,000人
-                        </h3>
-                        <!-- <p>
+                    <div class="child">
+                        <div id='num6' class="item" style="position: absolute; top: calc(100vh + 818px);">
+                            <h3>雇用者<br>
+                                約59,200,000人
+                            </h3>
+                            <!-- <p>
                     2020年4月現在
                 </p> -->
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <div id='num7' class="item" style="position: absolute; top: calc(100vh + 1051px);">
-                    <h3>高齢者<br>
-                        約35,880,000人
-                    </h3>
-                    <!-- <p>
+                <div class="parent">
+                    <div id='num7' class="item" style="position: absolute; top: calc(100vh + 1051px);">
+                        <h3>高齢者<br>
+                            約35,880,000人
+                        </h3>
+                        <!-- <p>
                     日本で暮らす高齢者の数です。(2019年9月15日、65歳以上の人口)
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <div id='num8' class="item" style="position: absolute; top: calc(100vh + 1225px);">
-                    <h3>後期高齢者<br>
-                        約18,480,000人
-                    </h3>
-                    <!-- <p>
+                <div class="parent">
+                    <div id='num8' class="item" style="position: absolute; top: calc(100vh + 1225px);">
+                        <h3>後期高齢者<br>
+                            約18,480,000人
+                        </h3>
+                        <!-- <p>
                     日本で暮らす後期高齢者の数です。(2019年9月15日、75歳以上の人口)
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <div class="child">
-                    <div id='num9' class="item" style="position: absolute; top: calc(100vh + 1257px);">
-                        <h3>子ども<br>
-                            約15,240,000人
-                        </h3>
-                        <!-- <p>
+                <div class="parent">
+                    <div class="child">
+                        <div id='num9' class="item" style="position: absolute; top: calc(100vh + 1257px);">
+                            <h3>子ども<br>
+                                約15,240,000人
+                            </h3>
+                            <!-- <p>
                     日本で暮らす子どもの数です。(2019年9月15日、14歳以下の人口)
                 </p> -->
+                        </div>
                     </div>
-                </div>
 
-                <div class="child">
-                    <div id='num10' class="item" style="position: absolute; top: calc(100vh + 1282px);">
-                        <h3>東京都民<br>
-                            約12,758,000人
-                        </h3>
-                        <!-- <p>
+                    <div class="child">
+                        <div id='num10' class="item" style="position: absolute; top: calc(100vh + 1282px);">
+                            <h3>東京都民<br>
+                                約12,758,000人
+                            </h3>
+                            <!-- <p>
                     2019年10月
                 </p> -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="p10">
-            <div class="parent">
-                <h2 class="area" style="position: absolute; top: calc(100vh + 1283px + 100px + 10px);">熱圏</h2>
-            </div>
+            <div class="p10">
+                <div class="parent">
+                    <h2 class="area" style="position: absolute; top: calc(100vh + 1283px + 100px + 10px);">熱圏</h2>
+                </div>
 
-            <div class="parent">
-                <h3 class="area1" style="position: absolute; top: calc(100vh + 1283px + 100px + 40px);">10%　――> 1%</h3>
-            </div>
-
-            <div class="parent">
-                <p style="position: absolute; top: calc(100vh + 1283px + 100px + 90px);">速度、緩めます</p>
-            </div>
-
-            <hr style="margin-top: 140px; margin-bottom: 0px;">
-            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-            <div class="parent">
-                <h3 class="p5" style="position: absolute; top: calc(100vh + 779px + 1381px);">5%
-                </h3>
-            </div>
-
-
-            <div class="parent">
-                <div id='num11' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 59px);">
-                    <h3>性的マイノリティ<br>
-                        約12,000,000人
+                <div class="parent">
+                    <h3 class="area1" style="position: absolute; top: calc(100vh + 1283px + 100px + 40px);">10%　――> 1%
                     </h3>
-                    <!-- <p>
+                </div>
+
+                <div class="parent">
+                    <p style="position: absolute; top: calc(100vh + 1283px + 100px + 90px);">速度、緩めます</p>
+                </div>
+
+                <hr style="margin-top: 140px; margin-bottom: 0px;">
+                <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+                <div class="parent">
+                    <h3 class="p5" style="position: absolute; top: calc(100vh + 779px + 1381px);">5%
+                    </h3>
+                </div>
+
+
+                <div class="parent">
+                    <div id='num11' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 59px);">
+                        <h3>性的マイノリティ<br>
+                            約12,000,000人
+                        </h3>
+                        <!-- <p>
                     性的マイノリティは人口の10%ほどと言われています。<br>
                     「性的マイノリティ」自体の定義が難しく、色々な人がいます。そのため、正確な人数は誰にもわかりません。
                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <div class="child">
-                    <div id='num12' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 371px);">
-                        <h3>神奈川県民<br>
-                            約8,880,000人
-                        </h3>
-                        <!-- <p>
+                <div class="parent">
+                    <div class="child">
+                        <div id='num12' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 150px + 371px);">
+                            <h3>神奈川県民<br>
+                                約8,880,000人
+                            </h3>
+                            <!-- <p>
                                         2019年10月
                                     </p> -->
+                        </div>
                     </div>
-                </div>
 
-                <div class="child">
-                    <div id='num13' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 378px);">
-                        <h3>大阪府民<br>
-                            約8,812,000人
-                        </h3>
-                        <!-- <p>
+                    <div class="child">
+                        <div id='num13' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 150px + 378px);">
+                            <h3>大阪府民<br>
+                                約8,812,000人
+                            </h3>
+                            <!-- <p>
                                         2019年10月
                                         </p> -->
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <div id='num38' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 839px);">
-                    <h3>精神病患者<br>
-                        約4,193,000人
-                    </h3>
-                    <!-- <p>
+                <div class="parent">
+                    <div id='num38' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 839px);">
+                        <h3>精神病患者<br>
+                            約4,193,000人
+                        </h3>
+                        <!-- <p>
                                                         2018年1月
                                                     </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <div id='num43' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 887px);">
-                    <h3>横浜市民<br>
-                        3,724,844人
-                    </h3>
-                    <!-- <p>
+                <div class="parent">
+                    <div id='num43' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 887px);">
+                        <h3>横浜市民<br>
+                            3,724,844人
+                        </h3>
+                        <!-- <p>
                                                                     2018年1月
                                                                 </p> -->
+                    </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <div class="child">
-                    <div id='num41' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 969px);">
-                        <h3>大学生<br>
-                            約2,900,000人
-                            <!-- <p>
+                <div class="parent">
+                    <div class="child">
+                        <div id='num41' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 150px + 969px);">
+                            <h3>大学生<br>
+                                約2,900,000人
+                                <!-- <p>
                                               </h3>
                                                                2018年1月
                                                             </p> -->
+                        </div>
                     </div>
-                </div>
-                <div class="child">
-                    <div id='num14' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 985px);">
-                        <h3>地方公務員<br>
-                            約2,740,000人
-                            <!-- <p>
+                    <div class="child">
+                        <div id='num14' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 150px + 985px);">
+                            <h3>地方公務員<br>
+                                約2,740,000人
+                                <!-- <p>
                           </h3>
                                            2018年1月
                                         </p> -->
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="parent">
-                <div id='num52' class="item" style="position: absolute; top: calc(100vh + 1383px + 150px + 1045px);">
-                    <h3>生活保護受給者<br>
-                        約2,140,000人
-                    </h3>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div class="child">
-                    <div id='num15' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 150px + 1049px);">
-                        <h3>子どもの貧困<br>
-                            約2,100,000人
+                <div class="parent">
+                    <div id='num52' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 150px + 1045px);">
+                        <h3>生活保護受給者<br>
+                            約2,140,000人
                         </h3>
-                        <!-- <p>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div class="child">
+                        <div id='num15' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 150px + 1049px);">
+                            <h3>子どもの貧困<br>
+                                約2,100,000人
+                            </h3>
+                            <!-- <p>
                                         日本の子どもの貧困率は13.9％（2015年）で、子どもの約7人に1人と言われています。<br>
                                         ※子どもの貧困率を基に、14歳以下で計算しています。
                                     </p> -->
+                        </div>
                     </div>
-                </div>
 
-                <div class="child">
-                    <div id='num16' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 150px + 1061px);">
-                        <h3>完全失業者<br>
-                            約1,980,000人
-                        </h3>
-                        <!-- <p>
+                    <div class="child">
+                        <div id='num16' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 150px + 1061px);">
+                            <h3>完全失業者<br>
+                                約1,980,000人
+                            </h3>
+                            <!-- <p>
                                                 2020年4月現在
                                             </p> -->
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="parent">
-                <div class="child">
-                    <div id='num39' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 150px + 1094px);">
-                        <h3>外国人労働者<br>
-                            約1,650,000人
-                        </h3>
-                        <!-- <p>
+                <div class="parent">
+                    <div class="child">
+                        <div id='num39' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 150px + 1094px);">
+                            <h3>外国人労働者<br>
+                                約1,650,000人
+                            </h3>
+                            <!-- <p>
                                                                     2020年4月現在
                                                                 </p> -->
+                        </div>
                     </div>
-                </div>
-                <div class="child">
-                    <div id='num17' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 150px + 1121px);">
-                        <h3>死亡者<br>
-                            約1,376,000人
-                        </h3>
-                        <!-- <p>
+                    <div class="child">
+                        <div id='num17' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 150px + 1121px);">
+                            <h3>死亡者<br>
+                                約1,376,000人
+                            </h3>
+                            <!-- <p>
                                         令和元年度の死亡者数です。
                                     </p> -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="p1">
-            <div class="parent">
-                <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 10px);">中間圏</h2>
-            </div>
+            <div class="p1">
+                <div class="parent">
+                    <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 10px);">中間圏</h2>
+                </div>
 
-            <div class="parent">
-                <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 40px);">1%　――> 0.1%
-                </h3>
-            </div>
-
-            <div class="parent">
-                <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 90px);">速度、低下中。乗り物酔い注意</p>
-            </div>
-
-            <hr style="margin-top: 140px; margin-bottom: 0px;">
-            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-            <div class="parent">
-                <h3 class="p05" style="position: absolute; top: calc(100vh + 779px + 1383px + 1381px);">
-                    0.5%
-                </h3>
-            </div>
-
-            <div class="parent">
-                <div id='num18' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 93px);">
-                    <h3>結婚者<br>
-                        約1,166,000人
+                <div class="parent">
+                    <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 40px);">1%　――> 0.1%
                     </h3>
-                    <!-- <p>
+                </div>
+
+                <div class="parent">
+                    <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 90px);">速度、低下中。乗り物酔い注意</p>
+                </div>
+
+                <hr style="margin-top: 140px; margin-bottom: 0px;">
+                <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+                <div class="parent">
+                    <h3 class="p05" style="position: absolute; top: calc(100vh + 779px + 1383px + 1381px);">
+                        0.5%
+                    </h3>
+                </div>
+
+                <div class="parent">
+                    <div id='num18' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 93px);">
+                        <h3>結婚者<br>
+                            約1,166,000人
+                        </h3>
+                        <!-- <p>
                     令和元年度、約58万3000組が結婚しました。
                     ※人数は(組数)×2で算出
                 </p> -->
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num19' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 282px);">
-                    <h3>癌新規登録者<br>
-                        977,393人
-                    </h3>
-                    <!-- <p>
-                    2017年度新しく癌になった方の人数です。
-                </p> -->
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num20' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 395px);">
-                    <h3>出生者<br>
-                        約864,000人
-                    </h3>
-                    <!-- <p>
-                    令和元年度の出生者数です。
-                </p> -->
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num21' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 477px);">
-                    <h3>高知県民<br>
-                        約782,000人
-                    </h3>
-                    <!-- <p>
-                         2019年10月
-                    </p> -->
-                </div>
-            </div>
-
-            <div class="parent">
-                <div class="child">
-                    <div id='num22' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 519px);">
-                        <h3>ニート<br>
-                            約740,000人
-                        </h3>
                     </div>
                 </div>
 
-                <div class="child">
-                    <div id='num23' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 528px);">
-                        <h3>島根県民<br>
-                            約731,000人
-                        </h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num47' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 559px);">
-                    <h3>起立性調節障害<br>
-                        約700,000人
-                    </h3>
-                </div>
-            </div>
-
-
-            <div class="parent">
-                <div class="child">
-                    <div id='num24' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 659px);">
-                        <h3>鳥取県民<br>
-                            約600,000人
+                <div class="parent">
+                    <div id='num19' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 282px);">
+                        <h3>癌新規登録者<br>
+                            977,393人
                         </h3>
                         <!-- <p>
+                    2017年度新しく癌になった方の人数です。
+                </p> -->
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div id='num20' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 395px);">
+                        <h3>出生者<br>
+                            約864,000人
+                        </h3>
+                        <!-- <p>
+                    令和元年度の出生者数です。
+                </p> -->
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div id='num21' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 477px);">
+                        <h3>高知県民<br>
+                            約782,000人
+                        </h3>
+                        <!-- <p>
+                         2019年10月
+                    </p> -->
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div class="child">
+                        <div id='num22' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 519px);">
+                            <h3>ニート<br>
+                                約740,000人
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="child">
+                        <div id='num23' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 528px);">
+                            <h3>島根県民<br>
+                                約731,000人
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div id='num47' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 559px);">
+                        <h3>起立性調節障害<br>
+                            約700,000人
+                        </h3>
+                    </div>
+                </div>
+
+
+                <div class="parent">
+                    <div class="child">
+                        <div id='num24' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 659px);">
+                            <h3>鳥取県民<br>
+                                約600,000人
+                            </h3>
+                            <!-- <p>
                                            2019年10月
                                         </p> -->
+                        </div>
+                    </div>
+
+                    <div class="child">
+                        <div id='num25' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 679px);">
+                            <h3>国家公務員<br>
+                                約580,000人
+                            </h3>
+                        </div>
                     </div>
                 </div>
 
-                <div class="child">
-                    <div id='num25' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 679px);">
-                        <h3>国家公務員<br>
-                            約580,000人
+                <div class="parent">
+                    <div id='num26' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 839px);">
+                        <h3>離婚者<br>
+                            約420,000人
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div id='num27' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 885px);">
+                        <h3>癌死亡者<br>
+                            373,584人
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div class="child">
+                        <div id='num45' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1073px);">
+                            <h3>日野市民<br>
+                                186,283人
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="child">
+                        <div id='num28' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1094px);">
+                            <h3>不登校<br>
+                                164,528人
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="p01">
+                <div class="parent">
+                    <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 10px);">成層圏
+                    </h2>
+                </div>
+
+                <div class="parent">
+                    <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 40px);">
+                        0.1%　――>
+                        0.01%</h3>
+                </div>
+
+                <div class="parent">
+                    <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 90px);">　緩やかに下降中…</p>
+                </div>
+
+                <hr style="margin-top: 140px; margin-bottom: 0px;">
+                <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+                <div class="parent">
+                    <h3 class="p005" style="position: absolute; top: calc(100vh + 779px + 1383px + 1383px + 1381px);">
+                        0.05%
+                    </h3>
+                </div>
+                <div class="parent">
+                    <div id='num53' class="item"
+                        style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 150px + 719px);">
+                        <h3>東日本大震災避難生活者<br>
+                            約54,000人
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div id='num29' class="item"
+                        style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 150px + 831px);">
+                        <h3>COVID-19感染者数<br>
+                            42,809人
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div class="child">
+                        <div id='num30' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1057px);">
+                            <h3>自殺者<br>
+                                20,169人
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="child">
+                        <div id='num31' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1069px);">
+                            <h3>死産数<br>
+                                19,000人
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="parent">
+                    <div id='num49' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1072px);">
+                        <h3>刑務所・拘置所収監者<br>
+                            18,272人
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div class="child">
+                        <div id='num42' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1091px);">
+                            <h3>待機児童<br>
+                                16,772人
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="child">
+                        <div id='num32' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1100px);">
+                            <h3>東日本大震災死者<br>
+                                15,899人
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="p001">
+                <div class="parent">
+                    <h2 class="area"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 10px);">
+                        対流圏</h2>
+                </div>
+
+                <div class="parent">
+                    <h3 class="area1"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 40px);">
+                        0.01%　――>
+                        0.001%
+                    </h3>
+                </div>
+
+                <div class="parent">
+                    <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 90px);">
+                        　下降スピード低下…
+                    </p>
+                </div>
+
+                <hr style="margin-top: 140px; margin-bottom: 0px;">
+                <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+                <div class="parent">
+                    <h3 class="p0005"
+                        style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1382px);">
+                        0.005%
+                    </h3>
+                </div>
+                <div class="parent">
+                    <div class="child">
+                        <div id='num46' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 339px);">
+                            <h3>ALS患者<br>
+                                約9200人
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="child">
+                        <div id='num40' class="item"
+                            style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 364px);">
+                            <h3>都立大学生数<br>
+                                9134人
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div id='num33' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 803px);">
+                        <h3>ホームレス<br>
+                            4,555人
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div id='num44' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 901px);">
+                        <h3>歌志内市民<br>
+                            3,583人
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div id='num34' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1006px);">
+                        <h3>東日本大震災行方不明者<br>
+                            2,529人
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div id='num48' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1049px);">
+                        <h3>少年院収監者<br>
+                            2,108人
                         </h3>
                     </div>
                 </div>
             </div>
 
-            <div class="parent">
-                <div id='num26' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 839px);">
-                    <h3>離婚者<br>
-                        約420,000人
+            <div class="p0001">
+                <div class="parent">
+                    <h2 class="area"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 10px);">
+                        地表
+                    </h2>
+                </div>
+
+                <div class="parent">
+                    <h3 class="area1"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 40px);">
+                        0.001%　――>
+                        0.000…%</h3>
+                </div>
+
+                <div class="parent">
+                    <p
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 90px);">
+                        　地表到達…お忘れ物の無いよう気を付けて…</p>
+                </div>
+
+                <hr style="margin-top: 140px; margin-bottom: 0px;">
+                <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
+                <div class="parent">
+                    <h3 class="p00005"
+                        style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px + 1382px);">
+                        0.0005%
                     </h3>
                 </div>
-            </div>
-
-            <div class="parent">
-                <div id='num27' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 885px);">
-                    <h3>癌死亡者<br>
-                        373,584人
-                    </h3>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div class="child">
-                    <div id='num45' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1073px);">
-                        <h3>日野市民<br>
-                            186,283人
+                <div class="parent">
+                    <div id='num35' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 230px);">
+                        <h3>COVID-19死亡者<br>
+                            1029人
                         </h3>
                     </div>
                 </div>
 
-                <div class="child">
-                    <div id='num28' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 150px + 1094px);">
-                        <h3>不登校<br>
-                            164,528人
-                        </h3>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="p01">
-            <div class="parent">
-                <h2 class="area" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 10px);">成層圏
-                </h2>
-            </div>
-
-            <div class="parent">
-                <h3 class="area1" style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 40px);">
-                    0.1%　――>
-                    0.01%</h3>
-            </div>
-
-            <div class="parent">
-                <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 90px);">　緩やかに下降中…</p>
-            </div>
-
-            <hr style="margin-top: 140px; margin-bottom: 0px;">
-            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-            <div class="parent">
-                <h3 class="p005" style="position: absolute; top: calc(100vh + 779px + 1383px + 1383px + 1381px);">
-                    0.05%
-                </h3>
-            </div>
-            <div class="parent">
-                <div id='num53' class="item"
-                    style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 150px + 719px);">
-                    <h3>東日本大震災避難生活者<br>
-                        約54,000人
-                    </h3>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num29' class="item"
-                    style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 150px + 831px);">
-                    <h3>COVID-19感染者数<br>
-                        42,809人
-                    </h3>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div class="child">
-                    <div id='num30' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1057px);">
-                        <h3>自殺者<br>
-                            20,169人
+                <div class="parent">
+                    <div id='num50' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 794px);">
+                        <h3>衆議院<br>
+                            465人
                         </h3>
                     </div>
                 </div>
 
-                <div class="child">
-                    <div id='num31' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1069px);">
-                        <h3>死産数<br>
-                            19,000人
+                <div class="parent">
+                    <div id='num51' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 1011px);">
+                        <h3>参議院<br>
+                            248人
                         </h3>
                     </div>
                 </div>
-            </div>
-            <div class="parent">
-                <div id='num49' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1072px);">
-                    <h3>刑務所・拘置所収監者<br>
-                        18,272人
-                    </h3>
+
+                <div class="parent">
+                    <div id='num36' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 1258px);">
+                        <h3>私/あなた<br>
+                            1人
+                        </h3>
+                    </div>
                 </div>
+
             </div>
 
-            <div class="parent">
-                <div class="child">
-                    <div id='num42' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1091px);">
-                        <h3>待機児童<br>
-                            16,772人
-                        </h3>
-                    </div>
+
+            <div class="p0">
+                <div class="parent">
+                    <h2 class="area"
+                        style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 10px)">
+                        ???
+                    </h2>
                 </div>
-                <div class="child">
-                    <div id='num32' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 150px + 1100px);">
-                        <h3>東日本大震災死者<br>
-                            15,899人
+
+                <div class="parent">
+                    <h3 class="area1"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 40px);">
+                        0.0000…%　――>
+                        0.000%</h3>
+                </div>
+
+                <div class="parent">
+                    <p
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 90px);">
+                        これより下……通信…不…</p>
+                </div>
+
+                <hr style="margin-top: 140px; margin-bottom: 0px;">
+
+                <div class="parent">
+                    <div id='num37' class="item"
+                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 150px + 200px);">
+                        <h3>誰か/みんな<br>
+                            0人
                         </h3>
                     </div>
                 </div>
             </div>
 
-        </div>
-
-        <div class="p001">
-            <div class="parent">
-                <h2 class="area"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 10px);">
-                    対流圏</h2>
-            </div>
-
-            <div class="parent">
-                <h3 class="area1"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 40px);">
-                    0.01%　――>
-                    0.001%
-                </h3>
-            </div>
-
-            <div class="parent">
-                <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 90px);">　下降スピード低下…
-                </p>
-            </div>
-
-            <hr style="margin-top: 140px; margin-bottom: 0px;">
-            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-            <div class="parent">
-                <h3 class="p0005"
-                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1382px);">
-                    0.005%
-                </h3>
-            </div>
-            <div class="parent">
-                <div class="child">
-                    <div id='num46' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 339px);">
-                        <h3>ALS患者<br>
-                            約9200人
-                        </h3>
-                    </div>
-                </div>
-                <div class="child">
-                    <div id='num40' class="item"
-                        style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 364px);">
-                        <h3>都立大学生数<br>
-                            9134人
-                        </h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num33' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 803px);">
-                    <h3>ホームレス<br>
-                        4,555人
-                    </h3>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num44' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 901px);">
-                    <h3>歌志内市民<br>
-                        3,583人
-                    </h3>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num34' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1006px);">
-                    <h3>東日本大震災行方不明者<br>
-                        2,529人
-                    </h3>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num48' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 150px + 1049px);">
-                    <h3>少年院収監者<br>
-                        2,108人
-                    </h3>
+            <div class="footer">
+                <div class="parent">
+                    <p>presented by hitomi-neko<br><br><a href="https://github.com/hitomi-neko"
+                            target="_blank">https://github.com/hitomi-neko</a><br>
+                        <a href="https://www.openprocessing.org/user/226706"
+                            target="_blank">https://www.openprocessing.org/user/226706</a>
+                    </p>
                 </div>
             </div>
         </div>
 
-        <div class="p0001">
-            <div class="parent">
-                <h2 class="area"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 10px);">
-                    地表
-                </h2>
-            </div>
-
-            <div class="parent">
-                <h3 class="area1"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 40px);">
-                    0.001%　――>
-                    0.000…%</h3>
-            </div>
-
-            <div class="parent">
-                <p style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 90px);">
-                    　地表到達…お忘れ物の無いよう気を付けて…</p>
-            </div>
-
-            <hr style="margin-top: 140px; margin-bottom: 0px;">
-            <hr style="border:dashed 1px; margin-top: 645px; margin-bottom: 0px;">
-            <div class="parent">
-                <h3 class="p00005"
-                    style="position: absolute; top: calc(100vh + 778px + 1383px + 1383px + 1383px + 1383px + 1382px);">
-                    0.0005%
-                </h3>
-            </div>
-            <div class="parent">
-                <div id='num35' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 230px);">
-                    <h3>COVID-19死亡者<br>
-                        1029人
-                    </h3>
+        <div id="modal1" class="modalWrap">
+            <div class="modalCon" id="mcon1">
+                <div class="modalCloseBtn" id="closeBtn1">
+                    <p>×</p>
                 </div>
-            </div>
-
-            <div class="parent">
-                <div id='num50' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 794px);">
-                    <h3>衆議院<br>
-                        465人
-                    </h3>
+                <h1 class="modalTtl" id="title1">日本人<br>約125,960,000人</h1>
+                <div class="modalText" id="text1">
+                    <p>2020年7月1日現在　総務省統計局</p>
                 </div>
-            </div>
-
-            <div class="parent">
-                <div id='num51' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 1011px);">
-                    <h3>参議院<br>
-                        248人
-                    </h3>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div id='num36' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 150px + 1258px);">
-                    <h3>私/あなた<br>
-                        1人
-                    </h3>
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="p0">
-            <div class="parent">
-                <h2 class="area"
-                    style="position: absolute;  top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 10px)">
-                    ???
-                </h2>
-            </div>
-
-            <div class="parent">
-                <h3 class="area1"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1383px + 1483px + 40px);">
-                    0.0000…%　――>
-                    0.000%</h3>
-            </div>
-
-            <div class="parent">
-                <p
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 90px);">
-                    これより下……通信…不…</p>
-            </div>
-
-            <hr style="margin-top: 140px; margin-bottom: 0px;">
-
-            <div class="parent">
-                <div id='num37' class="item"
-                    style="position: absolute; top: calc(100vh + 1383px + 1383px + 1383px + 1383px + 1483px + 1383px + 150px + 200px);">
-                    <h3>誰か/みんな<br>
-                        0人
-                    </h3>
+                <img class="modalCover" id="image1" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage1" src="./image/photo/japan.jpg">
+                <div class="modalTextCol" id="ctext1">
+                    <p>「勤勉」「消極的」「同調圧力」</p>
                 </div>
             </div>
         </div>
 
-        <div class="footer">
-            <div class="parent">
-                <p>presented by hitomi-neko<br><br><a href="https://github.com/hitomi-neko"
-                        target="_blank">https://github.com/hitomi-neko</a><br>
-                    <a href="https://www.openprocessing.org/user/226706"
-                        target="_blank">https://www.openprocessing.org/user/226706</a>
-                </p>
+        <div id="modal2" class="modalWrap">
+            <div class="modalCon" id="mcon2">
+                <div class="modalCloseBtn" id="closeBtn2">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title2">生産年齢人口<br>約75,050,000人</h1>
+                <div class="modalText" id="text2">
+                    <p>2019年9月15日　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image2" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage2" src="./image/photo/seisan.jpg">
+                <div class="modalTextCol" id="ctext2">
+                    <p>「日本の労働力」「15~64歳の人口」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal1" class="modalWrap">
-        <div class="modalCon" id="mcon1">
-            <div class="modalCloseBtn" id="closeBtn1">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title1">日本人<br>約125,960,000人</h1>
-            <div class="modalText" id="text1">
-                <p>2020年7月1日現在　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image1" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage1" src="./image/photo/japan.jpg">
-            <div class="modalTextCol" id="ctext1">
-                <p>「勤勉」「消極的」「同調圧力」</p>
+        <div id="modal3" class="modalWrap">
+            <div class="modalCon" id="mcon3">
+                <div class="modalCloseBtn" id="closeBtn3">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title3">就業者<br>約66,560,000人</h1>
+                <div class="modalText" id="text3">
+                    <p>2020年4月現在　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image3" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage3" src="./image/photo/syugyo.jpg">
+                <div class="modalTextCol" id="ctext3">
+                    <p>「働かざる者食うべからず」「年功序列」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal2" class="modalWrap">
-        <div class="modalCon" id="mcon2">
-            <div class="modalCloseBtn" id="closeBtn2">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title2">生産年齢人口<br>約75,050,000人</h1>
-            <div class="modalText" id="text2">
-                <p>2019年9月15日　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image2" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage2" src="./image/photo/seisan.jpg">
-            <div class="modalTextCol" id="ctext2">
-                <p>「日本の労働力」「15~64歳の人口」</p>
+        <div id="modal4" class="modalWrap">
+            <div class="modalCon" id="mcon4">
+                <div class="modalCloseBtn" id="closeBtn4">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title4">女性<br>約64,860,000人</h1>
+                <div class="modalText" id="text4">
+                    <p>2019年1月報　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image4" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage4" src="./image/photo/woman.jpg">
+                <div class="modalTextCol" id="ctext4">
+                    <p>「良妻賢母」「美しくあれ」「クリスマスケーキ」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal3" class="modalWrap">
-        <div class="modalCon" id="mcon3">
-            <div class="modalCloseBtn" id="closeBtn3">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title3">就業者<br>約66,560,000人</h1>
-            <div class="modalText" id="text3">
-                <p>2020年4月現在　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image3" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage3" src="./image/photo/syugyo.jpg">
-            <div class="modalTextCol" id="ctext3">
-                <p>「働かざる者食うべからず」「年功序列」</p>
+        <div id="modal5" class="modalWrap">
+            <div class="modalCon" id="mcon5">
+                <div class="modalCloseBtn" id="closeBtn5">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title5">男性<br>約61,460,000人</h1>
+                <div class="modalText" id="text5">
+                    <p>2019年1月報　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image5" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage5" src="./image/photo/man.jpg">
+                <div class="modalTextCol" id="ctext5">
+                    <p>「大黒柱」「強くあれ」「稼ぎ手」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal4" class="modalWrap">
-        <div class="modalCon" id="mcon4">
-            <div class="modalCloseBtn" id="closeBtn4">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title4">女性<br>約64,860,000人</h1>
-            <div class="modalText" id="text4">
-                <p>2019年1月報　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image4" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage4" src="./image/photo/woman.jpg">
-            <div class="modalTextCol" id="ctext4">
-                <p>「良妻賢母」「美しくあれ」「クリスマスケーキ」</p>
+        <div id="modal6" class="modalWrap">
+            <div class="modalCon" id="mcon6">
+                <div class="modalCloseBtn" id="closeBtn6">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title6">雇用者<br>約59,200,000人</h1>
+                <div class="modalText" id="text6">
+                    <p>2020年4月　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image6" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage6" src="./image/photo/employ.jpg">
+                <div class="modalTextCol" id="ctext6">
+                    <p>「普通の大人」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal5" class="modalWrap">
-        <div class="modalCon" id="mcon5">
-            <div class="modalCloseBtn" id="closeBtn5">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title5">男性<br>約61,460,000人</h1>
-            <div class="modalText" id="text5">
-                <p>2019年1月報　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image5" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage5" src="./image/photo/man.jpg">
-            <div class="modalTextCol" id="ctext5">
-                <p>「大黒柱」「強くあれ」「稼ぎ手」</p>
+        <div id="modal7" class="modalWrap">
+            <div class="modalCon" id="mcon7">
+                <div class="modalCloseBtn" id="closeBtn7">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title7">高齢者<br>約35,880,000人</h1>
+                <div class="modalText" id="text7">
+                    <p>2019年9月15日　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image7" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage7" src="./image/photo/old.jpg">
+                <div class="modalTextCol" id="ctext7">
+                    <p>「老人」「65歳以上の人口」「年金」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal6" class="modalWrap">
-        <div class="modalCon" id="mcon6">
-            <div class="modalCloseBtn" id="closeBtn6">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title6">雇用者<br>約59,200,000人</h1>
-            <div class="modalText" id="text6">
-                <p>2020年4月　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image6" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage6" src="./image/photo/employ.jpg">
-            <div class="modalTextCol" id="ctext6">
-                <p>「普通の大人」</p>
+        <div id="modal8" class="modalWrap">
+            <div class="modalCon" id="mcon8">
+                <div class="modalCloseBtn" id="closeBtn8">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title8">後期高齢者<br>約18,480,000人</h1>
+                <div class="modalText" id="text8">
+                    <p>2019年9月15日　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image8" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage8" src="./image/photo/old2.jpg">
+                <div class="modalTextCol" id="ctext8">
+                    <p>「高齢化社会」「75歳以上の人口」「老後は2000万」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal7" class="modalWrap">
-        <div class="modalCon" id="mcon7">
-            <div class="modalCloseBtn" id="closeBtn7">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title7">高齢者<br>約35,880,000人</h1>
-            <div class="modalText" id="text7">
-                <p>2019年9月15日　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image7" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage7" src="./image/photo/old.jpg">
-            <div class="modalTextCol" id="ctext7">
-                <p>「老人」「65歳以上の人口」「年金」</p>
+        <div id="modal9" class="modalWrap">
+            <div class="modalCon" id="mcon9">
+                <div class="modalCloseBtn" id="closeBtn9">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title9">子ども<br>約15,240,000人</h1>
+                <div class="modalText" id="text9">
+                    <p>2019年9月15日　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image9" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage9" src="./image/photo/kid.jpg">
+                <div class="modalTextCol" id="ctext9">
+                    <p>「15歳以下の人口」「子どもは風の子元気の子」「少子化社会」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal8" class="modalWrap">
-        <div class="modalCon" id="mcon8">
-            <div class="modalCloseBtn" id="closeBtn8">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title8">後期高齢者<br>約18,480,000人</h1>
-            <div class="modalText" id="text8">
-                <p>2019年9月15日　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image8" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage8" src="./image/photo/old2.jpg">
-            <div class="modalTextCol" id="ctext8">
-                <p>「高齢化社会」「75歳以上の人口」「老後は2000万」</p>
+        <div id="modal10" class="modalWrap">
+            <div class="modalCon" id="mcon10">
+                <div class="modalCloseBtn" id="closeBtn10">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title10">東京都民<br>
+                    約12,758,000人</h1>
+                <div class="modalText" id="text10">
+                    <p>2019年10月　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image10" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage10" src="./image/photo/tokyo.jpg">
+                <div class="modalTextCol" id="ctext10">
+                    <p>「日本の首都」「日本で1番人口の多い都道府県」
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal9" class="modalWrap">
-        <div class="modalCon" id="mcon9">
-            <div class="modalCloseBtn" id="closeBtn9">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title9">子ども<br>約15,240,000人</h1>
-            <div class="modalText" id="text9">
-                <p>2019年9月15日　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image9" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage9" src="./image/photo/kid.jpg">
-            <div class="modalTextCol" id="ctext9">
-                <p>「15歳以下の人口」「子どもは風の子元気の子」「少子化社会」</p>
+        <div id="modal11" class="modalWrap">
+            <div class="modalCon" id="mcon11">
+                <div class="modalCloseBtn" id="closeBtn11">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title11">性的マイノリティ<br>約12,000,000人</h1>
+                <div class="modalText" id="text11">
+                    <p>人口の約10％。正確な人数は不明。</p>
+                </div>
+                <img class="modalCover" id="image11" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage11" src="./image/photo/lgbtq.jpg">
+                <div class="modalTextCol" id="ctext11">
+                    <p>「LGBTQ」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal10" class="modalWrap">
-        <div class="modalCon" id="mcon10">
-            <div class="modalCloseBtn" id="closeBtn10">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title10">東京都民<br>
-                約12,758,000人</h1>
-            <div class="modalText" id="text10">
-                <p>2019年10月　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image10" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage10" src="./image/photo/tokyo.jpg">
-            <div class="modalTextCol" id="ctext10">
-                <p>「日本の首都」「日本で1番人口の多い都道府県」
-                </p>
+        <div id="modal12" class="modalWrap">
+            <div class="modalCon" id="mcon12">
+                <div class="modalCloseBtn" id="closeBtn12">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title12">神奈川県民<br>
+                    約8,880,000人</h1>
+                <div class="modalText" id="text12">
+                    <p>2019年10月　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image12" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage12" src="./image/photo/kanagawa.jpg">
+                <div class="modalTextCol" id="ctext12">
+                    <p>「日本で2番目に人口の多い都道府県」「東京のベッドタウン」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal11" class="modalWrap">
-        <div class="modalCon" id="mcon11">
-            <div class="modalCloseBtn" id="closeBtn11">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title11">性的マイノリティ<br>約12,000,000人</h1>
-            <div class="modalText" id="text11">
-                <p>人口の約10％。正確な人数は不明。</p>
-            </div>
-            <img class="modalCover" id="image11" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage11" src="./image/photo/lgbtq.jpg">
-            <div class="modalTextCol" id="ctext11">
-                <p>「LGBTQ」</p>
+        <div id="modal13" class="modalWrap">
+            <div class="modalCon" id="mcon13">
+                <div class="modalCloseBtn" id="closeBtn13">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title13">大阪府民<br>約8,812,000人</h1>
+                <div class="modalText" id="text13">
+                    <p>2019年10月　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image13" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage13" src="./image/photo/osaka.jpg">
+                <div class="modalTextCol" id="ctext13">
+                    <p>「日本で2番目に人口の多い都道府県」「食い倒れ」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal12" class="modalWrap">
-        <div class="modalCon" id="mcon12">
-            <div class="modalCloseBtn" id="closeBtn12">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title12">神奈川県民<br>
-                約8,880,000人</h1>
-            <div class="modalText" id="text12">
-                <p>2019年10月　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image12" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage12" src="./image/photo/kanagawa.jpg">
-            <div class="modalTextCol" id="ctext12">
-                <p>「日本で2番目に人口の多い都道府県」「東京のベッドタウン」</p>
+        <div id="modal14" class="modalWrap">
+            <div class="modalCon" id="mcon14">
+                <div class="modalCloseBtn" id="closeBtn14">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title14">地方公務員<br>
+                    約2,740,000人</h1>
+                <div class="modalText" id="text14">
+                    <p>2018年1月　人事院</p>
+                </div>
+                <img class="modalCover" id="image14" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage14" src="./image/photo/chihou.jpg">
+                <div class="modalTextCol" id="ctext14">
+                    <p>「安定」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal13" class="modalWrap">
-        <div class="modalCon" id="mcon13">
-            <div class="modalCloseBtn" id="closeBtn13">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title13">大阪府民<br>約8,812,000人</h1>
-            <div class="modalText" id="text13">
-                <p>2019年10月　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image13" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage13" src="./image/photo/osaka.jpg">
-            <div class="modalTextCol" id="ctext13">
-                <p>「日本で2番目に人口の多い都道府県」「食い倒れ」</p>
+        <div id="modal15" class="modalWrap">
+            <div class="modalCon" id="mcon15">
+                <div class="modalCloseBtn" id="closeBtn15">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title15">子どもの貧困<br>
+                    約2,100,000人</h1>
+                <div class="modalText" id="text15">
+                    <p>子どもの貧困率は13.9％を基に、14歳以下で計算</p>
+                </div>
+                <img class="modalCover" id="image15" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage15" src="./image/photo/kidpoor.jpg">
+                <div class="modalTextCol" id="ctext15">
+                    <p>「子どもの7人に1人」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal14" class="modalWrap">
-        <div class="modalCon" id="mcon14">
-            <div class="modalCloseBtn" id="closeBtn14">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title14">地方公務員<br>
-                約2,740,000人</h1>
-            <div class="modalText" id="text14">
-                <p>2018年1月　人事院</p>
-            </div>
-            <img class="modalCover" id="image14" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage14" src="./image/photo/chihou.jpg">
-            <div class="modalTextCol" id="ctext14">
-                <p>「安定」</p>
+        <div id="modal16" class="modalWrap">
+            <div class="modalCon" id="mcon16">
+                <div class="modalCloseBtn" id="closeBtn16">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title16">完全失業者<br>約1,980,000人</h1>
+                <div class="modalText" id="text16">
+                    <p>2020年4月　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image16" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage16" src="./image/photo/sad.jpg">
+                <div class="modalTextCol" id="ctext16">
+                    <p>「お先真っ暗」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal15" class="modalWrap">
-        <div class="modalCon" id="mcon15">
-            <div class="modalCloseBtn" id="closeBtn15">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title15">子どもの貧困<br>
-                約2,100,000人</h1>
-            <div class="modalText" id="text15">
-                <p>子どもの貧困率は13.9％を基に、14歳以下で計算</p>
-            </div>
-            <img class="modalCover" id="image15" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage15" src="./image/photo/kidpoor.jpg">
-            <div class="modalTextCol" id="ctext15">
-                <p>「子どもの7人に1人」</p>
+        <div id="modal17" class="modalWrap">
+            <div class="modalCon" id="mcon17">
+                <div class="modalCloseBtn" id="closeBtn17">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title17">死亡者<br>
+                    約1,376,000人</h1>
+                <div class="modalText" id="text17">
+                    <p>2019年度　厚労省</p>
+                </div>
+                <img class="modalCover" id="image17" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage17" src="./image/photo/flower2.jpg">
+                <div class="modalTextCol" id="ctext17">
+                    <p>「さようなら」「ありがとう」「逃れられない」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal16" class="modalWrap">
-        <div class="modalCon" id="mcon16">
-            <div class="modalCloseBtn" id="closeBtn16">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title16">完全失業者<br>約1,980,000人</h1>
-            <div class="modalText" id="text16">
-                <p>2020年4月　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image16" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage16" src="./image/photo/sad.jpg">
-            <div class="modalTextCol" id="ctext16">
-                <p>「お先真っ暗」</p>
+        <div id="modal18" class="modalWrap">
+            <div class="modalCon" id="mcon18">
+                <div class="modalCloseBtn" id="closeBtn18">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title18">結婚者<br>
+                    約1,166,000人</h1>
+                </h1>
+                <div class="modalText" id="text18">
+                    <p>2019年度　約58万3000組。組数×2で計算　厚労省</p>
+                </div>
+                <img class="modalCover" id="image18" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage18" src="./image/photo/bride.jpg">
+                <div class="modalTextCol" id="ctext18">
+                    <p>「幸福」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal17" class="modalWrap">
-        <div class="modalCon" id="mcon17">
-            <div class="modalCloseBtn" id="closeBtn17">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title17">死亡者<br>
-                約1,376,000人</h1>
-            <div class="modalText" id="text17">
-                <p>2019年度　厚労省</p>
-            </div>
-            <img class="modalCover" id="image17" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage17" src="./image/photo/flower2.jpg">
-            <div class="modalTextCol" id="ctext17">
-                <p>「さようなら」「ありがとう」「逃れられない」</p>
+        <div id="modal19" class="modalWrap">
+            <div class="modalCon" id="mcon19">
+                <div class="modalCloseBtn" id="closeBtn19">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title19">癌新規登録者<br>
+                    977,393人</h1>
+                <div class="modalText" id="text19">
+                    <p>2017年度　国立がん研究センター</p>
+                </div>
+                <img class="modalCover" id="image19" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage19" src="./image/photo/care.jpg">
+                <div class="modalTextCol" id="ctext19">
+                    <p>「新しく癌になった人たち」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal18" class="modalWrap">
-        <div class="modalCon" id="mcon18">
-            <div class="modalCloseBtn" id="closeBtn18">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title18">結婚者<br>
-                約1,166,000人</h1>
-            </h1>
-            <div class="modalText" id="text18">
-                <p>2019年度　約58万3000組。組数×2で計算　厚労省</p>
-            </div>
-            <img class="modalCover" id="image18" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage18" src="./image/photo/bride.jpg">
-            <div class="modalTextCol" id="ctext18">
-                <p>「幸福」</p>
+        <div id="modal20" class="modalWrap">
+            <div class="modalCon" id="mcon20">
+                <div class="modalCloseBtn" id="closeBtn20">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title20">出生者<br>
+                    約864,000人</h1>
+                <div class="modalText" id="text20">
+                    <p>2019年度　厚労省</p>
+                </div>
+                <img class="modalCover" id="image20" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage20" src="./image/photo/baby.jpg">
+                <div class="modalTextCol" id="ctext20">
+                    <p>「お誕生日おめでとう」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal19" class="modalWrap">
-        <div class="modalCon" id="mcon19">
-            <div class="modalCloseBtn" id="closeBtn19">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title19">癌新規登録者<br>
-                977,393人</h1>
-            <div class="modalText" id="text19">
-                <p>2017年度　国立がん研究センター</p>
-            </div>
-            <img class="modalCover" id="image19" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage19" src="./image/photo/care.jpg">
-            <div class="modalTextCol" id="ctext19">
-                <p>「新しく癌になった人たち」</p>
+        <div id="modal21" class="modalWrap">
+            <div class="modalCon" id="mcon21">
+                <div class="modalCloseBtn" id="closeBtn21">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title21">高知県民<br>約782,000人</h1>
+                <div class="modalText" id="text21">
+                    <p>2019年10月　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image21" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage21" src="./image/photo/kouchi.jpg">
+                <div class="modalTextCol" id="ctext21">
+                    <p>「日本で3番目に人口が少ない県」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal20" class="modalWrap">
-        <div class="modalCon" id="mcon20">
-            <div class="modalCloseBtn" id="closeBtn20">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title20">出生者<br>
-                約864,000人</h1>
-            <div class="modalText" id="text20">
-                <p>2019年度　厚労省</p>
-            </div>
-            <img class="modalCover" id="image20" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage20" src="./image/photo/baby.jpg">
-            <div class="modalTextCol" id="ctext20">
-                <p>「お誕生日おめでとう」</p>
+        <div id="modal22" class="modalWrap">
+            <div class="modalCon" id="mcon22">
+                <div class="modalCloseBtn" id="closeBtn22">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title22">ニート<br>
+                    約740,000人</h1>
+                <div class="modalText" id="text22">
+                    <p>2019年度　労働力調査</p>
+                </div>
+                <img class="modalCover" id="image22" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage22" src="./image/photo/neet.jpg">
+                <div class="modalTextCol" id="ctext22">
+                    <p>「定職に就かず、働く気がない」「社会生活不適合者」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal21" class="modalWrap">
-        <div class="modalCon" id="mcon21">
-            <div class="modalCloseBtn" id="closeBtn21">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title21">高知県民<br>約782,000人</h1>
-            <div class="modalText" id="text21">
-                <p>2019年10月　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image21" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage21" src="./image/photo/kouchi.jpg">
-            <div class="modalTextCol" id="ctext21">
-                <p>「日本で3番目に人口が少ない県」</p>
+        <div id="modal23" class="modalWrap">
+            <div class="modalCon" id="mcon23">
+                <div class="modalCloseBtn" id="closeBtn23">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title23">島根県民<br>
+                    約731,000人</h1>
+                <div class="modalText" id="text23">
+                    <p>2019年10月　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image23" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage23" src="./image/photo/simane.jpg">
+                <div class="modalTextCol" id="ctext23">
+                    <p>「日本で2番目に人口が少ない県」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal22" class="modalWrap">
-        <div class="modalCon" id="mcon22">
-            <div class="modalCloseBtn" id="closeBtn22">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title22">ニート<br>
-                約740,000人</h1>
-            <div class="modalText" id="text22">
-                <p>2019年度　労働力調査</p>
-            </div>
-            <img class="modalCover" id="image22" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage22" src="./image/photo/neet.jpg">
-            <div class="modalTextCol" id="ctext22">
-                <p>「定職に就かず、働く気がない」「社会生活不適合者」</p>
+        <div id="modal24" class="modalWrap">
+            <div class="modalCon" id="mcon24">
+                <div class="modalCloseBtn" id="closeBtn24">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title24">鳥取県民<br>
+                    約600,000人</h1>
+                <div class="modalText" id="text24">
+                    <p>2019年10月　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image24" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage24" src="./image/photo/tottri.jpg">
+                <div class="modalTextCol" id="ctext24">
+                    <p>「日本一人口が少ない県」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal23" class="modalWrap">
-        <div class="modalCon" id="mcon23">
-            <div class="modalCloseBtn" id="closeBtn23">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title23">島根県民<br>
-                約731,000人</h1>
-            <div class="modalText" id="text23">
-                <p>2019年10月　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image23" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage23" src="./image/photo/simane.jpg">
-            <div class="modalTextCol" id="ctext23">
-                <p>「日本で2番目に人口が少ない県」</p>
+        <div id="modal25" class="modalWrap">
+            <div class="modalCon" id="mcon25">
+                <div class="modalCloseBtn" id="closeBtn25">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title25">国家公務員<br>
+                    約580,000人</h1>
+                <div class="modalText" id="text25">
+                    <p>2018年1月　人事院</p>
+                </div>
+                <img class="modalCover" id="image25" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage25" src="./image/photo/kokka.jpg">
+                <div class="modalTextCol" id="ctext25">
+                    <p>「上級国民」「エリート」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal24" class="modalWrap">
-        <div class="modalCon" id="mcon24">
-            <div class="modalCloseBtn" id="closeBtn24">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title24">鳥取県民<br>
-                約600,000人</h1>
-            <div class="modalText" id="text24">
-                <p>2019年10月　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image24" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage24" src="./image/photo/tottri.jpg">
-            <div class="modalTextCol" id="ctext24">
-                <p>「日本一人口が少ない県」</p>
+        <div id="modal26" class="modalWrap">
+            <div class="modalCon" id="mcon26">
+                <div class="modalCloseBtn" id="closeBtn26">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title26">離婚者<br>
+                    約420,000人</h1>
+                <div class="modalText" id="text26">
+                    <p>2019年度　約21万組。組数×2で計算　厚労省</p>
+                </div>
+                <img class="modalCover" id="image26" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage26" src="./image/photo/rikon.jpg">
+                <div class="modalTextCol" id="ctext26">
+                    <p>「不倫」「価値観の不一致」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal25" class="modalWrap">
-        <div class="modalCon" id="mcon25">
-            <div class="modalCloseBtn" id="closeBtn25">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title25">国家公務員<br>
-                約580,000人</h1>
-            <div class="modalText" id="text25">
-                <p>2018年1月　人事院</p>
-            </div>
-            <img class="modalCover" id="image25" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage25" src="./image/photo/kokka.jpg">
-            <div class="modalTextCol" id="ctext25">
-                <p>「上級国民」「エリート」</p>
+        <div id="modal27" class="modalWrap">
+            <div class="modalCon" id="mcon27">
+                <div class="modalCloseBtn" id="closeBtn27">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title27">癌死亡者<br>
+                    373,584人</h1>
+                <div class="modalText" id="text27">
+                    <p>2018年度　国立がん研究センター</p>
+                </div>
+                <img class="modalCover" id="image27" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage27" src="./image/photo/flower.jpg" style="filter: grayscale(70%);">
+                <div class=" modalTextCol" id="ctext27">
+                    <p>「日本の死因第1位」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal26" class="modalWrap">
-        <div class="modalCon" id="mcon26">
-            <div class="modalCloseBtn" id="closeBtn26">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title26">離婚者<br>
-                約420,000人</h1>
-            <div class="modalText" id="text26">
-                <p>2019年度　約21万組。組数×2で計算　厚労省</p>
-            </div>
-            <img class="modalCover" id="image26" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage26" src="./image/photo/rikon.jpg">
-            <div class="modalTextCol" id="ctext26">
-                <p>「不倫」「価値観の不一致」</p>
+        <div id="modal28" class="modalWrap">
+            <div class="modalCon" id="mcon28">
+                <div class="modalCloseBtn" id="closeBtn28">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title28">不登校<br>
+                    164,528人</h1>
+                </h1>
+                <div class="modalText" id="text28">
+                    <p>2019年度　小中学校での人数　文科省</p>
+                </div>
+                <img class="modalCover" id="image28" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage28" src="./image/photo/hutouku.jpg">
+                <div class="modalTextCol" id="ctext28">
+                    <p>「年間90日以上の欠席」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal27" class="modalWrap">
-        <div class="modalCon" id="mcon27">
-            <div class="modalCloseBtn" id="closeBtn27">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title27">癌死亡者<br>
-                373,584人</h1>
-            <div class="modalText" id="text27">
-                <p>2018年度　国立がん研究センター</p>
-            </div>
-            <img class="modalCover" id="image27" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage27" src="./image/photo/flower.jpg" style="filter: grayscale(70%);">
-            <div class=" modalTextCol" id="ctext27">
-                <p>「日本の死因第1位」</p>
+        <div id="modal29" class="modalWrap">
+            <div class="modalCon" id="mcon29">
+                <div class="modalCloseBtn" id="closeBtn29">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title29">COVID-19感染者数<br>
+                    42,809人</h1>
+                <div class="modalText" id="text29">
+                    <p>2020年8月6日まで(ダイヤモンド・プリンセス号を除く）</p>
+                </div>
+                <img class="modalCover" id="image29" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage29" src="./image/photo/corona2.jpg"
+                    style="filter: grayscale(70%);">
+                <div class=" modalTextCol" id="ctext29">
+                    <p>「外出自粛」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal28" class="modalWrap">
-        <div class="modalCon" id="mcon28">
-            <div class="modalCloseBtn" id="closeBtn28">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title28">不登校<br>
-                164,528人</h1>
-            </h1>
-            <div class="modalText" id="text28">
-                <p>2019年度　小中学校での人数　文科省</p>
-            </div>
-            <img class="modalCover" id="image28" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage28" src="./image/photo/hutouku.jpg">
-            <div class="modalTextCol" id="ctext28">
-                <p>「年間90日以上の欠席」</p>
+        <div id="modal30" class="modalWrap">
+            <div class="modalCon" id="mcon30">
+                <div class="modalCloseBtn" id="closeBtn30">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title30">
+                    自殺者<br>
+                    20,169人</h1>
+                <div class="modalText" id="text30">
+                    <p>2019年度　警察庁</p>
+                </div>
+                <img class="modalCover" id="image30" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage30" src="./image/photo/suisuide.jpg"
+                    style="filter: grayscale(100%);">
+                <div class="modalTextCol" id="ctext30">
+                    <p>「生きていたくなかった」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal29" class="modalWrap">
-        <div class="modalCon" id="mcon29">
-            <div class="modalCloseBtn" id="closeBtn29">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title29">COVID-19感染者数<br>
-                42,809人</h1>
-            <div class="modalText" id="text29">
-                <p>2020年8月6日まで(ダイヤモンド・プリンセス号を除く）</p>
-            </div>
-            <img class="modalCover" id="image29" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage29" src="./image/photo/corona2.jpg" style="filter: grayscale(70%);">
-            <div class=" modalTextCol" id="ctext29">
-                <p>「外出自粛」</p>
+        <div id="modal31" class="modalWrap">
+            <div class="modalCon" id="mcon31">
+                <div class="modalCloseBtn" id="closeBtn31">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title31">死産数<br>
+                    19,000人</h1>
+                <div class="modalText" id="text31">
+                    <p>2019年度　厚労省発表</p>
+                </div>
+                <img class="modalCover" id="image31" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage31" src="./image/photo/sabon.jpg" style="filter: grayscale(70%);">
+                <div class="modalTextCol" id="ctext31">
+                    <p>「しゃぼんだまきえた」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal30" class="modalWrap">
-        <div class="modalCon" id="mcon30">
-            <div class="modalCloseBtn" id="closeBtn30">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title30">
-                自殺者<br>
-                20,169人</h1>
-            <div class="modalText" id="text30">
-                <p>2019年度　警察庁</p>
-            </div>
-            <img class="modalCover" id="image30" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage30" src="./image/photo/suisuide.jpg" style="filter: grayscale(100%);">
-            <div class="modalTextCol" id="ctext30">
-                <p>「生きていたくなかった」</p>
+        <div id="modal32" class="modalWrap">
+            <div class="modalCon" id="mcon32">
+                <div class="modalCloseBtn" id="closeBtn32">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title32">東日本大震災死者<br>
+                    15,899人</h1>
+                <div class="modalText" id="text32">
+                    <p>2020年度警視庁発表</p>
+                </div>
+                <img class="modalCover" id="image32" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage32" src="./image/photo/cherry-blossom.jpg"
+                    style="filter: grayscale(70%);">
+                <div class="modalTextCol" id="ctext32">
+                    <p>「2011年3月11日14時46分18秒マグニチュード9.0」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal31" class="modalWrap">
-        <div class="modalCon" id="mcon31">
-            <div class="modalCloseBtn" id="closeBtn31">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title31">死産数<br>
-                19,000人</h1>
-            <div class="modalText" id="text31">
-                <p>2019年度　厚労省発表</p>
-            </div>
-            <img class="modalCover" id="image31" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage31" src="./image/photo/sabon.jpg" style="filter: grayscale(70%);">
-            <div class="modalTextCol" id="ctext31">
-                <p>「しゃぼんだまきえた」</p>
+        <div id="modal33" class="modalWrap">
+            <div class="modalCon" id="mcon33">
+                <div class="modalCloseBtn" id="closeBtn33">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title33">ホームレス<br>
+                    4,555人</h1>
+                <div class="modalText" id="text33">
+                    <p>2019年冬季調査</p>
+                </div>
+                <img class="modalCover" id="image33" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage33" src="./image/photo/homeless.jpg">
+                <div class="modalTextCol" id="ctext33">
+                    <p>「ああなりたくない」「敗北」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal32" class="modalWrap">
-        <div class="modalCon" id="mcon32">
-            <div class="modalCloseBtn" id="closeBtn32">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title32">東日本大震災死者<br>
-                15,899人</h1>
-            <div class="modalText" id="text32">
-                <p>2020年度警視庁発表</p>
-            </div>
-            <img class="modalCover" id="image32" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage32" src="./image/photo/cherry-blossom.jpg"
-                style="filter: grayscale(70%);">
-            <div class="modalTextCol" id="ctext32">
-                <p>「2011年3月11日14時46分18秒マグニチュード9.0」</p>
+        <div id="modal34" class="modalWrap">
+            <div class="modalCon" id="mcon34">
+                <div class="modalCloseBtn" id="closeBtn34">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title34">東日本大震災行方不明者<br>
+                    2,529人</h1>
+                <div class="modalText" id="text34">
+                    <p>2020年度警視庁発表</p>
+                </div>
+                <img class="modalCover" id="image34" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage34" src="./image/photo/311.jpg" style="filter: grayscale(70%);">
+                <div class="modalTextCol" id="ctext34">
+                    <p>「2011年3月11日14時46分18秒マグニチュード9.0」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal33" class="modalWrap">
-        <div class="modalCon" id="mcon33">
-            <div class="modalCloseBtn" id="closeBtn33">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title33">ホームレス<br>
-                4,555人</h1>
-            <div class="modalText" id="text33">
-                <p>2019年冬季調査</p>
-            </div>
-            <img class="modalCover" id="image33" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage33" src="./image/photo/homeless.jpg">
-            <div class="modalTextCol" id="ctext33">
-                <p>「ああなりたくない」「敗北」</p>
+        <div id="modal35" class="modalWrap">
+            <div class="modalCon" id="mcon35">
+                <div class="modalCloseBtn" id="closeBtn35">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title35">COVID-19死亡者<br>
+                    1029人</h1>
+                <div class="modalText" id="text35">
+                    <p>2020年8月6日まで(ダイヤモンド・プリンセス号を除く）</p>
+                </div>
+                <img class="modalCover" id="image35" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage35" src="./image/photo/corona.jpg" style="filter: grayscale(70%);">
+                <div class="modalTextCol" id="ctext35">
+                    <p>「最期も会えなかった」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal34" class="modalWrap">
-        <div class="modalCon" id="mcon34">
-            <div class="modalCloseBtn" id="closeBtn34">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title34">東日本大震災行方不明者<br>
-                2,529人</h1>
-            <div class="modalText" id="text34">
-                <p>2020年度警視庁発表</p>
-            </div>
-            <img class="modalCover" id="image34" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage34" src="./image/photo/311.jpg" style="filter: grayscale(70%);">
-            <div class="modalTextCol" id="ctext34">
-                <p>「2011年3月11日14時46分18秒マグニチュード9.0」</p>
+        <div id="modal36" class="modalWrap">
+            <div class="modalCon" id="mcon36">
+                <div class="modalCloseBtn" id="closeBtn36">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title36">私/あなた<br>1人</h1>
+                <div class="modalText" id="text36">
+                    <p>個人</p>
+                </div>
+                <img class="modalCover" id="image36" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage36" src="./image/photo/me.jpg">
+                <div class="modalTextCol" id="ctext36">
+                    <p>「私もあなたも1人の人間」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal35" class="modalWrap">
-        <div class="modalCon" id="mcon35">
-            <div class="modalCloseBtn" id="closeBtn35">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title35">COVID-19死亡者<br>
-                1029人</h1>
-            <div class="modalText" id="text35">
-                <p>2020年8月6日まで(ダイヤモンド・プリンセス号を除く）</p>
-            </div>
-            <img class="modalCover" id="image35" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage35" src="./image/photo/corona.jpg" style="filter: grayscale(70%);">
-            <div class="modalTextCol" id="ctext35">
-                <p>「最期も会えなかった」</p>
+        <div id="modal37" class="modalWrap">
+            <div class="modalCon" id="mcon37">
+                <div class="modalCloseBtn" id="closeBtn37">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title37">誰か/みんな<br>0人</h1>
+                <div class="modalText" id="text37">
+                    <p>誰かもみんなも誰でもない</p>
+                </div>
+                <img class="modalCover" id="image37" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage37" src="./image/photo/noimage.png" style="filter: invert(100%);">
+                <div class="modalTextCol" id="ctext37">
+                    <p>「誰でもなにものは無限であり0だ」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal36" class="modalWrap">
-        <div class="modalCon" id="mcon36">
-            <div class="modalCloseBtn" id="closeBtn36">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title36">私/あなた<br>1人</h1>
-            <div class="modalText" id="text36">
-                <p>個人</p>
-            </div>
-            <img class="modalCover" id="image36" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage36" src="./image/photo/me.jpg">
-            <div class="modalTextCol" id="ctext36">
-                <p>「私もあなたも1人の人間」</p>
+        <div id="modal38" class="modalWrap">
+            <div class="modalCon" id="mcon38">
+                <div class="modalCloseBtn" id="closeBtn38">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title38">精神病患者<br>4,193,000人</h1>
+                <div class="modalText" id="text38">
+                    <p>2019年　厚労省発表</p>
+                </div>
+                <img class="modalCover" id="image38" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage38" src="./image/photo/utsu.jpg" style="filter: grayscale(80%);">
+                <div class="modalTextCol" id="ctext38">
+                    <p>「鬱病」「統合失調症」「心の病気」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal37" class="modalWrap">
-        <div class="modalCon" id="mcon37">
-            <div class="modalCloseBtn" id="closeBtn37">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title37">誰か/みんな<br>0人</h1>
-            <div class="modalText" id="text37">
-                <p>誰かもみんなも誰でもない</p>
-            </div>
-            <img class="modalCover" id="image37" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage37" src="./image/photo/noimage.png" style="filter: invert(100%);">
-            <div class="modalTextCol" id="ctext37">
-                <p>「誰でもなにものは無限であり0だ」</p>
+        <div id="modal39" class="modalWrap">
+            <div class="modalCon" id="mcon39">
+                <div class="modalCloseBtn" id="closeBtn39">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title39">外国人労働者<br>約1,650,000人</h1>
+                <div class="modalText" id="text39">
+                    <p>2020年　厚労省発表</p>
+                </div>
+                <img class="modalCover" id="image39" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage39" src="./image/photo/worker.jpg">
+                <div class="modalTextCol" id="ctext39">
+                    <p>「中国人」「ベトナム人」「低賃金」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal38" class="modalWrap">
-        <div class="modalCon" id="mcon38">
-            <div class="modalCloseBtn" id="closeBtn38">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title38">精神病患者<br>4,193,000人</h1>
-            <div class="modalText" id="text38">
-                <p>2019年　厚労省発表</p>
-            </div>
-            <img class="modalCover" id="image38" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage38" src="./image/photo/utsu.jpg" style="filter: grayscale(80%);">
-            <div class="modalTextCol" id="ctext38">
-                <p>「鬱病」「統合失調症」「心の病気」</p>
+        <div id="modal40" class="modalWrap">
+            <div class="modalCon" id="mcon40">
+                <div class="modalCloseBtn" id="closeBtn40">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title40">東京都立大学学生数<br>
+                    9,134人</h1>
+                <div class="modalText" id="text40">
+                    <p>2020年　大学院生込み</p>
+                </div>
+                <img class="modalCover" id="image40" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage40" src="./image/photo/toritsu.png">
+                <div class="modalTextCol" id="ctext40">
+                    <p>「名前がもとに戻った大学」「国公立大学」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal39" class="modalWrap">
-        <div class="modalCon" id="mcon39">
-            <div class="modalCloseBtn" id="closeBtn39">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title39">外国人労働者<br>約1,650,000人</h1>
-            <div class="modalText" id="text39">
-                <p>2020年　厚労省発表</p>
-            </div>
-            <img class="modalCover" id="image39" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage39" src="./image/photo/worker.jpg">
-            <div class="modalTextCol" id="ctext39">
-                <p>「中国人」「ベトナム人」「低賃金」</p>
+        <div id="modal41" class="modalWrap">
+            <div class="modalCon" id="mcon41">
+                <div class="modalCloseBtn" id="closeBtn41">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title41">大学生<br>
+                    2,900,000人</h1>
+                <div class="modalText" id="text41">
+                    <p>2019年　学校基本調査</p>
+                </div>
+                <img class="modalCover" id="image41" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage41" src="./image/photo/daigakusei.jpg">
+                <div class="modalTextCol" id="ctext41">
+                    <p>「遊んでる」「人生の夏休み」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal40" class="modalWrap">
-        <div class="modalCon" id="mcon40">
-            <div class="modalCloseBtn" id="closeBtn40">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title40">東京都立大学学生数<br>
-                9,134人</h1>
-            <div class="modalText" id="text40">
-                <p>2020年　大学院生込み</p>
-            </div>
-            <img class="modalCover" id="image40" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage40" src="./image/photo/toritsu.png">
-            <div class="modalTextCol" id="ctext40">
-                <p>「名前がもとに戻った大学」「国公立大学」</p>
+        <div id="modal42" class="modalWrap">
+            <div class="modalCon" id="mcon42">
+                <div class="modalCloseBtn" id="closeBtn42">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title42">待機児童<br>
+                    16,772人</h1>
+                <div class="modalText" id="text42">
+                    <p>2019年4月1日 厚労省</p>
+                </div>
+                <img class="modalCover" id="image42" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage42" src="./image/photo/Kidsad.jpg" style="filter: grayscale(70%);">
+                <div class="modalTextCol" id="ctext42">
+                    <p>「保育園に入れない」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal41" class="modalWrap">
-        <div class="modalCon" id="mcon41">
-            <div class="modalCloseBtn" id="closeBtn41">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title41">大学生<br>
-                2,900,000人</h1>
-            <div class="modalText" id="text41">
-                <p>2019年　学校基本調査</p>
-            </div>
-            <img class="modalCover" id="image41" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage41" src="./image/photo/daigakusei.jpg">
-            <div class="modalTextCol" id="ctext41">
-                <p>「遊んでる」「人生の夏休み」</p>
+        <div id="modal43" class="modalWrap">
+            <div class="modalCon" id="mcon43">
+                <div class="modalCloseBtn" id="closeBtn43">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title43">横浜市民<br>
+                    3,724,844人</h1>
+                <div class="modalText" id="text43">
+                    <p>2020年6月1日国勢調査 法定人口</p>
+                </div>
+                <img class="modalCover" id="image43" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage43" src="./image/photo/yokohama.jpg">
+                <div class="modalTextCol" id="ctext43">
+                    <p>「政令指定都市」「日本一人口の多い市」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal42" class="modalWrap">
-        <div class="modalCon" id="mcon42">
-            <div class="modalCloseBtn" id="closeBtn42">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title42">待機児童<br>
-                16,772人</h1>
-            <div class="modalText" id="text42">
-                <p>2019年4月1日 厚労省</p>
-            </div>
-            <img class="modalCover" id="image42" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage42" src="./image/photo/Kidsad.jpg" style="filter: grayscale(70%);">
-            <div class="modalTextCol" id="ctext42">
-                <p>「保育園に入れない」</p>
+        <div id="modal44" class="modalWrap">
+            <div class="modalCon" id="mcon44">
+                <div class="modalCloseBtn" id="closeBtn44">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title44">歌志内市民<br>
+                    3583人</h1>
+                <div class="modalText" id="text44">
+                    <p>2020年5月31日国勢調査 法定人口</p>
+                </div>
+                <img class="modalCover" id="image44" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage44" src="./image/photo/utashinai.jpg">
+                <div class="modalTextCol" id="ctext44">
+                    <p>「日本一人口の少ない市」「北海道」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal43" class="modalWrap">
-        <div class="modalCon" id="mcon43">
-            <div class="modalCloseBtn" id="closeBtn43">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title43">横浜市民<br>
-                3,724,844人</h1>
-            <div class="modalText" id="text43">
-                <p>2020年6月1日国勢調査 法定人口</p>
-            </div>
-            <img class="modalCover" id="image43" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage43" src="./image/photo/yokohama.jpg">
-            <div class="modalTextCol" id="ctext43">
-                <p>「政令指定都市」「日本一人口の多い市」</p>
+        <div id="modal45" class="modalWrap">
+            <div class="modalCon" id="mcon45">
+                <div class="modalCloseBtn" id="closeBtn45">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title45">日野市民<br>
+                    186,283人</h1>
+                <div class="modalText" id="text45">
+                    <p>2020年6月1日国勢調査 法定人口</p>
+                </div>
+                <img class="modalCover" id="image45" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage45" src="./image/photo/hino.jpg">
+                <div class="modalTextCol" id="ctext45">
+                    <p>「東京都日野市」「日野自動車」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal44" class="modalWrap">
-        <div class="modalCon" id="mcon44">
-            <div class="modalCloseBtn" id="closeBtn44">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title44">歌志内市民<br>
-                3583人</h1>
-            <div class="modalText" id="text44">
-                <p>2020年5月31日国勢調査 法定人口</p>
-            </div>
-            <img class="modalCover" id="image44" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage44" src="./image/photo/utashinai.jpg">
-            <div class="modalTextCol" id="ctext44">
-                <p>「日本一人口の少ない市」「北海道」</p>
+        <div id="modal46" class="modalWrap">
+            <div class="modalCon" id="mcon46">
+                <div class="modalCloseBtn" id="closeBtn46">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title46">ALS(筋萎縮性側索硬化症)患者<br>
+                    約9,200人</h1>
+                <div class="modalText" id="text46">
+                    <p>難病情報センター　2013年特定疾患医療受給者数より</p>
+                </div>
+                <img class="modalCover" id="image46" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage46" src="./image/photo/hospital.jpg">
+                <div class="modalTextCol" id="ctext46">
+                    <p>「10万人に1~2.5人」「指定難病2」「動けなくなる」
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal45" class="modalWrap">
-        <div class="modalCon" id="mcon45">
-            <div class="modalCloseBtn" id="closeBtn45">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title45">日野市民<br>
-                186,283人</h1>
-            <div class="modalText" id="text45">
-                <p>2020年6月1日国勢調査 法定人口</p>
-            </div>
-            <img class="modalCover" id="image45" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage45" src="./image/photo/hino.jpg">
-            <div class="modalTextCol" id="ctext45">
-                <p>「東京都日野市」「日野自動車」</p>
+        <div id="modal47" class="modalWrap">
+            <div class="modalCon" id="mcon47">
+                <div class="modalCloseBtn" id="closeBtn47">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title47">起立性調節障害患者<br>
+                    約700,000人</h1>
+                <div class="modalText" id="text47">
+                    <p>中高生の患者数　2016年　日本小児科学会</p>
+                </div>
+                <img class="modalCover" id="image47" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage47" src="./image/photo/bed.jpg">
+                <div class="modalTextCol" id="ctext47">
+                    <p>「サボり病」「毎日午後から学校来るあの子」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal46" class="modalWrap">
-        <div class="modalCon" id="mcon46">
-            <div class="modalCloseBtn" id="closeBtn46">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title46">ALS(筋萎縮性側索硬化症)患者<br>
-                約9,200人</h1>
-            <div class="modalText" id="text46">
-                <p>難病情報センター　2013年特定疾患医療受給者数より</p>
-            </div>
-            <img class="modalCover" id="image46" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage46" src="./image/photo/hospital.jpg">
-            <div class="modalTextCol" id="ctext46">
-                <p>「10万人に1~2.5人」「指定難病2」「動けなくなる」
-                </p>
+        <div id="modal48" class="modalWrap">
+            <div class="modalCon" id="mcon48">
+                <div class="modalCloseBtn" id="closeBtn48">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title48">少年院収監者<br>
+                    2108人</h1>
+                <div class="modalText" id="text48">
+                    <p>2018年　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image48" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage48" src="./image/photo/addict.jpg" style="filter: grayscale(70%);">
+                <div class="modalTextCol" id="ctext48">
+                    <p>「犯罪者の卵」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal47" class="modalWrap">
-        <div class="modalCon" id="mcon47">
-            <div class="modalCloseBtn" id="closeBtn47">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title47">起立性調節障害患者<br>
-                約700,000人</h1>
-            <div class="modalText" id="text47">
-                <p>中高生の患者数　2016年　日本小児科学会</p>
-            </div>
-            <img class="modalCover" id="image47" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage47" src="./image/photo/bed.jpg">
-            <div class="modalTextCol" id="ctext47">
-                <p>「サボり病」「毎日午後から学校来るあの子」</p>
+        <div id="modal49" class="modalWrap">
+            <div class="modalCon" id="mcon49">
+                <div class="modalCloseBtn" id="closeBtn49">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title49">刑務所・拘置所収監者<br>
+                    2108人</h1>
+                <div class="modalText" id="text49">
+                    <p>2018年　総務省統計局</p>
+                </div>
+                <img class="modalCover" id="image49" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage49" src="./image/photo/prison.jpg">
+                <div class="modalTextCol" id="ctext49">
+                    <p>「犯罪者」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal48" class="modalWrap">
-        <div class="modalCon" id="mcon48">
-            <div class="modalCloseBtn" id="closeBtn48">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title48">少年院収監者<br>
-                2108人</h1>
-            <div class="modalText" id="text48">
-                <p>2018年　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image48" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage48" src="./image/photo/addict.jpg" style="filter: grayscale(70%);">
-            <div class="modalTextCol" id="ctext48">
-                <p>「犯罪者の卵」</p>
+        <div id="modal50" class="modalWrap">
+            <div class="modalCon" id="mcon50">
+                <div class="modalCloseBtn" id="closeBtn50">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title50">衆議院<br>
+                    465人</h1>
+                <div class="modalText" id="text50">
+                    <p>2019年　議員定数</p>
+                </div>
+                <img class="modalCover" id="image50" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage50" src="./image/photo/syugi.jpg">
+                <div class="modalTextCol" id="ctext50">
+                    <p>「国民の代表」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal49" class="modalWrap">
-        <div class="modalCon" id="mcon49">
-            <div class="modalCloseBtn" id="closeBtn49">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title49">刑務所・拘置所収監者<br>
-                2108人</h1>
-            <div class="modalText" id="text49">
-                <p>2018年　総務省統計局</p>
-            </div>
-            <img class="modalCover" id="image49" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage49" src="./image/photo/prison.jpg">
-            <div class="modalTextCol" id="ctext49">
-                <p>「犯罪者」</p>
+        <div id="modal51" class="modalWrap">
+            <div class="modalCon" id="mcon51">
+                <div class="modalCloseBtn" id="closeBtn51">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title51">参議院<br>
+                    248人</h1>
+                <div class="modalText" id="text51">
+                    <p>2019年　議員定数</p>
+                </div>
+                <img class="modalCover" id="image51" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage51" src="./image/photo/sanngi.jpg">
+                <div class="modalTextCol" id="ctext51">
+                    <p>「国民の代表」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal50" class="modalWrap">
-        <div class="modalCon" id="mcon50">
-            <div class="modalCloseBtn" id="closeBtn50">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title50">衆議院<br>
-                465人</h1>
-            <div class="modalText" id="text50">
-                <p>2019年　議員定数</p>
-            </div>
-            <img class="modalCover" id="image50" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage50" src="./image/photo/syugi.jpg">
-            <div class="modalTextCol" id="ctext50">
-                <p>「国民の代表」</p>
+        <div id="modal52" class="modalWrap">
+            <div class="modalCon" id="mcon52">
+                <div class="modalCloseBtn" id="closeBtn52">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title52">生活保護受給者<br>
+                    約2,140,000人</h1>
+                <div class="modalText" id="text52">
+                    <p>2017年　厚労省</p>
+                </div>
+                <img class="modalCover" id="image52" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage52" src="./image/photo/poverty.jpg">
+                <div class="modalTextCol" id="ctext52">
+                    <p>「不正受給」「恥ずかしい」</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="modal51" class="modalWrap">
-        <div class="modalCon" id="mcon51">
-            <div class="modalCloseBtn" id="closeBtn51">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title51">参議院<br>
-                248人</h1>
-            <div class="modalText" id="text51">
-                <p>2019年　議員定数</p>
-            </div>
-            <img class="modalCover" id="image51" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage51" src="./image/photo/sanngi.jpg">
-            <div class="modalTextCol" id="ctext51">
-                <p>「国民の代表」</p>
+        <div id="modal53" class="modalWrap">
+            <div class="modalCon" id="mcon53">
+                <div class="modalCloseBtn" id="closeBtn53">
+                    <p>×</p>
+                </div>
+                <h1 class="modalTtl" id="title53">東日本大震災避難生活者<br>
+                    約54,000人</h1>
+                <div class="modalText" id="text53">
+                    <p>2019年　復興庁</p>
+                </div>
+                <img class="modalCover" id="image53" src="./image/photo/noimage.png">
+                <img class="modalCoverCol" id="cimage53" src="./image/photo/person.jpg" style="filter: grayscale(70%);">
+                <div class="modalTextCol" id="ctext53">
+                    <p>「放射能」</p>
+                </div>
             </div>
         </div>
+
+
+
+
+        <script src="js/sketch2.js"></script>
     </div>
-
-    <div id="modal52" class="modalWrap">
-        <div class="modalCon" id="mcon52">
-            <div class="modalCloseBtn" id="closeBtn52">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title52">生活保護受給者<br>
-                約2,140,000人</h1>
-            <div class="modalText" id="text52">
-                <p>2017年　厚労省</p>
-            </div>
-            <img class="modalCover" id="image52" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage52" src="./image/photo/poverty.jpg">
-            <div class="modalTextCol" id="ctext52">
-                <p>「不正受給」「恥ずかしい」</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal53" class="modalWrap">
-        <div class="modalCon" id="mcon53">
-            <div class="modalCloseBtn" id="closeBtn53">
-                <p>×</p>
-            </div>
-            <h1 class="modalTtl" id="title53">東日本大震災避難生活者<br>
-                約54,000人</h1>
-            <div class="modalText" id="text53">
-                <p>2019年　復興庁</p>
-            </div>
-            <img class="modalCover" id="image53" src="./image/photo/noimage.png">
-            <img class="modalCoverCol" id="cimage53" src="./image/photo/person.jpg" style="filter: grayscale(70%);">
-            <div class="modalTextCol" id="ctext53">
-                <p>「放射能」</p>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <script src="js/sketch2.js"></script>
 </body>
 
 </html>
