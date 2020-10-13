@@ -133,8 +133,8 @@ body{
 }
 
 .child{
-      width: 40vw;
-      height: 17vw;
+      max-width: 40vw;
+      max-height: 17vw;
       /* border-radius: 50%;
       background-color: #a000ff; */
       /* padding-left: 5px;
@@ -146,8 +146,8 @@ body{
 
 .item{
      /* text-align: left; */
-      width: 40vw;
-      height: 17vw;
+      max-width: 40vw;
+      max-height: 17vw;
       color: #ffffff; 
       opacity: 1.0;
       font-size: 0.65rem;
